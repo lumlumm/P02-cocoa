@@ -1,0 +1,261 @@
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4{
+	font-family: 'Lora', serif;
+}
+
+h1, h2{
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+}
+
+h3{
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	text-decoration: underline;
+}
+
+h4{
+	font-size: 0.9em;
+}
+
+p, ol, ul{
+	font-family: 'Crimson Text', serif;
+	font-size: 0.9em;
+	color: #393B39;
+}
+
+a{
+	font-family: 'Crimson Text', serif;
+	font-size: 0.9em;
+	text-decoration: none;
+	color: #B1D3DA;
+	transition: color 1s;
+}
+
+a:active, a:hover, a:focus{
+	color: #066684;
+	text-decoration: underline;
+}
+
+button{
+	background-color: #A1D3DA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Crimson Text";
+    font-size: 0.6em;
+    letter-spacing: 0.15em;
+    transition: background-color 1s;
+}
+
+button:active, button:hover, button:focus{
+	background-color: #06506d;
+}
+
+/* --- NAV BAR --- */
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 20%;
+
+    background-color: #FFF;
+    padding-left: 3%;
+    padding-top: 2%;
+}
+
+.navbar_li{
+	font-size: 0.9rem;
+	margin-bottom: 0.5rem;
+}
+
+.navbar_logo{
+	margin: 0;
+	margin-right: 3%;
+	color: black;
+	text-decoration: none;
+}
+
+.navbar_logo:active, .navbar_logo:hover, .navbar_logo:focus{
+	color:black;
+	text-decoration: none;
+}
+
+.logo{
+	background-color: #E7E7E7;
+	width: 7rem;
+	height: 7rem;
+	margin-bottom: 2rem;
+}
+
+/* --- CUSTOMIZATION / MISC--- */
+
+.invis_li{
+	list-style: none;
+}
+
+.same_line{
+	display: inline-block;
+}
+
+.example{
+	margin: 30px;
+	padding: 35px;
+	border: black 1px solid;
+}
+
+/* --- MARGINS + SPACING --- */
+.navbar_margin{
+	margin-left: 25%;
+}
+
+.title_margin{
+	margin-top: 5%;
+}
+
+.h2_padding{
+	padding-top: 5%;
+}
+
+.li_spacing{
+	padding-bottom: 3%;
+}
+
+.paragraph{
+	margin-right: 20%;
+}
+
+.menu_spacing{
+	padding-right: 2%;
+}
+
+/* --- FLEXBOX / GRIDS --- */
+
+.box{
+	display: flex;
+}
+
+.color_item{
+	width: 33%;
+	padding: 1rem 2rem 1rem 2rem;
+}
+
+.img_item{
+	width: 40%;
+}
+
+.info_item{
+	width: 60%;
+	padding-bottom: 2rem;
+}
+
+.type_item{
+	width: 50%;
+	padding-bottom: 3rem;
+	padding-right: 5rem;
+}
+
+.service_item{
+	width: 33%;
+	padding-right: 2rem;
+}
+
+/* --- EXAMPLE CODE ---- */
+.nav_box{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+
+.nav_item{
+	padding: 0.75rem 2rem 0 0;
+}
+
+.thumbnail{
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+}
+
+.img_width{
+	width: 90%;
+}
+
+.img_small_width{
+	width: 50%;
+}
+
+.cancel_button{
+	background-color: #919191;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Crimson Text";
+    font-size: 0.6em;
+    letter-spacing: 0.15em;
+    transition: background-color 0.2s;
+}
+
+.cancel_button:active, .cancel_button:hover, .cancel_button:focus{
+	background-color: #EF2929;
+}
+
+.social_media{
+	background-color: #A1D3DA;
+	transition: background-color 1s;
+	width: 100px;
+	height: 100px;
+	margin-bottom: 5%;
+}
+
+.social_media:active, .social_media:hover, .social_media:focus{
+	background-color: #066684;
+}
+
+.label_example{
+	color: #A1D3DA;
+	text-transform: uppercase;
+	letter-spacing: 0.05rem;
+	font-size: 0.8rem;
+}
+
+input[type=text], select {
+    width: 70%;
+    padding: 0.5rem 1rem;
+    border: 1px solid #A1D3DA;
+}
+
+.checkboxes{
+	margin: 0;
+}
+
+.submit_button{
+	background-color: #A1D3DA;
+	padding: 1rem 3rem 1rem 3rem;
+	color: white;
+	text-transform: uppercase;
+	font-family: "Crimson Text";
+	font-size: 0.8em;
+	letter-spacing: 0.15em;
+}
+
+.reset_button{
+	background-color: #919191;
+	padding: 1rem 3rem 1rem 3rem;
+	color: white;
+	text-transform: uppercase;
+	font-family: "Crimson Text";
+	font-size: 0.8em;
+	letter-spacing: 0.15em;
+}
