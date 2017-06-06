@@ -31,12 +31,12 @@ a{
 	font-family: 'Crimson Text', serif;
 	font-size: 0.9em;
 	text-decoration: none;
-	color: #B1D3DA;
+	color: #77ADE5;
 	transition: color 1s;
 }
 
 a:active, a:hover, a:focus{
-	color: #066684;
+	color: #213040;
 	text-decoration: underline;
 }
 
