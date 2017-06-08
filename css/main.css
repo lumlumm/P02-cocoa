@@ -114,6 +114,11 @@ button:active, button:hover, button:focus{
 	border: black 1px solid;
 }
 
+#about{
+	text-align: center;
+	padding-bottom: 2rem;
+}
+
 #typography{
 	text-align:center;
 	/*border-bottom: 1px solid;*/
@@ -121,36 +126,40 @@ button:active, button:hover, button:focus{
 
 #typographyinfo {
 	text-align:center;
+	padding-bottom: 2rem;
 }
 
 #grid{
 	text-align:center;
+	padding-bottom: 2rem;
 }
 
 #color{
 	text-align:center;
 	border-bottom: 1px solid;
-	padding-bottom:15px;
+	padding-bottom: 3.5rem;
 }
 
 #nav{
 	text-align:center;
+	padding-bottom: 2rem;
 }
 
 #form{
 	text-align:center;
+	padding-bottom: 2rem;
 }
 
 #icons{
 	text-align:center;
 	border-bottom: 1px solid;
-	padding-bottom:15px;
+	padding-bottom: 3.5rem;
 }
 
 #images{
 	text-align:center;
 	border-bottom: 1px solid;
-	padding-bottom:15px;
+	padding-bottom: 3.5rem;
 }
 
 /* --- MARGINS + SPACING --- */
