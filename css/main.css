@@ -4,6 +4,7 @@
 
 h1, h2, h3, h4{
 	font-family: 'Lora', serif;
+	
 }
 
 h1, h2{
@@ -113,6 +114,45 @@ button:active, button:hover, button:focus{
 	border: black 1px solid;
 }
 
+#typography{
+	text-align:center;
+	/*border-bottom: 1px solid;*/
+}
+
+#typographyinfo {
+	text-align:center;
+}
+
+#grid{
+	text-align:center;
+}
+
+#color{
+	text-align:center;
+	border-bottom: 1px solid;
+	padding-bottom:15px;
+}
+
+#nav{
+	text-align:center;
+}
+
+#form{
+	text-align:center;
+}
+
+#icons{
+	text-align:center;
+	border-bottom: 1px solid;
+	padding-bottom:15px;
+}
+
+#images{
+	text-align:center;
+	border-bottom: 1px solid;
+	padding-bottom:15px;
+}
+
 /* --- MARGINS + SPACING --- */
 .navbar_margin{
 	margin-left: 25%;
@@ -142,6 +182,9 @@ button:active, button:hover, button:focus{
 
 .box{
 	display: flex;
+	/*border-style:solid;*/
+	/*border-color:red;*/
+	
 }
 
 .color_item{
@@ -162,11 +205,20 @@ button:active, button:hover, button:focus{
 	width: 50%;
 	padding-bottom: 3rem;
 	padding-right: 5rem;
+	/*border-style:solid;*/
+}
+
+.item_h3{
+	
+	/*text-align:center;*/
+	border-bottom: .2px solid;
+	text-decoration: none;
 }
 
 .service_item{
 	width: 33%;
 	padding-right: 2rem;
+	padding-bottom: 3rem;
 }
 
 /* --- EXAMPLE CODE ---- */
@@ -207,7 +259,9 @@ button:active, button:hover, button:focus{
 }
 
 .cancel_button:active, .cancel_button:hover, .cancel_button:focus{
-	background-color: #EF2929;
+	/*background-color: #EF2929;  - mandy's original colour*/ 
+	background-color: #BF3C12;
+	
 }
 
 .social_media{
