@@ -4,6 +4,7 @@
 
 h1, h2, h3, h4{
 	font-family: 'Lora', serif;
+	
 }
 
 h1, h2{
@@ -31,17 +32,17 @@ a{
 	font-family: 'Crimson Text', serif;
 	font-size: 0.9em;
 	text-decoration: none;
-	color: #77ADE5;
-	transition: color 1s;
+	color: #213040;
+	transition: color 0.2s;
 }
 
 a:active, a:hover, a:focus{
-	color: #213040;
+	color: #77ADE5;
 	text-decoration: underline;
 }
 
 button{
-	background-color: #A1D3DA;
+	background-color: #213040;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -50,11 +51,11 @@ button{
     font-family: "Crimson Text";
     font-size: 0.6em;
     letter-spacing: 0.15em;
-    transition: background-color 1s;
+    transition: background-color 0.2s;
 }
 
 button:active, button:hover, button:focus{
-	background-color: #06506d;
+	background-color: #77ADE5;
 }
 
 /* --- NAV BAR --- */
@@ -94,7 +95,6 @@ button:active, button:hover, button:focus{
 .logo{
 	background-color: #E7E7E7;
 	width: 7rem;
-	height: 7rem;
 	margin-bottom: 2rem;
 }
 
@@ -112,6 +112,45 @@ button:active, button:hover, button:focus{
 	margin: 30px;
 	padding: 35px;
 	border: black 1px solid;
+}
+
+#typography{
+	text-align:center;
+	/*border-bottom: 1px solid;*/
+}
+
+#typographyinfo {
+	text-align:center;
+}
+
+#grid{
+	text-align:center;
+}
+
+#color{
+	text-align:center;
+	border-bottom: 1px solid;
+	padding-bottom:15px;
+}
+
+#nav{
+	text-align:center;
+}
+
+#form{
+	text-align:center;
+}
+
+#icons{
+	text-align:center;
+	border-bottom: 1px solid;
+	padding-bottom:15px;
+}
+
+#images{
+	text-align:center;
+	border-bottom: 1px solid;
+	padding-bottom:15px;
 }
 
 /* --- MARGINS + SPACING --- */
@@ -143,6 +182,9 @@ button:active, button:hover, button:focus{
 
 .box{
 	display: flex;
+	/*border-style:solid;*/
+	/*border-color:red;*/
+	
 }
 
 .color_item{
@@ -163,11 +205,20 @@ button:active, button:hover, button:focus{
 	width: 50%;
 	padding-bottom: 3rem;
 	padding-right: 5rem;
+	/*border-style:solid;*/
+}
+
+.item_h3{
+	
+	/*text-align:center;*/
+	border-bottom: .2px solid;
+	text-decoration: none;
 }
 
 .service_item{
 	width: 33%;
 	padding-right: 2rem;
+	padding-bottom: 3rem;
 }
 
 /* --- EXAMPLE CODE ---- */
@@ -208,23 +259,25 @@ button:active, button:hover, button:focus{
 }
 
 .cancel_button:active, .cancel_button:hover, .cancel_button:focus{
-	background-color: #EF2929;
+	/*background-color: #EF2929;  - mandy's original colour*/ 
+	background-color: #BF3C12;
+	
 }
 
 .social_media{
-	background-color: #A1D3DA;
-	transition: background-color 1s;
+	background-color: #213040;
+	transition: background-color 0.4s;
 	width: 100px;
 	height: 100px;
 	margin-bottom: 5%;
 }
 
 .social_media:active, .social_media:hover, .social_media:focus{
-	background-color: #066684;
+	background-color: #77ADE5;
 }
 
 .label_example{
-	color: #A1D3DA;
+	color: #213040;
 	text-transform: uppercase;
 	letter-spacing: 0.05rem;
 	font-size: 0.8rem;
@@ -233,7 +286,7 @@ button:active, button:hover, button:focus{
 input[type=text], select {
     width: 70%;
     padding: 0.5rem 1rem;
-    border: 1px solid #A1D3DA;
+    border: 1px solid #77ADE5;
 }
 
 .checkboxes{
@@ -241,7 +294,7 @@ input[type=text], select {
 }
 
 .submit_button{
-	background-color: #A1D3DA;
+	background-color: #213040;
 	padding: 1rem 3rem 1rem 3rem;
 	color: white;
 	text-transform: uppercase;
