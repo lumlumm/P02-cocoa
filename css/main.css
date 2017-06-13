@@ -66,7 +66,7 @@ button:active, button:hover, button:focus{
 
 .navbar_margin ul {
     list-style-type: none;
-    padding-left: 150px;
+    padding-left: 9rem;
     overflow: hidden;
     border-bottom: solid #D4E8ED 0.25px;
 }
@@ -87,7 +87,7 @@ button:active, button:hover, button:focus{
 	transition: underline 0.6s;
 }
 
-.navbar_margin li a:hover,  {
+.navbar_margin li a:hover {
     color: #77ADE5;
     text-decoration: underline;
 }
