@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styleguide.css">
+
+    <title>7 TRADES Style Guide</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Crimson%20Text" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="navbar_margin">
+        <ul class="navbar">
+            <li class="navbar_li">
+                <a href="#"> <img src="assets/logo.png" alt="logo" class="logo">
+                </a>
+            </li>
+            <li class="navbar_li"><a href="#about"> About </a>
+            </li>
+            <li class="navbar_li"><a href="#grid"> The Grid </a>
+            </li>
+            <li class="navbar_li"><a href="#color"> Colour Palette</a>
+            </li>
+            <li class="navbar_li"><a href="#nav"> Navigation </a>
+            </li>
+            <li class="navbar_li"><a href="#typography"> Typography </a>
+            </li>
+            <li class="navbar_li"><a href="#icons"> Icons </a>
+            </li>
+            <li class="navbar_li"><a href="#form"> Form Elements </a>
+            </li>
+            <li class="navbar_li"><a href="#images"> Imagery </a>
+            </li>
+        </ul>
+    </div>
+
+    <div>
+        <br>
+        <br>
+    </div>
+
+    <h1 class="navbar_margin"> 7 TRADES Style Guide </h1>
+
+    <!-- SERVICES -->
+
+
+    <div class="navbar_margin">
+        <h2 id="about" class="h2_padding"> About </h2>
+        <h3 class="item_h3"> Our Service </h3>
+        <div class="box">
+            <div class="service_item">
+                <h4> Specialized in Chocolates </h4>
+                <p> At 7 Trades all our staff specializes in making cakes and pastries. But most of all have a lot of passion in the art of chocolate. We place high value in the quality of our desserts. </p>
+            </div>
+            <div class="service_item">
+                <h4> Local + Organic </h4>
+                <p> Our menu is largely based on what is in season. We try to use as many organic ingredients and local fruits as possible in our desserts. </p>
+            </div>
+            <div class="service_item">
+                <h4> Adventurous </h4>
+                <p> Our menu is constantly changing, we always try new combinations of different / new ingredients and see how they combine and chocolate. </p>
+            </div>
+        </div>
+
+        <!-- ///////// MENU ///////// -->
+
+
+        <h3 class="item_h3"> Our Menus </h3>
+        <ul>
+            <li class="same_line menu_spacing"> Spring / Summer </li>
+            <li class="same_line menu_spacing">
+                <h4> | </h4> </li>
+            <li class="same_line menu_spacing"> Fall / Winter </li>
+            <li class="same_line menu_spacing">
+                <h4> | </h4> </li>
+            <li class="same_line menu_spacing"> Cakes</li>
+        </ul>
+        <br>
+
+        <h3 class="item_h3"> Sample of our Menu :</h3>
+
+        <div class="box">
+            <div class="service_item">
+                <h4> Spring / Summer Menu </h4>
+                <p> A la Carte </p>
+                <ul>
+                    <li> Golden Bites </li>
+                    <li> Blackberry Chocolate Chip Cup </li>
+                    <li> Rasberry Muffin </li>
+                    <li> Assorted Macarons </li>
+                    <li> Assorted Berry Chocolate Tart </li>
+                    <li> Raspberry Chocolate Tart </li>
+                </ul>
+                <p> Buffet Style </p>
+                <ul>
+                    <li> Chocolate Lolipops </li>
+                    <li> Raspberry Chocolate Mousse </li>
+                    <li> Quad-layered Chocolate Mousse </li>
+                    <li> Fruit and Ice Cream Chocolate Bowl </li>
+                </ul>
+            </div>
+            <div class="service_item">
+                <h4> Cakes </h4>
+                <p> Customizations are available to the cakes, please contact us to let us know!</p>
+                <ul>
+                    <li> Red Velvet Cake </li>
+                    <li> Orange-Choco Cake </li>
+                    <li> Green Tea Dark Chocolate Opera Cake </li>
+                    <li> Assorted Fruit Mille Crepe Cake </li>
+                </ul>
+            </div>
+        </div>
+		
+		
+        <!-- ////// GRIDS ///// -->
+        <hr>
+
+        <h2 id="grid" class="h2_padding"> The Grid </h2>
+        <br>
+
+        <h3 class="item_h3"> Screen Sizes + Breakpoints</h3>
+
+        <div class="box">
+            <div class="info_item">
+                <h4> Large screens </h4>
+                <p> Columns of 4 (including navigation bar).</p>
+                <p> Break Point: <code> @media (min-width: 1024px)</code>
+                </p>
+                <p> Example: TV Screens, Large monitors</p>
+            </div>
+            <div class="info_item">
+                <h4> Rendered Sample </h4>
+                <img src="assets/large_grid.jpg" alt="large grid" height="150">
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="info_item">
+                <h4> Medium screens </h4>
+                <p> Columns of 3 (including navigation bar).</p>
+                <p> Break Point: <code> @media (max-width: 1024px) and (min-width: 667px)</code>
+                </p>
+                <p> Example: Laptops / Tablets</p>
+            </div>
+            <div class="info_item">
+                <h4> Rendered Sample </h4>
+                <img src="assets/med_grid.jpg" alt="medium grid" height="120">
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="info_item">
+                <h4> Small screens </h4>
+                <p> Single Column grid. Navigation bar is collapsed to the top with a hamburger menu. </p>
+                <p> Break Point: <code> @media (max-width: 667px) and (min-width: 375px)</code>
+                </p>
+                <p> Example: Smart Phones</p>
+            </div>
+            <div class="info_item">
+                <h4> Rendered Sample </h4>
+                <img src="assets/small_grid.jpg" alt="small grid" height="100">
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="info_item">
+                <h4> Tiny screens </h4>
+                <p> Single column grid. </p>
+                <p> Break Point: <code> @media (max-width: 375px)</code>
+                </p>
+                <p> Example: Smart Watch</p>
+            </div>
+            <div class="info_item">
+                <h4> Rendered Sample </h4>
+                <img src="assets/tiny_grid.jpg" alt="tiny grid" height="40">
+            </div>
+        </div>
+
+		
+        <!-- ///////// COLOURPALLETE //////////////////// -->
+        <hr>
+        <!-- <h3> Padding + Margins </h3> -->
+
+        <h2 id="color" class="h2_padding"> Colour Palette</h2>
+        <div class="box">
+            <div class="color_item">
+                <h4> Main Color </h4>
+                <img src="assets/dark_blue.png" alt="dark_blue" height="80">
+                <p> | #213040 </p>
+            </div>
+
+            <div class="color_item">
+                <h4> Accent Color </h4>
+                <img src="assets/light_blue.png" alt="light_blue" height="80">
+                <p> | #77ADE5 </p>
+            </div>
+
+            <div class="color_item">
+                <h4> Secondary Color  </h4>
+                <img src="assets/white.jpg" alt="white" height="80">
+                <p> | #FFF </p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="color_item">
+                <h4> Tertiary Color </h4>
+                <img src="assets/light_grey.jpg" alt="light_grey" height="90">
+                <p> | #919191 </p>
+            </div>
+            <div class="color_item">
+                <h4> Paragraph Text </h4>
+                <img src="assets/dark_grey.png" alt="dark_grey" height="80">
+                <p> | #393B39 </p>
+            </div>
+
+            <div class="color_item">
+                <h4> Titles </h4>
+                <img src="assets/black.jpg" alt="white" height="80">
+                <p> | #000 </p>
+            </div>
+        </div>
+
+        <!-- COLOUR PALLETE -->
+        <hr>
+
+        <h2 id="nav" class="h2_padding"> Navigation </h2>
+        <br>
+
+        <h3 class="item_h3"> Main Navigation Menu </h3>
+        <div class="box">
+            <div class="nav_box">
+                <h4>Rendered Sample</h4>
+                <img class="thumbnail" src="assets/logo.png" alt="logo" width="90">
+                <a class="nav_item"> About </a>
+                <a class="nav_item"> Image Gallery </a>
+                <a class="nav_item"> Menu </a>
+                <a class="nav_item"> Order </a>
+                <a class="nav_item"> Contact </a>
+            </div>
+            <div class="info_item">
+                <h4> Css Selector </h4>
+                <p> .navbar </p>
+                <p> .navbar_li </p>
+
+                <h4> Code Example </h4>
+                <code>&lt;ul class=".navbar"&gt;</code>
+                <br>
+                <code>&lt;li class=".navbar_li"&gt; Navbar Item &lt;/li&gt;</code>
+                <br>
+                <code>&lt;li class=".navbar_li"&gt; Navbar Item &lt;/li&gt;</code>
+                <br>
+                <code>&lt;li class=".navbar_li"&gt; Navbar Item &lt;/li&gt;</code>
+                <br>
+                <code> &lt;/ul&gt; </code>
+
+                <h4> About </h4>
+                <p> The main navigation bar will be fixed at the side of the page even when scrolling. The background will be white with light blue links that turn dark blue when hovered upon. </p>
+
+                <p> This navigation bar will be the main way for a user to access different pages on the website. Used for medium to large sized screens.</p>
+            </div>
+        </div>
+
+        <h3 class="item_h3"> Hamburger Menu </h3>
+        <div class="box">
+            <div class="img_item">
+                <h4> Collapsed </h4>
+                <img src="assets/hamburger_menu.png" alt="hamburger menu" class="img_width">
+
+                <h4> Expanded </h4>
+                <img src="assets/hamburger_menu_expanded.png" alt="hamburger menu expanded" class="img_width">
+            </div>
+            <div class="info_item">
+                <h4> Css Selector </h4>
+                <p> .navbar </p>
+                <p> .navbar_li </p>
+
+                <h4> Code Example </h4>
+                <code>&lt;ul class=".navbar"&gt;</code>
+                <br>
+                <code>&lt;li class=".navbar_li"&gt; Navbar Item &lt;/li&gt;</code>
+                <br>
+                <code>&lt;li class=".navbar_li"&gt; Navbar Item &lt;/li&gt;</code>
+                <br>
+                <code>&lt;li class=".navbar_li"&gt; Navbar Item &lt;/li&gt;</code>
+                <br>
+                <code> &lt;/ul&gt; </code>
+
+                <h4> About </h4>
+                <p> When the screen size shrinks, the nav bar will turn into a hamburger menu which will be located fixed at the top of the page. The links will drop down when the hamburger menu button is pressed for the user to access other pages of the website. </p>
+
+                <p> Similarily, the navigation bar will be the main way for a user to access different pages on the website. Used for medium to large sized screens.</p>
+            </div>
+        </div>
+
+        <h3 class="item_h3"> Tabs </h3>
+        <h4> Inital State </h4>
+        <div class="box">
+            <div class="img_item">
+                <img src="assets/Tabs.png" alt="Tabs" class="img_width">
+            </div>
+            <div class="info_item">
+                <h4> Css Selector </h4>
+                <p> .tabs </p>
+                <p> .tab_links </p>
+                <h4> Code </h4>
+                <code>&lt; div class="tabs" &gt; </code>
+                <br>
+                <code> &lt; button class="tab_links" onClick="openTab(event, Group1)"&gt; Tab 1 &lt;/button&gt; </code>
+                <br>
+                <code> &lt; button class="tab_links" onClick="openTab(event, Group2)"&gt; Tab 2 &lt;/button&gt; </code>
+                <br>
+                <code> &lt; button class="tab_links" onClick="openTab(event, Group3)"&gt; Tab 3 &lt;/button&gt; </code>
+                <br>
+                <code> &lt;/div&gt; </code>
+                <h4> About </h4>
+                <p> Tabs are used for ocassions when there are too much content on one page and needs to be categorized under a various groups </p>
+            </div>
+        </div>
+
+        <h4> Hover State </h4>
+        <div class="box">
+            <div class="img_item">
+                <img src="assets/Tabs_Hover.png" alt="Tab Hover State" class="img_width">
+            </div>
+            <div class="info_item">
+                <h4> Css Selector </h4>
+                <p> .tab_links: active, .tab_links:hover, .tab_links:focus </p>
+                <h4> Code </h4>
+                <code>&lt;button class="tab_links onClick="openTab(event, Group2)"&gt; Tab 2 &lt;/button&gt;</code>
+                <h4> About </h4>
+                <p> When hovered upon the text will change to the lighter blue colour, and when selected the light blue line will go under the tab selected. </p>
+            </div>
+        </div>
+        <h3 class="item_h3"> Progress Bar </h3>
+        <img src="assets/ProgressBar.png" alt="Progress Bar" width="600">
+        <div class="box">
+            <div class="info_item">
+                <h4> About </h4>
+                <p> The progress bar is used in the ordering process to show the user where they are at in the process of ordering their food. </p>
+            </div>
+        </div>
+
+
+        <!-- TYPOGRAPHY -->
+        <hr>
+
+        <h2 id="typography" class="h2_padding"> Typography </h2>
+
+        <div id="typographyinfo">
+            <p class="same_line"> Title Font: </p>
+            <h4 class="same_line">Handlee </h4>
+            <p> Body Font: Crimson Text </p>
+        </div>
+        <br>
+
+
+        <h3 class="item_h3">Page Titles </h3>
+
+        <div class="box">
+            <div class="type_item">
+                <h4> Css Selector </h4>
+                <p> h1 </p>
+
+                <h4> Code Example </h4>
+                <code>&lt;h1&gt; This is a title &lt;/h1&gt; </code>
+            </div>
+            <div class="type_item">
+                <h4> Rendered Sample </h4>
+                <h1> This is a title </h1>
+            </div>
+        </div>
+
+
+        <h3 class="item_h3">Page Subtitles </h3>
+        <div class="box">
+            <div class="type_item">
+                <h4> Css Selector </h4>
+                <p> h2 </p>
+
+                <h4> Code Example </h4>
+                <code>&lt;h2&gt; This is a Subtitle &lt;/h2&gt; </code>
+            </div>
+            <div class="type_item">
+                <h4> Rendered Sample </h4>
+                <h2> This is a Subtitle </h2>
+            </div>
+        </div>
+
+        <h3 class="item_h3"> Section Headers </h3>
+
+        <div class="box">
+            <div class="type_item">
+
+                <h4> Css Selector </h4>
+                <p> h3 </p>
+
+                <h4> Code Example </h4>
+                <code>&lt;h3&gt; This is a Section Header &lt;/h3&gt; </code>
+            </div>
+            <div class="type_item">
+                <h4> Rendered Sample </h4>
+                <h3> This is a Section Header </h3>
+            </div>
+        </div>
+
+
+        <h3 class="item_h3"> H4: SubHeaders </h3>
+        <div class="box">
+            <div class="type_item">
+
+                <h4> Css Selector </h4>
+                <p> h4 </p>
+
+                <h4> Code Example </h4>
+                <code>&lt;h4&gt; This is a subheader &lt;/h4&gt; </code>
+            </div>
+            <div class="type_item">
+                <h4> Rendered Sample </h4>
+                <h4> This is a subheader</h4>
+            </div>
+        </div>
+
+        <h3 class="item_h3"> P: Regular Text </h3>
+
+        <div class="box">
+            <div class="type_item">
+                <h4> Css Selector </h4>
+                <p> p </p>
+
+                <h4> Code Example </h4>
+                <code>&lt;p&gt; This is a paragraph... Cras rhoncus pulvinar elementum. Phasellus commodo est vel erat bibendum venenatis. Nulla ut eleifend magna, nec condimentum mi. Duis justo odio, imperdiet in augue ac, venenatis tincidunt urna. Integer condimentum euismod enim, dictum finibus ipsum porta sit amet. Aenean at posuere urna, a tincidunt risus. Curabitur rutrum purus nisi, sit amet tincidunt nulla commodo in. Aliquam rutrum diam lorem, non auctor dui posuere vitae.&lt;/p&gt; </code>
+            </div>
+
+            <div class="type_item">
+
+                <h4> Rendered Sample </h4>
+                <p> This is a paragraph... Cras rhoncus pulvinar elementum. Phasellus commodo est vel erat bibendum venenatis. Nulla ut eleifend magna, nec condimentum mi. Duis justo odio, imperdiet in augue ac, venenatis tincidunt urna. Integer condimentum euismod enim, dictum finibus ipsum porta sit amet. Aenean at posuere urna, a tincidunt risus. Curabitur rutrum purus nisi, sit amet tincidunt nulla commodo in. Aliquam rutrum diam lorem, non auctor dui posuere vitae. </p>
+            </div>
+        </div>
+
+        <h3 class="item_h3"> Links </h3>
+
+        <div class="box">
+            <div class="type_item">
+                <h4> Css Selector </h4>
+                <p> a </p>
+
+                <h4> Code Example </h4>
+                <code>&lt;a href="#"&gt; This is a link &lt;/a&gt; </code>
+            </div>
+            <div class="type_item">
+                <h4> Rendered Sample </h4>
+                <a> This is a link </a>
+            </div>
+        </div>
+
+
+        <h3 class="item_h3"> Unordered Lists </h3>
+
+        <div class="box">
+            <div class="type_item">
+
+                <h4> Css Selector </h4>
+                <p> ul </p>
+                <p> li </p>
+
+                <h4> Code Example </h4>
+                <code>&lt;ul&gt;</code>
+                <br>
+                <code>&lt;li&gt; This an unordered list item &lt;/li&gt;</code>
+                <br>
+                <code>&lt;li&gt; This an unordered list item &lt;/li&gt;</code>
+                <br>
+                <code>&lt;li&gt; This an unordered list item &lt;/li&gt;</code>
+                <br>
+                <code>&lt;/ul&gt;</code>
+            </div>
+            <div class="type_item">
+                <h4> Rendered Sample </h4>
+                <ul>
+                    <li> This is an unordered list item </li>
+                    <li> This is an unordered list item </li>
+                    <li> This is an unordered list item </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <h3 class="item_h3"> Ordered List </h3>
+
+        <div class="box">
+            <div class="type_item">
+
+
+                <h4> Css Selector </h4>
+                <p> ol </p>
+                <p> li </p>
+
+                <h4> Code Example </h4>
+                <code>&lt;ol&gt;</code>
+                <br>
+                <code>&lt;li&gt; This an ordered list item &lt;/li&gt;</code>
+                <br>
+                <code>&lt;li&gt; This an ordered list item &lt;/li&gt;</code>
+                <br>
+                <code>&lt;li&gt; This an ordered list item &lt;/li&gt;</code>
+                <br>
+                <code>&lt;/ol&gt;</code>
+            </div>
+            <div class="type_item">
+                <h4> Rendered Sample </h4>
+                <ol>
+                    <li> This is an ordered list item </li>
+                    <li> This is an ordered list item </li>
+                    <li> This is an ordered list item </li>
+                </ol>
+            </div>
+        </div>
+
+
+        <!-- FORM ELEMENTS -->
+        <hr>
+
+        <h2 id="form" class="h2_padding"> Form Elements </h2>
+        <br>
+
+        <h3 class="item_h3"> Text Input Field + Label </h3>
+        <div class="box">
+            <div class="img_item">
+                <h4>Rendered Sample</h4>
+                <form>
+                    <label class="label_example"> Label Example</label>
+                    <input type="text">
+                </form>
+            </div>
+            <div class="info_item">
+                <h4> Css Selector </h4>
+                <p> input[type=text], select </p>
+                <h4> Code </h4>
+                <code> &lt;label class ="label_example" for="example"&gt;Label Example &lt;/label&gt;</code>
+                <br>
+                <code>&lt;input type="text"&gt;</code>
+                <h4> About </h4>
+                <p> Label is used to label the text input box. </p>
+                <p> Text input box is used in Forms for the user to fill out.</p>
+            </div>
+        </div>
+
+        <h3 class="item_h3"> Links </h3>
+        <div class="box">
+            <div class="img_item">
+                <h4>Rendered Sample</h4>
+                <a> Example Link </a>
+            </div>
+            <div class="info_item">
+                <h4> Css Selector </h4>
+                <p> a </p>
+                <p> a:focus, a:hover, a:active </p>
+                <h4> Code </h4>
+                <code>&lt;a href="#"&gt;Example Link&lt;/a&gt;</code>
+                <h4> About </h4>
+                <p> Links are light blue and when the mouse hovers over it, the link turns dark blue.</p>
+            </div>
+        </div>
+
+        <h3 class="item_h3"> Example Button </h3>
+        <div class="box">
+            <div class="img_item">
+                <h4>Rendered Sample</h4>
+                <button> Example button </button>
+            </div>
+            <div class="info_item">
+                <h4> Css Selector </h4>
+                <p> button </p>
+                <p> button:focus, button:hover, button:active </p>
+                <h4> Code </h4>
+                <code>&lt;button&gt;Example Button&lt;/button&gt;</code>
+                <h4> About </h4>
+                <p> These are the standard buttons to be used throughout the website. They are dark blue with white text. When the mouse hovers over it, the button's background will change light blue.</p>
+            </div>
+        </div>
+
+        <h3 class="item_h3"> Example Cancel Button </h3>
+        <div class="box">
+            <div class="img_item">
+                <h4>Rendered Sample</h4>
+                <button class="cancel_button"> Cancel button </button>
+            </div>
+            <div class="info_item">
+                <h4> Css Selector </h4>
+                <p> .cancel_button </p>
+                <h4> Code </h4>
+                <code>&lt;button class="cancel_button&gt;Cancel Button&lt;/button&gt;</code>
+                <h4> About </h4>
+                <p> The cancel button would be used in the ordering process. When the user doesn't want to continue ordering anymore they are able to stop any time. The button will default with a light grey backgorund and white text. It will hover red to alert the user they are canceling their order.</p>
+            </div>
+        </div>
+
+        <h3 class="item_h3"> Submit Form Button </h3>
+        <div class="box">
+            <div class="img_item">
+                <h4>Rendered Sample</h4>
+                <input type="submit" value="Submit" class="submit_button">
+            </div>
+            <div class="info_item">
+                <h4> Css Selector </h4>
+                <p> .submit_button </p>
+                <h4> Code </h4>
+                <code>&lt;input type="submit" value="Submit" class="submit_button"&gt;</code>
+                <h4> About </h4>
+                <p> Submit buttons are used to submit forms. </p>
+            </div>
+        </div>
+
+        <h3 class="item_h3"> Reset Form Button </h3>
+        <div class="box">
+            <div class="img_item">
+                <h4>Rendered Sample</h4>
+                <input type="reset" value="Reset" class="reset_button">
+            </div>
+            <div class="info_item">
+                <h4> Css Selector </h4>
+                <p> .reset_button </p>
+                <h4> Code </h4>
+                <code>&lt;input type="reset" value="Reset" class="reset_button"&gt;</code>
+                <h4> About </h4>
+                <p> The reset button is used to reset all the content filled in the form.</p>
+            </div>
+        </div>
+
+        <h3 class="item_h3"> Radio Button </h3>
+        <div class="box">
+            <div class="img_item">
+                <h4>Rendered Sample</h4>
+                <form>
+                    <p>
+                        <input type="radio" name="button" value="1" class=""> Example Radio Button </p>
+                    <p>
+                        <input type="radio" name="button" value="2"> Example Radio Button </p>
+                    <p>
+                        <input type="radio" name="button" value="3"> Example Radio Button </p>
+                </form>
+            </div>
+            <div class="info_item">
+                <h4> Css Selector </h4>
+                <p> .radio </p>
+                <h4> Code </h4>
+                <code>&lt;input type="radio" name="button" value="3 class=.radio"&gt;Example Radio Button</code>
+                <h4> About </h4>
+                <p> Radio buttons are used when users are going through the ordering process and choose which foods they want on their menu. Radio buttons are used when there is only one item that could be slected in the options to choose from.</p>
+            </div>
+        </div>
+
+        <h3 class="item_h3"> Checkboxes </h3>
+        <div class="box">
+            <div class="img_item">
+                <h4>Rendered Sample</h4>
+                <form>
+                    <p class="checkboxes">
+                        <input type="checkbox" name="checkbox" value="1"> Item 1 </p>
+                    <br>
+                    <p class="checkboxes">
+                        <input type="checkbox" name="checkbox" value="2"> Item 2 </p>
+                    <br>
+                    <p class="checkboxes">
+                        <input type="checkbox" name="checkbox" value="3"> Item 3 </p>
+                </form>
+            </div>
+            <div class="info_item">
+                <h4> Css Selector </h4>
+                <p>.checkboxes </p>
+                <h4> Code </h4>
+                <code>&lt;input type="checkbox" name="checkbox" value="3"&gt;Checkbox Example</code>
+                <h4> About </h4>
+                <p> Check buttons are used when users are going through the ordering process and choose which foods they want on their menu. Checkboxe are used when there are multiple choices to be chosen from.</p>
+            </div>
+        </div>
+
+        <h3 class="item_h3"> Drop Down </h3>
+        <div class="box">
+            <div class="img_item">
+                <h4> Collpased </h4>
+                <img src="assets/dropdown_1.png" alt="dropdown closed" class="img_small_width">
+                <h4> Expanded </h4>
+                <img src="assets/dropdown_2.png" alt="dropdown open" class="img_small_width">
+            </div>
+            <div class="info_item">
+                <h4> Css Selector </h4>
+                <p> .dropdown </p>
+                <h4> Code </h4>
+                <code>&lt;select&gt;</code>
+                <br>
+                <code> &lt;option value="op1" class="dropdown"&gt; Option 1 &lt;/option&gt;</code>
+                <br>
+                <code> &lt;option value="op2" class="dropdown"&gt; Option 2 &lt;/option&gt;</code>
+                <br>
+                <code> &lt;option value="op3" class="dropdown"&gt; Option 3 &lt;/option&gt;</code>
+                <br>
+                <code> &lt;option value="op4" class="dropdown"&gt; Option 4 &lt;/option&gt;</code>
+                <br>
+                <code>&lt;/select&gt;</code>
+                <h4> About </h4>
+                <p> Drop downs are used in forms. </p>
+            </div>
+        </div>
+
+        <br>
+        <!-- FORM ELEMENTS -->
+        <hr>
+
+        <h2 id="icons" class="h2_padding"> Icons </h2>
+        <br>
+
+        <div class="box">
+            <div class="img_item">
+                <div class="social_media">
+                    <img src="assets/twitter.png" alt="twitter" height="100">
+                </div>
+
+                <div class="social_media">
+                    <img src="assets/facebook.png" alt="facebook" height="100">
+                </div>
+
+                <div class="social_media">
+                    <img src="assets/instagram.png" alt="instagram" height="100">
+                </div>
+            </div>
+
+            <div class="info_item">
+                <h4> Css Selector </h4>
+                <p> .social_media </p>
+                <h4> Code </h4>
+                <code>&lt;div class="social_media"&gt;</code>
+                <br>
+                <code>&lt;img src="assets/instagram.png" alt="instagram" height="100"&gt;</code>
+                <br>
+                <code>&lt;/div&gt;</code>
+                <h4> About </h4>
+                <p> There are not much icons throught the website. However, ther are social media icons used in the navigation bar. The icons are white with a light blue background and will turn dark blue when the mouse hovers over it.</p>
+            </div>
+        </div>
+
+
+        <!-- IMAGERY -->
+        <hr>
+
+        <h2 id="images" class="h2_padding"> Imagery </h2>
+        <br>
+
+        <p> These images are examples to show the feel the website would have. All images should be bright and clear to give off a fresh feeling to the user browsing the website.
+
+
+            <h2>Summer/Spring desserts</h2>
+
+            <div class="same_line">
+                <img src="assets/summerbite.jpg" alt="dessert 1" height="200">
+                <p> Dessert: Gold Bites </p>
+                <p> source: <a href="http://blog.grabon.in/best-rooftop-restaurants-in-hyderabad/"> link </a> </p>
+            </div>
+
+            <div class="same_line">
+                <img src="assets/summerfruitcup.jpg" alt="dessert 2" height="200">
+                <p> Dessert: Blackberry Chocolate Cup </p>
+                <p> source: <a href="https://www.pinterest.com/holsteinkitchen/chocolate-devotions-recipes/"> link </a> </p>
+            </div>
+
+            <div class="same_line">
+                <img src="assets/summerfruitmuff.jpg" alt="dessert 2" height="200">
+                <p> Dessert: Raspberry Muffin </p>
+                <p> source: <a href="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwii5_rD4qjUAhXLylQKHWFrCysQjRwIBw&url=https%3A%2F%2Faanya44.wordpress.com%2F&psig=AFQjCNGaC56bhVCBMa5ULWUGhb9NxReojA&ust=1496823051342934"> link </a> </p>
+            </div>
+
+            <div class="same_line">
+                <img src="assets/summerfruittart.jpg" alt="dessert 2" height="200">
+                <p> Dessert: Assorted Berry Chocolate Tart </p>
+                <p> source: <a href="http://nouw.com/enannansebbe/matporrinspiration-jag-kanske-ar-hungrig-21442529"> link </a> </p>
+            </div>
+
+            <div class="same_line">
+                <img src="assets/summerfruittart2.jpg" alt="dessert 2" height="200">
+                <p> Dessert: Raspberry Chocolate Tart </p>
+                <p> source: <a href="http://www.afternoonrecipes.com/recipe-of-the-day-delicious-chocolate-cups-with-fruit/"> link </a> </p>
+            </div>
+
+            <div class="same_line">
+                <img src="assets/summerlolipop.jpg" alt="dessert 2" height="200">
+                <p> Dessert: Chocolate Lolipops </p>
+                <p> source: <a href="https://ilujoeventos.com/2017/04/25/candyland/"> link </a> </p>
+            </div>
+
+            <div class="same_line">
+                <img src="assets/summermoose.jpg" alt="dessert 2" height="200">
+                <p> Dessert: Raspberry Chocolate Mousse </p>
+                <p> source: <a href="http://lookw.ru/eda/page,3,546-yagody.-razlyuli-malina-100-oboev.html"> link </a> </p>
+            </div>
+
+            <div class="same_line">
+                <img src="assets/summertritier.jpeg" alt="dessert 2" height="200">
+                <p> Dessert: Quad-layered Chocolate Mousse </p>
+                <p> source: <a href="http://www.taste.com.au/search-recipes/?q=chocolate+mousse+recipes"> link </a> </p>
+            </div>
+
+            <div class="same_line">
+                <img src="assets/summerfruitbowl.jpg" alt="dessert 2" height="200">
+                <p> Dessert: Fruit and Ice Cream Chocolate Bowl </p>
+                <p> source: <a href="https://twitter.com/farahmc1/status/814653150401593345"> link </a> </p>
+            </div>
+
+            <h2>Winter/Fall desserts</h2>
+
+            <div class="same_line">
+                <img src="assets/winterassorted.jpg" alt="dessert 2" height="200">
+                <p> Dessert: Assorted Chocolate Bites </p>
+                <p> source: <a href="https://plus.google.com/communities/113773326408928846101"> link </a> </p>
+            </div>
+
+            <div class="same_line">
+                <img src="assets/winterchococake.jpg" alt="dessert 2" height="200">
+                <p> Dessert: Chocolate Cake </p>
+                <p> source: <a href="http://pawelszczepanski.com/taste-of-home-german-chocolate-cake/"> link </a> </p>
+            </div>
+
+            <div class="same_line">
+                <img src="assets/wintercupcake.jpg" alt="dessert 2" height="200">
+                <p> Dessert: Vanilla Icing Chocolate Cupcake </p>
+                <p> source: <a href="http://www.tasteofhome.com/recipes/chocolate-ganache-peanut-butter-cupcakes"> link </a> </p>
+            </div>
+
+            <div class="same_line">
+                <img src="assets/winterhotchoco.jpg" alt="dessert 2" height="200">
+                <p> Dessert: Hot Chocolate (Milk Chocolate) </p>
+                <p> source: <a href="http://metro.co.uk/2015/12/13/7-special-boozy-hot-chocolate-recipes-5373729/"> link </a> </p>
+            </div>
+
+            <div class="same_line">
+                <img src="assets/winterhotchoco2.jpg" alt="dessert 2" height="200">
+                <p> Dessert: Hot Chocolate (White Chocolate) </p>
+                <p> source: <a href="http://namnak.com/%D8%B4%DA%A9%D9%84%D8%A7%D8%AA-%D8%AF%D8%A7%D8%BA-%D8%B3%D9%81%DB%8C%D8%AF.p15694"> link </a> </p>
+            </div>
+
+            <div class="same_line">
+                <img src="assets/wintermoltenlava.jpg" alt="dessert 2" height="200">
+                <p> Dessert: Molten Lava Cake </p>
+                <p> source: <a href="http://fb.ru/post/chocolate/2016/5/7/5369"> link </a> </p>
+            </div>
+
+            <div class="same_line">
+                <img src="assets/winterorb.jpg" alt="dessert 2" height="200">
+                <p> Dessert: Chocolate Crumble Orb</p>
+                <p> source: <a href="https://www.pinterest.com/pin/438115869980530207/"> link </a> </p>
+            </div>
+
+            <div class="same_line">
+                <img src="assets/wintertritier.jpg" alt="dessert 2" height="200">
+                <p> Dessert: Chocolate Wrapped Cake </p>
+                <p> source: <a href="https://www.pinterest.com/evanz123/"> link </a> </p>
+            </div>
+
+            <div class="same_line">
+                <img src="assets/wintertrilayer.jpg" alt="dessert 2" height="200">
+                <p> Dessert: Dual-layered Chocolate and Vanilla Cake </p>
+                <p> source: <a href="http://www.hdwallpapersdaily.com/digital-cool-pics/happy-birthday-cake-hd-wallpaper-download/"> link </a> </p>
+            </div>
+
+
+    </div>
+    </div>
+</body>
+
+</html>
