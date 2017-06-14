@@ -322,7 +322,7 @@ button:active, button:hover, button:focus{
 
 .facebook{
 	background-color: #213040;
-	background-image: url('img/facebook.png');
+	background-image: url("img/facebook.png");
 
 	transition: background-image 0.5s;
 	transition: background-color: 0.5s;
@@ -330,7 +330,7 @@ button:active, button:hover, button:focus{
 
 .facebook:active, .facebook:hover, .facebook:focus{
 	background-color: white;
-	background-image: url('img/facebook_dark');
+	background-image: url("img/facebook_dark");
 }
 
 .social_media:active, .social_media:hover, .social_media:focus{
@@ -383,4 +383,10 @@ input[type=text], select {
 .paragraph{
 	line-height: 1.5rem;
 	letter-spacing: 0.03rem;
+}
+
+.banner_link{
+	background-image: url("img/banner.png");
+	width: 100%;
+	height: 15rem;
 }
