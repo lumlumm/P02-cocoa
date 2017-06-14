@@ -1,0 +1,29 @@
+.box{
+	display: flex;
+}
+
+.col_1of2{
+	width: 50%;
+}
+
+.col_1of3{
+	width: 33%;
+}
+
+.col_1of5{
+	width: 20%;
+}
+
+.col_2of5{
+	width: 40%;
+}
+
+.col_3of5{
+	width: 60%;
+}
+
+/* ------- MEDIA QUERIES-------- */
+
+@media (min-width: 47.8em){
+
+}
