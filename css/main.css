@@ -242,6 +242,21 @@ input[type=text], select {
 
 /* --------------- IMGS --------------*/
 
+.two_col_text_padding{
+	padding-left:3rem;
+	padding-right:3rem;
+}
+
+.img_ex_client_feed{
+	
+	height: 12rem;
+	width: 30rem;
+	background-color: rgba(66,66,66,1);
+	margin-bottom: 1rem;
+	
+	
+}
+
 .contact_map{
 	
 	height: 26.5rem;
