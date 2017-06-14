@@ -14,7 +14,7 @@ function openCity(evt, cityName) {
   evt.currentTarget.className += " active_tab";
 }
 
-// https://codepen.io/corysimmons/pen/KbFcg
+/* https://codepen.io/corysimmons/pen/KbFcg */
 
 $('button').click(function() {
   $(this).toggleClass('expanded').siblings('div').slideToggle();

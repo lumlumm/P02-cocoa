@@ -81,7 +81,6 @@
 	display: none;
 	position: fixed;
 	width: 100%;
-	top: 0;
 	height: 11%;
 	background-color: white;
 }
@@ -97,20 +96,19 @@
 	transition: all 400ms ease;
 }
 
-.hamburger_button{
-	.expanded{
-      transform: rotate(90deg);
-      background-color: transparent;
-      border: 0;
-    }
+.hamburger_button button.expanded{
+	transform: rotate(90deg);
+	background-color: transparent;
+	border: 0;
 }
 
 
 /* ------- MEDIA QUERIES-------- */
 
-@media (max-width: 47em){
+/*@media (max-width: 47em){*/
+@media (max-width: 750px){
 	.light_grey{
-		background-color: red;
+		background-color: #77ADE5;
 	}
 
 	.hamburger_menu{
@@ -123,5 +121,28 @@
 
 	.logo{
 		bottom: inherit;
+	}
+
+	.section_padding{
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+	}
+}
+
+@media (max-width: 635px){
+	.section_padding{
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
+}
+
+@media (max-width: 402px){
+	.section_button_padding{
+		padding-bottom: 1rem;
+	}
+	
+	.section_padding{
+		padding-top: 1rem;
+		padding-bottom: 1rem;
 	}
 }
