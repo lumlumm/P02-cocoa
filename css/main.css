@@ -109,6 +109,62 @@ button:active, button:hover, button:focus{
 	padding-left: 0.6rem;
 }
 
+/*https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_text*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown_content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown_content{
+    display: block;
+}
+
+.dropdown_content a:hover{
+	color: #77ADE5;
+}
+
+.hamburger_menu{
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 11%;
+	background-color: white;
+}
+
+.hamburger_menu div{
+	display: none;
+}
+
+.hamburger_button{
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	transition: all 400ms ease;
+}
+
+.hamburger_button button.expanded{
+	transform: rotate(90deg);
+	background-color: transparent;
+	border: 0;
+}
+
 .footer{
 	position: relative;
 	bottom: 0;
@@ -143,7 +199,6 @@ button:active, button:hover, button:focus{
 .active_tab{
 	background-color:white;
 	color:black;
-	
 }
 
 .tab:active, .tab:hover, .tab:focus{
@@ -154,16 +209,61 @@ button:active, button:hover, button:focus{
 }
 
 .tab_section_padding{
-	padding-top: 6rem;
+	padding-top: 4rem;
 	padding-bottom: 3rem;
-	
 }
 
+.tab_content_padding{
+	padding-bottom: 3rem;
+}
 
+	.tab_img{
+		display: inline-block;
+		margin-left: 5rem;
+		margin-right: 1rem;
+	}
+
+	.img_caption{
+		margin-left: 5rem;
+		margin-right: 5rem;
+		padding-bottom: 2rem;
+	}
+
+	.tab_description{
+		margin-left: 5rem;
+		margin-right: 5rem;
+		padding-bottom: 3rem;
+	}
+
+	.menu_para{
+		margin-left: 1rem;
+		margin-right: 5rem;
+		padding-bottom: 1rem;
+	}
+
+	.tab_content_header{
+		margin-left: 1rem;
+		margin-right: 5rem;
+		margin-top: 0;
+	}
+
+	.img_div{
+		width: 35%;
+	}
+
+	.tab_content{
+		width: 65%;
+	}
+
+.order_btn_div{
+	padding-top: 2rem;
+	padding-bottom: 2.5rem;
+	background-color: #E4EAF1;
+}
 /* --- HERO IMAGE --- */
 
 .hero_title{
-	padding-top: 15rem;
+	padding-top: 12rem;
 }
 
 /* --- PADDING --- */
@@ -253,11 +353,10 @@ input[type=text], select {
 /* --------------- IMGS --------------*/
 
 .img_ex{
-	
 	height: 12rem;
 	width: 18rem;
 	background-color: rgba(66,66,66,1);
-	margin-bottom:1rem;
+	margin-bottom: 1rem;
 }
 
 .bot_light_grey{
