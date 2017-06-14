@@ -70,7 +70,7 @@ button:active, button:hover, button:focus{
 .navbar_margin{
 	width: 100%;
 	position: fixed;
-	background-color: rgba(255,255,255,255);
+	background-color: rgba( 255, 255, 255, 255);
     border-bottom: solid #D4E8ED 0.25px;
     margin: 0;
 }
@@ -84,11 +84,11 @@ button:active, button:hover, button:focus{
 .navbar_li{
     display: block;
 	float: left;
-	margin: 2.5rem 1.5rem 2.5rem 1.5rem;
+	margin: 2rem 1.5rem 0rem 1.5rem;
 	color: #213040;
 	text-align: center;
 	text-decoration: none;
-	font-size: 16px;
+	font-size: 18px;
 
 	transition: color 0.6s;
 	transition: underline 0.6s;
@@ -112,9 +112,10 @@ button:active, button:hover, button:focus{
 .footer{
 	position: relative;
 	bottom: 0;
-	background-color: rgba(255,255,255,255);
+	background-color: rgba( 255, 255, 255, 255);
 	width: 100%;
-	height: 15%;
+	height: 20%;
+	padding-bottom: 1rem;
 }
 
 .footer_margin ul{
@@ -123,6 +124,7 @@ button:active, button:hover, button:focus{
 
 .footer_li{
 	display: block;
+	float: left;
     color: #213040;
     text-align: center;
     text-decoration: none;
@@ -134,6 +136,27 @@ button:active, button:hover, button:focus{
 .footer_li:hover, .footer_li: active, .footer_li: focus{
 	color: #77ADE5;
 	text-decoration: underline;
+}
+
+/* --- TABS ---- */
+
+.active_tab{
+	background-color:white;
+	color:black;
+	
+}
+
+.tab:active, .tab:hover, .tab:focus{
+	background-color: rgba(0,0,0,0);
+	color: black;
+	border:none;
+	outline: 0;
+}
+
+.tab_section_padding{
+	padding-top: 6rem;
+	padding-bottom: 3rem;
+	
 }
 
 
@@ -192,9 +215,20 @@ button:active, button:hover, button:focus{
 .social_media{
 	background-color: #213040;
 	transition: background-color 0.4s;
-	width: 100px;
-	height: 100px;
-	margin-bottom: 5%;
+	padding: 1.2rem 0.5rem 0.4rem 0.5rem;
+}
+
+.facebook{
+	background-color: #213040;
+	background-image: url('img/facebook.png');
+
+	transition: background-image 0.5s;
+	transition: background-color: 0.5s;
+}
+
+.facebook:active, .facebook:hover, .facebook:focus{
+	background-color: white;
+	background-image: url('img/facebook_dark');
 }
 
 .social_media:active, .social_media:hover, .social_media:focus{
@@ -216,6 +250,24 @@ input[type=text], select {
 
 /* --------------- IMGS --------------*/
 
+.img_ex{
+	
+	height: 12rem;
+	width: 18rem;
+	background-color: rgba(66,66,66,1);
+	margin-bottom:1rem;
+
+	
+}
+
+.bot_light_grey{
+	background-color: #E4EAF1;
+	width: 100%;
+	height: 5rem;
+	
+	
+}
+
 .light_grey{
 	background-color: #E4EAF1;
 	width: 100%;
@@ -229,6 +281,7 @@ input[type=text], select {
 .section_padding{
 	padding-top: 6rem;
 	padding-bottom: 6rem;
+	
 }
 
 .paragraph{
