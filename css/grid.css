@@ -1,0 +1,58 @@
+.box{
+	display: flex;
+}
+
+.col_1of2{
+	width: 50%;
+}
+
+.col_1of3{
+	width: 33%;
+}
+
+.col_1of5{
+	width: 20%;
+}
+
+.col_2of5{
+
+	width: 40%;
+
+	
+}
+
+.col_3of5{
+
+	width: 60%;
+
+	
+}
+
+/* ------- TAB PAGE SPECIFIC-------- */
+
+.tab_col_2of5{
+	padding-left:5rem;	
+	float:left;
+	
+}
+
+.event_col_2of5{
+	padding-left:5rem;
+	width: 40%;
+	float:left;
+	
+}
+
+.event_col_3of5{
+
+	padding-right:5rem;
+	width: 60%;
+	float:right;
+	
+}
+
+/* ------- MEDIA QUERIES-------- */
+
+@media (min-width: 47.8em){
+
+}
