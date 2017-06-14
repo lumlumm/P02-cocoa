@@ -55,12 +55,14 @@ button{
     font-family: "Crimson Text";
     font-size: 0.6em;
     letter-spacing: 0.15em;
-    transition: background-color 0.2s;
+    transition: background-color 0.8s;
+    transition: color 1s;
     outline: 0;
 }
 
 button:active, button:hover, button:focus{
-	background-color: #77ADE5;
+	background-color: white;
+	color: #213040;
 }
 
 /* --- NAV BAR + FOOTER --- */
