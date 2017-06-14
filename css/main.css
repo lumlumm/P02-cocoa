@@ -138,23 +138,24 @@ button:active, button:hover, button:focus{
 
 .active_tab{
 	
-	background-color:white;
-	color:black;
+	background-color: white;
+	color: black;
 	
 }
 
 .tab:active, .tab:hover, .tab:focus{
 	background-color: rgba(0,0,0,0);
 	color: black;
-	border:none;
+	border: none;
 	outline: 0;
 }
 
 .tab_section_padding{
-	padding-top: 6rem;
+	padding-top: 3rem;
 	padding-bottom: 3rem;
 	
 }
+
 
 
 /* --- HERO IMAGE --- */
@@ -165,7 +166,21 @@ button:active, button:hover, button:focus{
 }
 
 
+/* --- FAQ ---*/
+
+.faq_button{
+	width: 100%;
+	color: white;
+}
+
+
 /* --- FORM ELEMENTS ---- */
+
+.contact_submit_button{
+	margin-top: 1rem;
+	margin-left: 26.3rem;
+}
+
 
 .cancel_button{
 	background-color: #919191;
@@ -201,24 +216,84 @@ button:active, button:hover, button:focus{
 	text-transform: uppercase;
 	letter-spacing: 0.05rem;
 	font-size: 0.8rem;
+	display: block;
+	margin: 1rem 8rem;
+}
+
+.form_input_bar{
+	margin-left: 8rem;
+	width: 25rem;
+}
+
+.form_input_text_area{
+	margin-left: 8rem;
+	height: 15rem;
+	resize: none;
+	width: 25rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #77ADE5;
 }
 
 input[type=text], select {
-    width: 70%;
+   
     padding: 0.5rem 1rem;
     border: 1px solid #77ADE5;
 }
 
 /* --------------- IMGS --------------*/
 
+.contact_map{
+	
+	height: 26.5rem;
+	width: 24rem;
+	background-color: rgba(66,66,66,1);
+	float: right;
+	margin-right: 8rem;
+	margin-top: 1rem;
+	
+}
+
+.contact_map_title{
+	
+	text-align: center;
+	padding-top: 5rem;
+	color: white;
+	
+}
+
+.border_line{
+	
+	border-left: 1px solid;
+}
+
 .img_ex{
 	
 	height: 12rem;
 	width: 18rem;
 	background-color: rgba(66,66,66,1);
-	margin-bottom:1rem;
-
+	margin-bottom: 1rem;
 	
+	
+}
+
+.img_gallery_ex{
+	
+	height: 12rem;
+	width: 25rem;
+	background-color: rgba(66,66,66,1);
+	margin: auto;
+	
+}
+
+.gallery_title{
+	text-align: center;
+	padding-top: 5rem;
+	color: white;
+}
+
+.bottom_padding{
+	
+	margin-top: 3rem;
 }
 
 .bot_light_grey{
@@ -242,6 +317,18 @@ input[type=text], select {
 .section_padding{
 	padding-top: 6rem;
 	padding-bottom: 6rem;
+	
+}
+
+.small_section_padding{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	
+}
+
+.smaller_section_padding{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 	
 }
 

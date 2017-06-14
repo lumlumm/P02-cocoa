@@ -31,23 +31,23 @@
 /* ------- TAB PAGE SPECIFIC-------- */
 
 .tab_col_2of5{
-	padding-left:5rem;	
-	float:left;
+	padding-left: 5rem;	
+	float: left;
 	
 }
 
 .event_col_2of5{
-	padding-left:5rem;
+	padding-left: 5rem;
 	width: 40%;
-	float:left;
+	float: left;
 	
 }
 
 .event_col_3of5{
 
-	padding-right:5rem;
+	padding-right: 5rem;
 	width: 60%;
-	float:right;
+	float: right;
 	
 }
 
