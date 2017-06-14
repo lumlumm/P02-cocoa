@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <script type="text/javascript" src="jjs/javascript.js"></script>
+
+    <title>7Trades Food</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Crimson%20Text" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+</head>
+
+<body>
+        <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  NAV BAR  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+
+        <div class="navbar">
+            <img src="img/logo.png" alt="logo" class="logo">
+
+            <div class="navbar_menu center_text">
+                <div class="dropdown">
+                    <a class="navbar_item" href="about.html"> About </a>
+                    <div class="dropdown_content">
+                        <a href="team.html"> team members</a>
+                        <a href="feedback.html"> client feedback </a>
+                        <a href="faq.html"> FAQ </a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <a class="navbar_item" href="menu.html"> Menu </a>
+                    <div class="dropdown_content">
+                        <a href="team.html"> Spring / Summer </a>
+                        <a href="feedback.html"> Fall / Winter </a>
+                        <a href="faq.html"> Cakes </a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <a class="navbar_item" href="gallery.html"> Image Gallery </a>
+                    <div class="dropdown_content">
+                        <a href="team.html"> Events </a>
+                        <a href="feedback.html"> Food </a>
+                    </div>
+                </div>
+
+                <a class="navbar_item" href="contact.html"> Contact </a>
+
+                <a class="navbar_item" href="order.html"> Order </a>
+            </div>
+        </div>
+
+        <div class="hamburger_menu">
+            <img src="img/logo.png" alt="logo" class="logo">
+            <button class="hamburger_button"> Menu </button>
+            <div>
+                <a href="about.html"> About </a>
+                <a href="team.html"> team members</a>
+                <a href="feedback.html"> client feedback </a>
+                <a href="faq.html"> FAQ </a>
+                <a href="menu.html"> Menu </a>
+                <a href="team.html"> Spring / Summer </a>
+                <a href="feedback.html"> Fall / Winter </a>
+                <a href="faq.html"> Cakes </a>
+                <a href="gallery.html"> Image Gallery </a>
+                <a href="team.html"> Events </a>
+                <a href="feedback.html"> Food </a>
+                <a href="contact.html"> Contact </a>
+                <a href="order.html"> Order </a>
+            </div>
+        </div>
+
+
+
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  BODY  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+
+    <div class="body_margin">
+
+        <div class="box light_grey">
+            <div class="col_1of3">
+            </div>
+            <div class="col_1of3">
+                <h1 class="hero_title center_text"> SPRING / SUMMER MENU </h1>
+            </div>
+            <div class="col_1of3">
+            </div>
+        </div>
+
+        <div class="box small_section_padding tab_page_description center_text">
+            <div class="col_1of3">
+            </div>
+            <div class="col_3of5">
+                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				Sed ut nunc at sem egestas blandit eget quis nisl. Donec 
+				sapien libero, pellentesque sed purus eget, tristique tincidunt 
+				ipsum.</h4>
+            </div>
+            <div class="col_1of3">
+            </div>
+        </div>
+
+        <div class="box tab_bar tab_section_padding">
+
+            <div class="tab_col_2of5">
+                <!--https://www.w3schools.com/w3css/w3css_tabulators.asp-->
+                <div class="events">
+                    <button class=" tab active_tab" onclick="openFood(event,'buffet')">Buffet</button>
+                    <button class=" tab" onclick="openFood(event,'winter_fall')"> A La Carte</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="buffet" class="box food_type">
+
+            <div class="event_col_2of5">
+                <div class="img_ex"></div>
+                <div class="img_ex"></div>
+                <div class="img_ex"></div>
+            </div>
+
+            <div class="event_col_3of5">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut nunc at sem egestas blandit eget quis nisl. Donec sapien libero, pellentesque sed purus eget, tristique tincidunt ipsum. Maecenas sit amet lorem turpis. Pellentesque elementum nunc viverra placerat ornare. Curabitur ultricies sollicitudin ultricies. Praesent vitae dui dictum, maximus nisl feugiat, dignissim quam. Nulla rhoncus lorem dolor, non blandit nunc ullamcorper pretium.
+				</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut nunc at sem egestas blandit eget quis nisl. Donec sapien libero, pellentesque sed purus eget, tristique tincidunt ipsum. Maecenas sit amet lorem turpis. Pellentesque elementum nunc viverra placerat ornare. Curabitur ultricies sollicitudin ultricies. Praesent vitae dui dictum, maximus nisl feugiat, dignissim quam. Nulla rhoncus lorem dolor, non blandit nunc ullamcorper pretium.
+				</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut nunc at sem egestas blandit eget quis nisl. Donec sapien libero, pellentesque sed purus eget, tristique tincidunt ipsum. Maecenas sit amet lorem turpis. Pellentesque elementum nunc viverra placerat ornare. Curabitur ultricies sollicitudin ultricies. Praesent vitae dui dictum, maximus nisl feugiat, dignissim quam. Nulla rhoncus lorem dolor, non blandit nunc ullamcorper pretium.
+				</p>
+            </div>
+        </div>
+
+        <div id="a_la_carte" class="box food_type" style="display:none">
+
+            <div class="event_col_2of5">
+                <div class="img_ex"></div>
+                <div class="img_ex"></div>
+            </div>
+
+            <div class="event_col_3of5">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut nunc at sem egestas blandit eget quis nisl. Donec sapien libero, pellentesque sed purus eget, tristique tincidunt ipsum. Maecenas sit amet lorem turpis. Pellentesque elementum nunc viverra placerat ornare. Curabitur ultricies sollicitudin ultricies. Praesent vitae dui dictum, maximus nisl feugiat, dignissim quam. Nulla rhoncus lorem dolor, non blandit nunc ullamcorper pretium.
+				</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut nunc at sem egestas blandit eget quis nisl. Donec sapien libero, pellentesque sed purus eget, tristique tincidunt
+				</p>
+				<p>ipsum. Maecenas sit amet lorem turpis. Pellentesque elementum nunc viverra placerat ornare. Curabitur ultricies sollicitudin ultricies. Praesent vitae dui dictum, maximus nisl feugiat, dignissim quam.
+				</p>
+			</div>
+        </div>
+		
+       	
+		<div class="box  bot_light_grey">
+		</div>
+		
+		
+    </div>
+
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  FOOTER  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+        <div class="footer center_text">
+
+            <p> Follow us! </p>
+            <a href="" class="social_media"><img src="img/facebook.png" alt="facebook" width="25"></a>
+            <a href="" class="social_media"><img src="img/instagram.png" alt="instagram" width="25"></a>
+            <a href="" class="social_media"><img src="img/twitter.png" alt="twitter" width="25"></a>
+        </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
