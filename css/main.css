@@ -67,7 +67,7 @@ button:active, button:hover, button:focus{
 
 /* --- NAV BAR + FOOTER --- */
 
-.navbar_margin{
+.navbar{
 	width: 100%;
 	position: fixed;
 	background-color: rgba( 255, 255, 255, 255);
@@ -75,38 +75,38 @@ button:active, button:hover, button:focus{
     margin: 0;
 }
 
-.navbar_margin ul {
-    list-style-type: none;
-    padding-left: 2rem;
-    overflow: hidden;
+.navbar_menu {
+    /*padding-left: 8rem;*/
 }
 
-.navbar_li{
-    display: block;
-	float: left;
-	margin: 2rem 1.5rem 0rem 1.5rem;
+.navbar_item{
+    display: inline-block;
+	margin: 2.5rem 1.5rem 1.5rem 1.5rem;
 	color: #213040;
 	text-align: center;
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 16px;
 
 	transition: color 0.6s;
 	transition: underline 0.6s;
 }
 
-.navbar_li:hover, .navbar_li:active, .navbar_li:focus{
+.navbar_item:hover, .navbar_item:active, .navbar_item:focus{
 	color: #77ADE5;
 	text-decoration: underline;
 }
 
 .navbar_li_logo{
 	display: inline;
-	float: left;
 }
 
-.logo {	
+.logo {
+	position: absolute;
+	bottom: 0;
 	width: 7rem;
 	margin-right: 2rem;
+	padding-bottom: 1rem;
+	padding-left: 0.6rem;
 }
 
 .footer{
@@ -175,6 +175,9 @@ button:active, button:hover, button:focus{
 
 
 /* --- FORM ELEMENTS ---- */
+/*FAQ:*/
+/*https://codepen.io/peternguyen/pen/hICga*/
+
 .button{
 	background-color: #213040;
     color: white;
@@ -256,16 +259,12 @@ input[type=text], select {
 	width: 18rem;
 	background-color: rgba(66,66,66,1);
 	margin-bottom:1rem;
-
-	
 }
 
 .bot_light_grey{
 	background-color: #E4EAF1;
 	width: 100%;
 	height: 5rem;
-	
-	
 }
 
 .light_grey{
@@ -281,7 +280,6 @@ input[type=text], select {
 .section_padding{
 	padding-top: 6rem;
 	padding-bottom: 6rem;
-	
 }
 
 .paragraph{
