@@ -55,12 +55,14 @@ button{
     font-family: "Crimson Text";
     font-size: 0.6em;
     letter-spacing: 0.15em;
-    transition: background-color 0.2s;
+    transition: background-color 0.8s;
+    transition: color 1s;
     outline: 0;
 }
 
 button:active, button:hover, button:focus{
-	background-color: #77ADE5;
+	background-color: white;
+	color: #213040;
 }
 
 /* --- NAV BAR + FOOTER --- */
@@ -164,8 +166,33 @@ button:active, button:hover, button:focus{
 	padding-top: 15rem;
 }
 
+/* --- PADDING --- */
+
+.section_button_padding{
+	padding-bottom: 2rem;
+}
+
 
 /* --- FORM ELEMENTS ---- */
+.button{
+	background-color: #213040;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Crimson Text";
+    font-size: 0.6rem;
+    letter-spacing: 0.15rem;
+    transition: background-color 0.8s;
+    transition: color 1s;
+}
+
+.button:active, .button:hover, .button:focus{
+	background-color: white;
+	color: #213040;
+    text-decoration: none;
+}
 
 .cancel_button{
 	background-color: #919191;
