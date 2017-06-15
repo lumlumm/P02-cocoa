@@ -119,6 +119,15 @@ textarea{
 	padding-left: 0.6rem;
 }
 
+.hamburger_logo {
+	position: absolute;
+	top: 0;
+	width: 6rem;
+	margin-right: 2rem;
+	padding-bottom: 1rem;
+	padding-left: 0.6rem;
+}
+
 /*https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_text*/
 .dropdown {
     position: relative;
@@ -150,17 +159,51 @@ textarea{
 	color: #77ADE5;
 }
 
+
 .hamburger_menu{
 	display: none;
 	position: fixed;
 	width: 100%;
 	height: 11%;
 	background-color: white;
+/*	overflow: hidden;*/
 }
 
-.hamburger_menu div{
-	display: none;
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: white;
+    overflow: hidden;
 }
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #213040;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: #77ADE5;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+.hamburg_spacing{
+	margin-top: 2rem;
+}
+
+/*.hamburger_menu div{
+	display: none;
+}*/
 
 .hamburger_button{
 	position: absolute;
@@ -169,11 +212,11 @@ textarea{
 	transition: all 400ms ease;
 }
 
-.hamburger_button button.expanded{
+/*.hamburger_button button.expanded{
 	transform: rotate(90deg);
 	background-color: transparent;
 	border: 0;
-}
+}*/
 
 .footer{
 	position: relative;

@@ -124,7 +124,31 @@
 
 
 	/*@media (max-width: 47em){*/
-    @media (max-width: 845px){
+@media (max-width: 845px){
+.hamburger_menu{
+	display: block;
+}
+
+	  .topnav a:not(:first-child) {
+	  	display: none;
+	  }
+
+	  .topnav a.icon {
+	    float: right;
+	    display: block;
+	  }
+
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 		
 	.img_ex_client_feed{
 		margin: auto;
@@ -160,9 +184,9 @@
 		width: 100%;
 	}
 
-	.hamburger_menu{
+/*	.hamburger_menu{
 		display: block;
-	}
+	}*/
 
 	.navbar{
 		display: none;
