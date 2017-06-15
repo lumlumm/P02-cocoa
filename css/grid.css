@@ -115,10 +115,6 @@
 		width: 100%;
 	}
 
-	.light_grey{
-		background-color: #77ADE5;
-	}
-
 	.hamburger_menu{
 		display: block;
 	}
@@ -170,6 +166,10 @@
 }
 
 @media (max-width: 635px){
+	.col_1of2{
+		width: 100%;
+	}
+
 	.section_padding{
 		padding-top: 2rem;
 		padding-bottom: 2rem;
@@ -184,7 +184,6 @@
 	.img_caption{
 		margin-left: 5rem;
 		margin-right: 5rem;
-		padding-bottom: 0;
 	}
 
 	.menu_para{
@@ -211,6 +210,31 @@
 @media (max-width: 450px){
 	.order_bg{
 		height: 16rem;
+	}
+
+	.hero_title{
+		padding-left: 1rem;
+	}
+
+	.tab_img{
+		display: block;
+		margin-left: 2rem;
+		margin-right: 2rem;
+	}
+
+	.img_caption{
+		margin-left: 2rem;
+		margin-right: 2rem;
+	}
+
+	.menu_para{
+		margin-left: 2rem;
+		margin-right: 2rem;
+	}
+
+	.tab_content_header{
+		margin-left: 2rem;
+		margin-right: 2rem;
 	}
 }
 

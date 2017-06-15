@@ -273,6 +273,7 @@ textarea{
 
 .next_btn_div{
 	height: 4rem;
+	margin: 3rem 0 3rem 0;
 }
 /* --- HERO IMAGE --- */
 
@@ -302,6 +303,31 @@ textarea{
 
 .align_right{
 	float: right;
+}
+
+.breakdown_div{
+	padding-bottom: 2rem;
+}
+
+.breakdown_div h2{
+	margin: 0;
+}
+
+.breakdown_div h4{
+	margin: 0 0 0.5rem 0;
+}
+
+.summary_div{
+	padding-bottom: 2rem;
+}
+
+.summary_div h4{
+	margin: 0 0 1rem 0;
+}
+
+.summary_div h2{
+	font-size: 1rem;
+	margin: 0 0 0.2rem 0;
 }
 
 /* --- FORM ELEMENTS ---- */
@@ -336,6 +362,10 @@ textarea{
 .next_button{
 	float: right;
 }
+
+/*.edit_button{
+	margin-top: 1rem;
+}*/
 
 .cancel_button{
 	background-color: #919191;
@@ -389,9 +419,23 @@ textarea{
 
 input[type=text], select {
 	display: block;
-    width: 30%;
+    /*width: 30%;*/
     padding: 0.5rem 1rem;
     border: 1px solid #77ADE5;
+}
+
+.note{
+	font-size: 12px;
+	color: #B4B6BD;
+	margin: 0.4rem 0 0.6rem 0;
+}
+
+.long_input{
+	width: 60%;
+}
+
+.short_input{
+	width: 30%;
 }
 
 .form_div{
