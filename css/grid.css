@@ -92,6 +92,11 @@
 	.tab_content{
 		width: 60%;
 	}
+
+	.order_margin{
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
 }
 
 @media (max-width: 970px){
@@ -200,6 +205,12 @@
 
 	.img_gallery_ex{
 		margin: 1rem 0 1rem 0;
+	}
+}
+
+@media (max-width: 450px){
+	.order_bg{
+		height: 16rem;
 	}
 }
 
