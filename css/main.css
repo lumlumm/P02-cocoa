@@ -330,6 +330,25 @@ textarea{
 	margin: 0 0 0.2rem 0;
 }
 
+.two_col_text_padding{
+	padding-left:3rem;
+	padding-right:3rem;
+}
+
+.bottom_padding{
+	margin-top: 3rem;
+}
+
+.small_section_padding{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.smaller_section_padding{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
 /* --- FORM ELEMENTS ---- */
 /*FAQ:*/
 /*https://codepen.io/peternguyen/pen/hICga*/
@@ -363,9 +382,10 @@ textarea{
 	float: right;
 }
 
-/*.edit_button{
+.contact_submit_button{
 	margin-top: 1rem;
-}*/
+	margin-left: 19.3rem;
+}
 
 .cancel_button{
 	background-color: #919191;
@@ -414,7 +434,17 @@ textarea{
 	text-transform: uppercase;
 	letter-spacing: 0.05rem;
 	font-size: 0.8rem;
+	display: block;
 	margin-bottom: 1rem;
+}
+
+.label_contact{
+	color: #213040;
+	text-transform: uppercase;
+	letter-spacing: 0.05rem;
+	font-size: 0.8rem;
+	display: block;
+	margin: 1rem 4rem;
 }
 
 input[type=text], select {
@@ -442,6 +472,19 @@ input[type=text], select {
 	padding-bottom: 2rem;
 }
 
+.form_input_bar{
+	margin-left: 4rem;
+	width: 22rem;
+}
+
+.form_input_text_area{
+	margin-left: 4rem;
+	height: 15rem;
+	resize: none;
+	width: 22rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #77ADE5;
+}
 /* --------------- IMGS --------------*/
 
 .img_ex{
@@ -508,4 +551,122 @@ input[type=text], select {
 	background-color: rgba(99,99,99, 0.9);
 	text-decoration: underline;
 	color: white;
+}
+
+.img_team_ex{
+  margin: auto;
+  height: 12rem;
+  width: 25rem;
+  background-color: rgba(66,66,66,1);
+  padding-top: 4.5rem;
+}
+
+.img_ex_client_feed{
+	height: 12rem;
+	width: 22rem;
+	background-color: rgba(66,66,66,1);
+	margin-bottom: 1rem;
+}
+
+.contact_map{
+	height: 26.5rem;
+	width: 22rem;
+	background-color: rgba(66,66,66,1);
+	float: right;
+	margin-right: 4rem;
+	margin-top: 1rem;
+}
+
+.contact_map_title{
+	text-align: center;
+	padding-top: 5rem;
+	color: white;
+}
+
+.border_line{
+	border-left: 1px solid;
+}
+
+/* ---collapse---*/
+/*https://codepen.io/peternguyen/pen/hICga*/
+
+
+.faq_input {
+  display: none;
+  visibility: hidden;
+}
+
+.faq_label {
+  display: block;
+  padding: 0.5em;
+  text-align: center;
+  border-bottom: 1px solid #CCC;
+  width:100%;
+  color: #666;
+}
+
+.faq_label:hover {
+  color: #000;
+}
+
+.faq_label::before {
+  font-family: Consolas, monaco, monospace;
+  font-weight: bold;
+  font-size: 15px;
+  content: "+";
+  vertical-align: text-top;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+
+  background: radial-gradient(ellipse at center, #CCC 50%, transparent 50%);
+}
+
+
+.faq_button{
+	width: 100%;
+	color: white;
+}
+
+#expand1 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  color: #FFF;
+ 
+}
+
+#toggle1:checked ~ #expand1{
+  height: 150px;
+}
+#toggle1:checked ~ label::before {
+  content: "-";
+}
+
+#expand2 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  color: #FFF;
+}
+
+#toggle2:checked ~ #expand2{
+  height: 150px;
+}
+#toggle2:checked ~ label::before {
+  content: "-";
+}
+
+#expand3 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  color: #FFF;
+}
+
+#toggle3:checked ~ #expand3{
+  height: 150px;
+}
+#toggle3:checked ~ label::before {
+  content: "-";
 }

@@ -108,12 +108,15 @@
 	.tab_content{
 		width: 55%;
 	}
+
 	.gallery_grid{
 		width:50%;
 	}
+
 	.feed_img_grid{
 		width:50%;
 	}
+	
 	.feedback_text_grid{
 		margin-right: 3rem;
 	}
@@ -143,21 +146,18 @@
 	.full_screen_form{
 		width: 82%;
 	}
+
 	.contact_map{
 		width: 85%;
 		float: left;
 	}
+
 	.contact_map_padding{
 		margin-left: 5.2rem;
-		
 	}
 		
     .col_1of3{
 		width: 100%;
-	}
- 
-	.light_grey{
-		background-color: #77ADE5;
 	}
 
 	.hamburger_menu{
@@ -207,6 +207,22 @@
 
 	.tab_content{
 		width: 100%;
+	}
+
+	.feedback_text_grid{
+		margin-left: 3rem;
+		margin-right: 3rem;
+	}
+
+	.full_screen_form{
+		width: 82%;
+	}
+	.contact_map{
+		width: 85%;
+		float: left;
+	}
+	.contact_map_padding{
+		margin-left: 5.2rem;
 	}
 }
 
