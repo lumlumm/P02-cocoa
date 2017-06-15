@@ -296,6 +296,14 @@ textarea{
 	margin-right: 2rem;
 }
 
+.inline{
+	display: inline-block;
+}
+
+.align_right{
+	float: right;
+}
+
 /* --- FORM ELEMENTS ---- */
 /*FAQ:*/
 /*https://codepen.io/peternguyen/pen/hICga*/
