@@ -1,6 +1,6 @@
 .box{
 	display: flex;
-<<<<<<< HEAD
+	flex-flow: row wrap;
 }
 
 .col_1of2{
@@ -23,172 +23,240 @@
 	width: 60%;
 }
 
-/* ------- MEDIA QUERIES-------- */
-
-@media (min-width: 47.8em){
-
-=======
-	flex-flow: row wrap;
-}
-.col_1of2{
-	width: 50%;
-}
-.col_1of3{
-	width: 33%;
-}
-.col_1of5{	width: 20%;
-}
-.col_2of5{
-	width: 40%;
-}.col_3of5{
-	width: 60%;
-}
 .grow_1{
 	flex-grow: 1;
-}
+}
+
 .col_1of10{
 	width:10%;
-}
-/* ------- TAB PAGE SPECIFIC-------- */
+}
+
+/* ------- TAB PAGE SPECIFIC-------- */
+
 .tab_col_2of5{
 	padding-left: 5rem;	
 	float: left;
-}
+}
+
 .event_col_2of5{
 	padding-left: 5rem;
 	width: 40%;
 	float: left;
 	flex-grow: 1;
-}
+}
+
 .event_col_3of5{
 	padding-right:5rem;
-	width: 60%;	float: right;
+	width: 60%;
+	float: right;
 	flex-grow: 2;
-}
+}
+
 /* ------- MEDIA QUERIES-------- */
-/*@media (max-width: 1)*/
+/*@media (max-width: 1)*/
+
 @media (max-width: 1040px){
 	.tab_img{
 		display: inline-block;
 		margin-left: 5rem;
 		margin-right: 1rem;
-	}
+	}
+
 	.img_caption{
 		margin-left: 5rem;
 		margin-right: 5rem;
 		padding-bottom: 2rem;
-	}
+	}
+
 	.tab_description{
 		margin-left: 5rem;
 		margin-right: 5rem;
 		padding-bottom: 3rem;
-	}
+	}
+
 	.menu_para{
 		margin-left: 1rem;
 		margin-right: 1rem;
 		padding-bottom: 1rem;
-	}
+	}
+
 	.tab_content_header{
 		margin-left: 1rem;
 		margin-right: 5rem;
 		margin-top: 0;
-	}
+	}
+
 	.img_div{
 		width: 40%;
-	}
+	}
+
 	.tab_content{
 		width: 60%;
 	}
-}
+}
+
 @media (max-width: 970px){
 	.img_div{
 		width: 45%;
-	}
+	}
+
 	.tab_content{
 		width: 55%;
-	}	.gallery_grid{		width:50%;	}	.feed_img_grid{		width:50%;	}	.feedback_text_grid{		margin-right: 3rem;	}
-}
+	}
+	.gallery_grid{
+		width:50%;
+	}
+	.feed_img_grid{
+		width:50%;
+	}
+	.feedback_text_grid{
+		margin-right: 3rem;
+	}
+}
+
+
 	/*@media (max-width: 47em){*/
-    @media (max-width: 845px){			.img_ex_client_feed{		margin: auto;	}		.feedback_text_grid{		margin-left: 3rem;		margin-right: 3rem;	}			.col_2of5{		width:100%;	}		.col_1of2{		width: 100%;			}		.full_screen_form{		width: 82%;	}	.contact_map{		width: 85%;		float: left;	}	.contact_map_padding{		margin-left: 5.2rem;			}		    .col_1of3{		width: 100%;	} 
+    @media (max-width: 845px){
+		
+	.img_ex_client_feed{
+		margin: auto;
+	}
+	
+	.feedback_text_grid{
+		margin-left: 3rem;
+		margin-right: 3rem;
+	}
+		
+	.col_2of5{
+		width:100%;
+	}
+	
+	.col_1of2{
+		width: 100%;		
+	}
+	
+	.full_screen_form{
+		width: 82%;
+	}
+	.contact_map{
+		width: 85%;
+		float: left;
+	}
+	.contact_map_padding{
+		margin-left: 5.2rem;
+		
+	}
+		
+    .col_1of3{
+		width: 100%;
+	}
+ 
 	.light_grey{
 		background-color: #77ADE5;
-	}
+	}
+
 	.hamburger_menu{
 		display: block;
-	}
+	}
+
 	.navbar{
 		display: none;
-	}
+	}
+
 	.logo{
 		bottom: inherit;
-	}	
+	}
+	
 	.section_padding{
 		padding-top: 4rem;
 		padding-bottom: 4rem;
-	}
+	}
+
 	.tab_img{
 		display: block;
 		margin-left: 5rem;
 		margin-right: 5rem;
-	}
+	}
+
 	.img_caption{
 		margin-left: 5rem;
 		margin-right: 5rem;
 		padding-bottom: 0;
-	}
+	}
+
 	.menu_para{
 		margin-left: 5rem;
 		margin-right: 5rem;
 		padding-bottom: 1rem;
-	}
+	}
+
 	.tab_content_header{
 		margin-left: 5rem;
 		margin-right: 5rem;
 		padding-top: 2rem;
-	}
+	}
+
 	.img_div{
 		width:100%;
-	}
+	}
+
 	.tab_content{
 		width: 100%;
 	}
-}
-@media (max-width: 635px){			
+}
+
+@media (max-width: 635px){
+	
+	
+	
 	.section_padding{
 		padding-top: 2rem;
 		padding-bottom: 2rem;
-	}
+	}
+
 	.tab_img{
 		display: block;
 		margin-left: 5rem;
 		margin-right: 5rem;
-	}
+	}
+
 	.img_caption{
 		margin-left: 5rem;
 		margin-right: 5rem;
 		padding-bottom: 0;
-	}
+	}
+
 	.menu_para{
 		margin-left: 5rem;
 		margin-right: 5rem;
 		padding-bottom: 1rem;
-	}
+	}
+
 	.tab_content_header{
 		margin-left: 5rem;
 		margin-right: 5rem;
 		padding-top: 2rem;
-	}
+	}
+
 	.tab_content{
 		width: 100%;
-	}		.img_gallery_ex{    margin: 1rem 0 1rem 0;    } 	
-}
+	}
+	
+	.img_gallery_ex{
+    margin: 1rem 0 1rem 0;
+    }
+ 
+
+	
+}
+
 @media (max-width: 402px){
 	.section_button_padding{
 		padding-bottom: 1rem;
-	}
+	}
+
 	.section_padding{
 		padding-top: 1rem;
 		padding-bottom: 1rem;
 	}
->>>>>>> jonsbranch
 }
