@@ -53,37 +53,10 @@
 }
 
 /* ------- MEDIA QUERIES-------- */
-/*@media (max-width: 1)*/
 
 @media (max-width: 1040px){
-	.tab_img{
-		display: inline-block;
-		margin-left: 5rem;
-		margin-right: 1rem;
-	}
-
-	.img_caption{
-		margin-left: 5rem;
-		margin-right: 5rem;
-		padding-bottom: 2rem;
-	}
-
-	.tab_description{
-		margin-left: 5rem;
-		margin-right: 5rem;
-		padding-bottom: 3rem;
-	}
-
 	.menu_para{
-		margin-left: 1rem;
 		margin-right: 1rem;
-		padding-bottom: 1rem;
-	}
-
-	.tab_content_header{
-		margin-left: 1rem;
-		margin-right: 5rem;
-		margin-top: 0;
 	}
 
 	.img_div{
@@ -122,33 +95,31 @@
 	}
 }
 
-
-	/*@media (max-width: 47em){*/
 @media (max-width: 845px){
-.hamburger_menu{
-	display: block;
-}
+	.hamburger_menu{
+		display: block;
+	}
 
-	  .topnav a:not(:first-child) {
-	  	display: none;
-	  }
+	.topnav a:not(:first-child) {
+		display: none;
+	}
 
-	  .topnav a.icon {
-	    float: right;
-	    display: block;
-	  }
+	.topnav a.icon {
+		float: right;
+		display: block;
+	}
 
-  .topnav.responsive {position: relative;}
-  .topnav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
+	.topnav.responsive {position: relative;}
+	.topnav.responsive a.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.topnav.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
 		
 	.img_ex_client_feed{
 		margin: auto;
@@ -184,10 +155,6 @@
 		width: 100%;
 	}
 
-/*	.hamburger_menu{
-		display: block;
-	}*/
-
 	.navbar{
 		display: none;
 	}
@@ -203,25 +170,19 @@
 
 	.tab_img{
 		display: block;
-		margin-left: 5rem;
 		margin-right: 5rem;
 	}
 
 	.img_caption{
-		margin-left: 5rem;
-		margin-right: 5rem;
 		padding-bottom: 0;
 	}
 
 	.menu_para{
-		margin-left: 5rem;
-		margin-right: 5rem;
 		padding-bottom: 1rem;
 	}
 
 	.tab_content_header{
 		margin-left: 5rem;
-		margin-right: 5rem;
 		padding-top: 2rem;
 	}
 
@@ -261,26 +222,12 @@
 	}
 
 	.tab_img{
-		display: block;
 		margin-left: 5rem;
-		margin-right: 5rem;
 	}
 
 	.img_caption{
 		margin-left: 5rem;
 		margin-right: 5rem;
-	}
-
-	.menu_para{
-		margin-left: 5rem;
-		margin-right: 5rem;
-		padding-bottom: 1rem;
-	}
-
-	.tab_content_header{
-		margin-left: 5rem;
-		margin-right: 5rem;
-		padding-top: 2rem;
 	}
 
 	.tab_content{
@@ -302,7 +249,6 @@
 	}
 
 	.tab_img{
-		display: block;
 		margin-left: 2rem;
 		margin-right: 2rem;
 	}
