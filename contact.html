@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/grid.css">
     <script type="text/javascript" src="jjs/javascript.js"></script>
+    <meta name=viewport content="width=device-width, initial-scale=1">
 
     <title>7Trades Contact</title>
 
@@ -54,22 +55,22 @@
         </div>
 
         <div class="hamburger_menu">
-            <img src="img/logo.png" alt="logo" class="logo">
-            <button class="hamburger_button"> Menu </button>
-            <div>
-                <a href="about.html"> About </a>
-                    <a href="team.html"> team members</a>
-                    <a href="feedback.html"> client feedback </a>
-                    <a href="faq.html"> FAQ </a>
-                <a href="menu.html"> Menu </a>
-                    <a href="spring_summer_menu.html"> Spring / Summer </a>
-                    <a href="fall_winter_menu.html"> Fall / Winter </a>
-                    <a href="cakes.html"> Cakes </a>
-                <a href="gallery.html"> Image Gallery </a>
-                    <a href="events.html"> Events </a>
-                    <a href="food.html"> Food </a>
-                <a href="contact.html"> Contact </a>
-                <a href="order.html"> Order </a>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html"> <img src="img/logo.png" alt="logo" class="hamburger_logo">  </a>
+                    <a href="about.html" class="hamburg_spacing"> About </a>
+            <!--             <a href="team.html"> team members</a>
+                        <a href="feedback.html"> client feedback </a>
+                        <a href="faq.html"> FAQ </a> -->
+                    <a href="menu.html"> Menu </a>
+            <!--             <a href="spring_summer_menu.html"> Spring / Summer </a>
+                        <a href="fall_winter_menu.html"> Fall / Winter </a>
+                        <a href="cakes.html"> Cakes </a> -->
+                    <a href="gallery.html"> Image Gallery </a>
+            <!--             <a href="events.html"> Events </a>
+                        <a href="food.html"> Food </a> -->
+                    <a href="contact.html"> Contact </a>
+                    <a href="order.html"> Order </a>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
             </div>
         </div>
 
@@ -79,15 +80,10 @@
 
     <div class="body_margin">
 
-        <div class="box light_grey">
-            <div class="grow_1">
-            </div>
-            <div class="col_1of3">
-                <h1 class="hero_title center_text"> contact us </h1>
-            </div>
-            <div class="grow_1">
-            </div>
-        </div>
+        <div class="hero_img_container">
+			<img src="img/Earls-Chef-Collective3-01.jpg" alt="contact" class="hero_img">	
+			<div class="hero_title"><h1>Contact</h1></div>
+		</div>
 
         <div class="box small_section_padding tab_page_description center_text">
             <div class="grow_1">
@@ -113,13 +109,13 @@
             <div class="col_1of2 border_line">
 				
 					<form>
-						<label class="full_screen_form label_example">First Name, Last Name</label>
+						<label class="full_screen_form label_contact">First Name, Last Name</label>
 						<input class="full_screen_form form_input_bar" type="text"></input>
 
-						<label class="full_screen_form label_example">Email Address</label>
+						<label class="full_screen_form label_contact">Email Address</label>
 						<input class="full_screen_form form_input_bar" type="text"></input>
 
-						<label class="full_screen_form label_example">Message</label>
+						<label class="full_screen_form label_contact">Message</label>
 						<textarea class="full_screen_form form_input_text_area"></textarea>
 
 					</form>
