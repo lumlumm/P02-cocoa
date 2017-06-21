@@ -114,11 +114,10 @@ textarea{
 
 .hamburger_logo {
 	position: absolute;
-	top: 0;
-	width: 6rem;
+	top: 1rem;
+	width: 10rem;
 	margin-right: 2rem;
 	padding-bottom: 1rem;
-	padding-left: 0.6rem;
 }
 
 .dropdown {
@@ -213,7 +212,6 @@ textarea{
 }
 
 .tab_section_padding{
-	padding-top: 4rem;
 	padding-bottom: 3rem;
 }
 
@@ -223,40 +221,64 @@ textarea{
 
 .tab_img{
 	display: inline-block;
-	margin-left: 5rem;
-	margin-right: 1rem;
+	padding-right: 1rem;
+	width: 100%;
+}
+
+.tab_img_last{
+	display: inline-block;
+	width: 97%;
 }
 
 .img_caption{
-	margin-left: 5rem;
-	margin-right: 5rem;
+	margin-left: 1rem;
+	margin-right: 2rem;
 	padding-bottom: 2rem;
+	text-align: center;
 }
 
 .tab_description{
-	margin-left: 5rem;
-	margin-right: 5rem;
+	margin-left: 15rem;
+	margin-right: 15rem;
 	padding-bottom: 3rem;
+}
+
+.tab_content{
+	margin-left: 15rem;
+	margin-right: 15rem;
+	padding-bottom: 1rem;
+}
+
+.tab_content_last{
+	margin-left: 15rem;
+	margin-right: 15rem;
+	padding-bottom: 3rem;
+}
+
+.tab_box{
+	justify-content: center;
 }
 
 .menu_para{
 	margin-left: 1rem;
 	margin-right: 5rem;
 	padding-bottom: 1rem;
+	text-align: center;
 }
 
 .tab_content_header{
-	margin-left: 1rem;
-	margin-right: 5rem;
+/*	margin-left: 1rem;
+	margin-right: 5rem;*/
 	margin-top: 0;
+	text-align: center;
 }
 
 .img_div{
-	width: 35%;
+	width: 33%;
 }
 
-.tab_content{
-	width: 65%;
+.tab_img_container{
+	justify-content: center;
 }
 
 .order_btn_div{
@@ -393,6 +415,11 @@ textarea{
 .small_section_padding{
 	padding-top: 3rem;
 	padding-bottom: 3rem;
+}
+
+.tab_page_description{
+	letter-spacing: 0.05rem;
+	line-height: 2rem;
 }
 
 .smaller_section_padding{
