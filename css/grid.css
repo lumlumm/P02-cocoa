@@ -96,8 +96,40 @@
 }
 
 @media (max-width: 845px){
+	
+	.about_image{
+		width:100%;
+	}
+	
+	.overlay{
+		width:100%;
+	}
+	
+	.overlay2{
+		width:100%;
+	}
+	
+	.container{
+		width:100%;
+		padding-bottom:1rem;
+	}
+	
+	.container:hover .overlay {
+	   opacity: 1;
+	   width: 100%;
+		
+	}
+	
+	.img_team{
+		width:100%;
+	}
+	
 	.hamburger_menu{
 		display: block;
+	}
+	
+	.border_line{
+		border:none;
 	}
 
 	.topnav a:not(:first-child) {
@@ -139,16 +171,18 @@
 	}
 	
 	.full_screen_form{
-		width: 82%;
+		width: 80%;
+		margin-left:10%;
 	}
-
+	
 	.contact_map{
-		width: 85%;
-		float: left;
+		width: 90%;
+		height: 90%;
+		float:left;
 	}
 
 	.contact_map_padding{
-		margin-left: 5.2rem;
+		margin-left:11%;
 	}
 		
     .col_1of3{
@@ -194,21 +228,6 @@
 		width: 100%;
 	}
 
-	.feedback_text_grid{
-		margin-left: 3rem;
-		margin-right: 3rem;
-	}
-
-	.full_screen_form{
-		width: 82%;
-	}
-	.contact_map{
-		width: 85%;
-		float: left;
-	}
-	.contact_map_padding{
-		margin-left: 5.2rem;
-	}
 }
 
 @media (max-width: 635px){

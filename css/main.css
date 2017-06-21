@@ -47,7 +47,7 @@ a:active, a:hover, a:focus{
 
 button{
 	background-color: #213040;
-    border: none;
+    border: 1px solid #213040;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -334,6 +334,10 @@ textarea{
 	padding-right:3rem;
 }
 
+.p_text_spacing p{
+	line-height:1.8;
+}
+
 .bottom_padding{
 	margin-top: 3rem;
 }
@@ -381,7 +385,7 @@ textarea{
 
 .contact_submit_button{
 	margin-top: 1rem;
-	margin-left: 19.3rem;
+	margin-left: 19.2rem;
 }
 
 .cancel_button{
@@ -462,7 +466,7 @@ input[type=text], select {
 
 .form_input_text_area{
 	margin-left: 4rem;
-	height: 15rem;
+	height: 20rem;
 	resize: none;
 	width: 22rem;
     padding: 0.5rem 1rem;
@@ -470,6 +474,19 @@ input[type=text], select {
 }
 
 /* --------------- IMGS --------------*/
+
+.about_img{
+	opacity:.45;
+	width:95%;	
+}
+
+.about_img_title{
+	margin-top:-10rem;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+}
+
 
 .img_ex{
 	height: 12rem;
@@ -511,14 +528,6 @@ input[type=text], select {
 	letter-spacing: 0.03rem;
 }
 
-.img_gallery_ex{
-	margin: 1rem 1rem 1rem 1rem;
-	height: 12rem;
-	width: auto;
-	background-color: rgba(66,66,66,1);
-	padding-top: 4.5rem;
-}
-
 .gallery_title{
 	text-align: center;
 	color: white;
@@ -531,12 +540,10 @@ input[type=text], select {
 	color: white;
 }
 
-.img_team_ex{
-  margin: auto;
-  height: 12rem;
-  width: 25rem;
-  background-color: rgba(66,66,66,1);
-  padding-top: 4.5rem;
+.img_team{
+	display:block;
+	margin:auto;
+ 	width:80%;
 }
 
 .img_ex_client_feed{
@@ -547,13 +554,36 @@ input[type=text], select {
 }
 
 .contact_map{
-	height: 26.5rem;
-	width: 22rem;
+
+	height: 330px;
+	width: 330px;
 	background-color: rgba(66,66,66,1);
 	float: right;
+	display:block;
+
+}
+
+.map_text{
 	margin-right: 4rem;
 	margin-top: 1rem;
+	display:block;
+	float: right;
+	
 }
+
+.map_text_spacing p{
+	margin:0;
+	padding-top: 0;
+	padding-bottom: 1rem;
+}
+
+.map_text_spacing h4{
+	margin:0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+
 
 .contact_map_title{
 	text-align: center;
@@ -645,4 +675,79 @@ input[type=text], select {
 }
 #toggle3:checked ~ label::before {
   content: "-";
+}
+
+/*https://www.w3schools.com/howto/howto_css_image_overlay.asp*/
+
+.container {
+  position: relative;
+
+}
+
+.about_image {
+  display: block;
+  width: 96%;
+  margin:auto;	
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 96%;
+  margin:auto;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(255,255,255,.7);
+
+  
+}
+
+.container:hover .overlay {
+  opacity: 1;
+   width: 96%;
+
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background:none;
+  text-align:center;
+ 
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 96%;
+  margin:auto;
+  background-color:rgba(255,255,255,.7);
+
+}
+
+
+.text2 {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background:none;
+  text-align:center;
+ 
 }
