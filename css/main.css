@@ -542,7 +542,6 @@ textarea{
 }
 
 .social_media:active, .social_media:hover, .social_media:focus{
-	background-color: #213040;
 	padding: 1.5rem 0.5rem 0.5rem 0.5rem;
 }
 
@@ -948,11 +947,21 @@ input[type=text], select {
     background-size: cover;
 }
 
-.faq_input {
+.update_content{
+	font-size: 1rem;
+	line-height: 1.2rem;
+	letter-spacing: 0.05rem;
+}
+
+.post_padding{
+	padding-top: 4rem;
+}
+/*.faq_input {
 
   display: none;
 
-.faq_label {
+
+.faq_label{
 
   display: block;
 
@@ -972,5 +981,5 @@ input[type=text], select {
 
 }
 
-}
+}*/
 
