@@ -113,6 +113,7 @@
 		margin-right: 3rem;
 	}
 
+<<<<<<< HEAD
 	.feedback_text_right{
 		margin-right: 3rem;
 	}
@@ -179,6 +180,12 @@
 	.border_line{
 		border:none;
 	}
+=======
+@media (max-width: 845px){
+	.hamburger_menu{
+		display: block;
+	}
+>>>>>>> master
 
 	.topnav a:not(:first-child) {
 		display: none;
@@ -187,6 +194,7 @@
 	.topnav a.icon {
 		float: right;
 		display: block;
+<<<<<<< HEAD
 	}
 
 	.topnav.responsive {position: relative;}
@@ -195,6 +203,19 @@
 		right: 0;
 		top: 0;
 	}
+=======
+		padding-top: 1.6rem;
+		padding-right: 2rem;
+	}
+
+	.topnav.responsive {position: relative;}
+	.topnav.responsive a.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+>>>>>>> master
 	.topnav.responsive a {
 		float: none;
 		display: block;
@@ -254,7 +275,11 @@
 		display: block;
 		padding: 0 3rem 0 3rem;
 	}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> master
 	.tab_img_last{
 		padding: 0 3rem 0 3rem;
 		width: 100%;
@@ -268,9 +293,28 @@
 		padding-bottom: 1rem;
 	}
 
+<<<<<<< HEAD
 	.tab_content_header{
 		margin-top:0;
 		padding-top: 0rem;
+=======
+	.tab_content{
+		margin-left: 7rem;
+		margin-right: 7rem;
+		padding-bottom: 1rem;
+	}
+
+	.tab_content_last{
+		margin-left: 7rem;
+		margin-right: 7rem;
+		padding-bottom: 3rem;
+	}
+
+	.tab_description{
+		margin-left: 7rem;
+		margin-right: 7rem;
+		padding-bottom: 3rem;
+>>>>>>> master
 	}
 
 	.img_div{
@@ -289,6 +333,7 @@
 		margin-right: 7rem;
 		padding-bottom: 3rem;
 	}
+<<<<<<< HEAD
 	
 	.tab_description{
 		margin-left: 7rem;
@@ -298,6 +343,10 @@
 
 }
 
+=======
+	.contact_map_padding{
+		margin-left: 5.2rem;
+>>>>>>> master
 @media (max-width: 635px){
 	
 	.tab_bar_display{
@@ -315,11 +364,19 @@
 
 	.tab_img{
 		padding: 0;
+<<<<<<< HEAD
 	}
 	
 	.tab_img_last{
 		padding: 0;
 	}
+=======
+	}
+
+	.tab_img_last{
+		padding: 0;
+	}
+>>>>>>> master
 
 	.img_caption{
 		margin-left: 5rem;
@@ -344,12 +401,14 @@
 		padding-left: 1rem;
 	}
 
+<<<<<<< HEAD
 
-
+=======
 	.img_caption{
 		margin-left: 2rem;
 		margin-right: 2rem;
 	}
+>>>>>>> master
 
 	.menu_para{
 		margin-left: 2rem;
@@ -359,6 +418,24 @@
 	.tab_content_header{
 		margin-left: 2rem;
 		margin-right: 2rem;
+	}
+
+	.tab_description{
+		margin-left: 2rem;
+		margin-right: 2rem;
+		padding-bottom: 3rem;
+	}
+
+	.tab_content{
+		margin-left: 0rem;
+		margin-right: 0rem;
+		padding-bottom: 1rem;
+	}
+
+	.tab_content_last{
+		margin-left: 0rem;
+		margin-right: 0rem;
+		padding-bottom: 3rem;
 	}
 	
 	.tab_description{
@@ -389,4 +466,13 @@
 		padding-top: 1rem;
 		padding-bottom: 1rem;
 	}
+	
+	.img_feedback{
+		display: block;	
+	.feedback_text_right{
+	
+		margin-right: 3rem;
+	
+	.about_image{
+		width: 100%;
 }
