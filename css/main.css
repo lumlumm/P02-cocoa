@@ -170,6 +170,7 @@ textarea{
 .topnav {
     background-color: white;
     overflow: hidden;
+    padding-top: 0.7rem;
 }
 
 .topnav a {
@@ -202,6 +203,7 @@ textarea{
 	height: 20%;
 	padding-bottom: 1rem;
 	background-color: #E4EAF1;
+	margin-top: 4rem;
 }
 
 
@@ -290,7 +292,7 @@ textarea{
 .order_btn_div{
 	padding-top: 2rem;
 	padding-bottom: 2.5rem;
-	background-color: #E4EAF1;
+	/*background-color: #E4EAF1;*/
 }
 
 .next_btn_div{
@@ -1024,3 +1026,17 @@ input[type=text], select {
 
 }
 
+.update_content{
+	font-size: 1rem;
+	line-height: 1.2rem;
+	letter-spacing: 0.05rem;
+}
+
+.post_padding{
+	padding-top: 4rem;
+}
+
+.feedback_text_right{
+	text-align:right;
+	font-weight:bold;
+}

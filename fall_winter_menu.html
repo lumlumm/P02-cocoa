@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <script type="text/javascript" src="jjs/javascript.js"></script>
+
+    <title>7 Trades Food: Spring + Summer Menu</title>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Crimson%20Text" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+</head>
+
+<body>
+        <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  NAV BAR  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+
+        <div class="navbar">
+            <a href="index.html"><img src="img/logo.png" alt="logo" class="logo"> </a>
+
+            <div class="navbar_menu center_text">
+                <div class="dropdown">
+                    <a class="navbar_item" href="about.html"> About </a>
+                    <div class="dropdown_content">
+                        <a href="updates_events.html"> Events + updates </a>
+                        <a href="team.html"> Team members</a>
+                        <a href="feedback.html"> Client feedback </a>
+                        <a href="faq.html"> FAQ </a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <a class="navbar_item" href="menu.html"> Menu </a>
+                    <div class="dropdown_content">
+                        <a href="spring_summer_menu.html"> Spring / Summer </a>
+                        <a href="fall_winter_menu.html"> Fall / Winter </a>
+                        <a href="cakes.html"> Cakes </a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <a class="navbar_item" href="gallery.html"> Image Gallery </a>
+                    <div class="dropdown_content">
+                        <a href="events.html"> Events </a>
+                        <a href="food.html"> Food </a>
+                    </div>
+                </div>
+
+                <a class="navbar_item" href="contact.html"> Contact </a>
+
+                <a class="navbar_item" href="order.html"> Order </a>
+            </div>
+        </div>
+
+        <div class="hamburger_menu">
+            <div class="topnav" id="myTopnav">
+                <a href="index.html"> <img src="img/logo.png" alt="logo" class="hamburger_logo">  </a>
+                    <a href="about.html" class="hamburg_spacing"> About </a>
+            <!--             <a href="team.html"> team members</a>
+                        <a href="feedback.html"> client feedback </a>
+                        <a href="faq.html"> FAQ </a> -->
+                    <a href="menu.html"> Menu </a>
+            <!--             <a href="spring_summer_menu.html"> Spring / Summer </a>
+                        <a href="fall_winter_menu.html"> Fall / Winter </a>
+                        <a href="cakes.html"> Cakes </a> -->
+                    <a href="gallery.html"> Image Gallery </a>
+            <!--             <a href="events.html"> Events </a>
+                        <a href="food.html"> Food </a> -->
+                    <a href="contact.html"> Contact </a>
+                    <a href="order.html"> Order </a>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+        </div>
+
+
+
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  BODY  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+
+    <div class="body_margin">
+
+        <div class="hero_img_container">
+            <img src="img/fall_menu_bg.jpg" alt="contact" class="hero_img"> 
+            <div class="hero_title">
+                <h1>FALL/WINTER MENU</h1>
+            </div>
+        </div>
+
+        <div class="box small_section_padding tab_page_description center_text">
+            <div class="grow_1">
+            </div>
+            <div class="col_3of5">
+                <h4>The Fall and Winter Menu uses fresh ingredients that are only available in the spring and/or summer. Such as cherries, strawberries, blueberries, peaches, etc. We try our best to highlight these ingredients to compliment our chocolate desserts.</h4>
+            </div>
+            <div class="grow_1">
+            </div>
+        </div>
+
+        <div class="box tab_bar tab_section_padding">
+
+            <div class="tab_col_2of5">
+                <div class="events">
+                    <button class=" tab active_tab" onclick="openSSMenu(event,'buffet')">Buffet</button>
+                    <button class=" tab" onclick="openSSMenu(event,'a_la_carte')"> A La Carte</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="buffet" class="box SSMenu_type">
+
+            <p class="tab_description"> For the Buffet style catering, by entering the number of people attending and which kinds of dessert you would like at your event, we will tailor the amount of food provided to the number of people. If you have any special requests or would like more of one dessert than another, please let us know in the order form. 
+
+            <br> 
+            <br>
+
+            When you order we will charge you a base rate, if a dessert were to increase in cost, we will get back to you to further discuss the service we will be providing you.
+            </p>
+
+            <div class="box tab_box">
+                <div class="tab_content">
+                    <h4 class="tab_content_header"> Muffins </h4>
+                    <p class="menu_para"> Our homemade muffins are made from local ingredients and has various flavours.
+                    <br>
+                    Selection: Blueberry, Chocolate chunk and Walnuts, Cranberry and Oats, Banana, Orange.
+                    </p>
+                </div>
+
+                <div class="tab_content">
+                <h4 class="tab_content_header"> Seasonal Parfait </h4>
+                    <p class="menu_para"> The parfaits we make here, we try to highlight a fruit that is in season. The parfait includes yogurt, cornflakes, and a whole lot of fruit.
+                    <br>
+                    Selection: Strawberry, Blueberry, Rasberry, Green Tea
+                    </p>
+                </div>
+
+                <div class="tab_content">
+                <h4 class="tab_content_header"> Oat Fudge Bar </h4>
+                    <p class="menu_para"> Chocolatey delicious Fudge bars that everyone loves.
+                    </p>
+                </div>
+
+                <div class="tab_content">
+                <h4 class="tab_content_header"> Organic Berry Tart </h4>
+                    <p class="menu_para"> Orgnaic hand picked berries from locals are used in our Berry Tarts. With a delicious creamy custard filled in the tart.
+                    </p>
+                </div>
+
+                <div class="tab_content">
+                <h4 class="tab_content_header"> Lemon Poppy Seed Ice Cream </h4>
+                    <p class="menu_para"> Fresh lemons used as the main ingredient in the ice cream along with poppy seeds. It has a deliciously sour flavor and comes with complimentary crackers.
+                    </p>
+                </div>
+
+                <div class="tab_content_last">
+                <h4 class="tab_content_header"> Opera Cake </h4>
+                    <p class="menu_para"> Our famous Opera Cake is made carefully by our chefs. It has 3 layers of dense chocolate cake, 2 layerous of fluffy mouse, 1 layer of chocolate mouse, and finally 1 piece of tempered chocolate to top it off.
+                    </p>
+                </div>
+
+                <div class="box tab_img_container">
+                    <div class="img_div">
+                        <img class="tab_img" src="img/blueberry_muffin.jpg" alt="blueberry muffins">
+                        <p class="img_caption"> Blueberry muffins </p>
+                    </div>
+
+                    <div class="img_div">
+                        <img class="tab_img" src="img/parfait.jpg" alt="strawberry parfait">
+                        <p class="img_caption"> Strawberry parfait </p>
+                    </div>
+
+                    <div class="img_div">
+                        <img class="tab_img_last" src="img/oatfudgebar.jpg" alt="oat fudge">
+                        <p class="img_caption"> Oat Fudge Bar </p>
+                    </div>
+
+                    <div class="img_div">
+                        <img class="tab_img" src="img/berrytart.jpeg" alt="berry tart">
+                        <p class="img_caption"> Berry Tart </p>
+                    </div>
+
+                    <div class="img_div">
+                        <img class="tab_img" src="img/icecream.jpg" alt="lemon poppy ice cream">
+                        <p class="img_caption"> Lemon Poppy Seed Ice Cream </p>
+                    </div>
+
+                    <div class="img_div">
+                        <img class="tab_img_last" src="img/opera-cake.jpg" alt="opera cake">
+                        <p class="img_caption"> Opera Cake </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="a_la_carte" class="box SSMenu_type" style="display:none">
+
+            <p class="tab_description"> For the A La Carte style catering, you can choose how much of each item you would like to order. We recommend ordering 3-4 of each of the dessert per person in the event.
+
+            <br> 
+            <br>
+
+            When you order we will charge you a base rate, if a dessert were to increase in cost, we will get back to you to further discuss the service we will be providing you.
+            </p>
+
+            <div class="box tab_box">
+                <div class="tab_content">
+                    <h4 class="tab_content_header"> Assorted Macarons </h4>
+                    <p class="menu_para"> Inspired by French-style macarons, all our macarons are made by hand by our pastry chefs.
+                    <br>
+                    Selection: Chocolate, Strawberry, Lemon
+                    </p>
+                </div>
+
+                <div class="tab_content">
+                <h4 class="tab_content_header"> Mango Mille Crepe </h4>
+                    <p class="menu_para">Our mangoes are freshly imported from Mexico. They are sliced with percision and stacked between delicate thin crepe. Drizzled with mango coulis.
+                    </p>
+                </div>
+
+                <div class="tab_content">
+                <h4 class="tab_content_header"> Molten Chocolate Cake </h4>
+                    <p class="menu_para"> Delicious 75% dark chocolate imported from South America is used in our Molten Chocolate Cake and it's topped if rasberry for a hint of tangy-ness.
+                    </p>
+                </div>
+
+                <div class="tab_content">
+                <h4 class="tab_content_header"> Triple Berry Milkshake  </h4>
+                    <p class="menu_para"> Signiture Triple Berry Strawberry Milkshake is made with freshly blended fruits along with vanilla ice cream. To top it off, we sprinkle in the fruits chunks for extra texture.
+                    </p>
+                </div>
+
+                <div class="tab_content">
+                <h4 class="tab_content_header"> Hazelnut Chocolate Truffles </h4>
+                    <p class="menu_para"> Fresh lemons used as the main ingredient in the ice cream along with poppy seeds. It has a deliciously sour flavor and comes with complimentary crackers.
+                    </p>
+                </div>
+
+                <div class="tab_content_last">
+                <h4 class="tab_content_header"> Mont Blanc Cake </h4>
+                    <p class="menu_para"> Our famous Opera Cake is made carefully by our chefs. It has 3 layers of dense chocolate cake, 2 layerous of fluffy mouse, 1 layer of chocolate mouse, and finally 1 piece of tempered chocolate to top it off.
+                    </p>
+                </div>
+
+                <div class="box tab_img_container">
+                    <div class="img_div">
+                        <img class="tab_img" src="img/Macarons.jpg" alt="Assorted Macarons">
+                        <p class="img_caption"> Assorted Macaeons </p>
+                    </div>
+
+                    <div class="img_div">
+                        <img class="tab_img" src="img/millecrepe.jpg" alt="Mille Crepe">
+                        <p class="img_caption"> Mango Mille Crepe </p>
+                    </div>
+
+                    <div class="img_div">
+                        <img class="tab_img_last" src="img/moltenchococake.jpg" alt="Molten Chocolate Cake">
+                        <p class="img_caption"> Molten Chocolate Cake </p>
+                    </div>
+
+                    <div class="img_div">
+                        <img class="tab_img" src="img/milkshake.jpg" alt="Milkshake">
+                        <p class="img_caption"> Triple Berry Milkshake </p>
+                    </div>
+
+                    <div class="img_div">
+                        <img class="tab_img" src="img/Truffles.jpg" alt="Hazelnut Chocolate Truffles">
+                        <p class="img_caption"> Hazelnut Chocolate Truffles </p>
+                    </div>
+
+                    <div class="img_div">
+                        <img class="tab_img_last" src="img/montblanc.jpeg" alt="Mont Blanc">
+                        <p class="img_caption"> Mont Blanc </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="order_btn_div center_text">
+            <h2> Choose this menu! </h2>
+            <a href="order.html"> <button class="order_button"> Order now </button> </a>
+        </div>
+    </div>
+
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  FOOTER  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+        <div class="footer center_text footer_padding center">
+
+            <p class="footer_title"> Follow us! </p>
+            <div class="social_media facebook"> <a href=""> </a> </div>
+            <div class="social_media instagram"> <a href=""> </a> </div>
+            <div class="social_media twitter"> <a href=""> </a> </div>
+
+        </div>
+</body>
+
+</html>
