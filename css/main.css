@@ -159,6 +159,10 @@ textarea{
 	z-index: 1000;
 }
 
+.hamburg_sub_indent{
+	padding-left: 3rem;
+}
+
 .topnav {
     background-color: white;
     overflow: hidden;
@@ -267,8 +271,6 @@ textarea{
 }
 
 .tab_content_header{
-/*	margin-left: 1rem;
-	margin-right: 5rem;*/
 	margin-top: 0;
 	text-align: center;
 }
@@ -296,7 +298,7 @@ textarea{
 .homepage_title{
 	position: absolute;
 	left: 0;
-	top: 35%;
+	top: 50%;
 	width: 100%;
 	text-align: center; 
 }
@@ -328,8 +330,12 @@ textarea{
 }
 
 .hero_img{
-	 opacity:.45;
-	 width:100%; 
+	 opacity: .45;
+	 width: 100%; 
+}
+
+.homepage_img{
+	width: 100%;
 }
 
 .section_img{
