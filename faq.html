@@ -1,171 +1,385 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
+
+
 <head>
+
     <meta charset="utf-8">
+
     <link rel="stylesheet" href="css/main.css">
+
     <link rel="stylesheet" href="css/grid.css">
+
     <script type="text/javascript" src="jjs/javascript.js"></script>
 
+
+
     <title>7Trades FAQ</title>
+
     <meta name=viewport content="width=device-width, initial-scale=1">
 
+
+
     <link href="https://fonts.googleapis.com/css?family=Crimson%20Text" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+
 </head>
 
+
+
 <body>
+
     <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  NAV BAR  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
 
+
+
+
     <div class="navbar">
+
         <a href="index.html"><img src="img/logo.png" alt="logo" class="logo"> </a>
 
+
+
         <div class="navbar_menu center_text">
+
             <div class="dropdown">
+
                 <a class="navbar_item" href="about.html"> About </a>
+
                 <div class="dropdown_content">
+
                     <a href="team.html"> team members</a>
+
                     <a href="feedback.html"> client feedback </a>
+
                     <a href="faq.html"> FAQ </a>
+
                 </div>
+
             </div>
 
+
+
             <div class="dropdown">
+
                 <a class="navbar_item" href="menu.html"> Menu </a>
+
                 <div class="dropdown_content">
+
                     <a href="spring_summer_menu.html"> Spring / Summer </a>
+
                     <a href="fall_winter_menu.html"> Fall / Winter </a>
+
                     <a href="cakes.html"> Cakes </a>
+
                 </div>
+
             </div>
 
+
+
             <div class="dropdown">
+
                 <a class="navbar_item" href="gallery.html"> Image Gallery </a>
+
                 <div class="dropdown_content">
+
                     <a href="events.html"> Events </a>
+
                     <a href="food.html"> Food </a>
+
                 </div>
+
             </div>
+
+
 
             <a class="navbar_item" href="contact.html"> Contact </a>
 
+
+
             <a class="navbar_item" href="order.html"> Order </a>
+
         </div>
+
     </div>
 
+
+
     <div class="hamburger_menu">
-        <img src="img/logo.png" alt="logo" class="logo">
-        <button class="hamburger_button"> Menu </button>
-        <div>
-            <a href="about.html"> About </a>
-            <a href="team.html"> team members</a>
-            <a href="feedback.html"> client feedback </a>
-            <a href="faq.html"> FAQ </a>
-            <a href="menu.html"> Menu </a>
-            <a href="spring_summer_menu.html"> Spring / Summer </a>
-            <a href="fall_winter_menu.html"> Fall / Winter </a>
-            <a href="cakes.html"> Cakes </a>
-            <a href="gallery.html"> Image Gallery </a>
-            <a href="events.html"> Events </a>
-            <a href="food.html"> Food </a>
-            <a href="contact.html"> Contact </a>
-            <a href="order.html"> Order </a>
+
+        <div class="topnav" id="myTopnav">
+
+            <a href="index.html"> <img src="img/logo.png" alt="logo" class="hamburger_logo">  </a>
+
+                <a href="about.html" class="hamburg_spacing"> About </a>
+
+        <!--             <a href="team.html"> team members</a>
+
+                    <a href="feedback.html"> client feedback </a>
+
+                    <a href="faq.html"> FAQ </a> -->
+
+                <a href="menu.html"> Menu </a>
+
+        <!--             <a href="spring_summer_menu.html"> Spring / Summer </a>
+
+                    <a href="fall_winter_menu.html"> Fall / Winter </a>
+
+                    <a href="cakes.html"> Cakes </a> -->
+
+                <a href="gallery.html"> Image Gallery </a>
+
+        <!--             <a href="events.html"> Events </a>
+
+                    <a href="food.html"> Food </a> -->
+
+                <a href="contact.html"> Contact </a>
+
+                <a href="order.html"> Order </a>
+
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+
         </div>
+
     </div>
+
+
+
 
 
     <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  BODY  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
 
+
+
+
     <div class="body_margin">
 
-        <div class="box light_grey">
-            <div class="grow_1">
-            </div>
-            <div class="col_1of3">
-                <h1 class="hero_title center_text"> faq </h1>
-            </div>
-            <div class="grow_1">
-            </div>
-        </div>
+	
+
+        <div class="hero_img_container">
+
+			<img src="img/faqimg.jpg" alt="feedback img" class="hero_img">	
+
+			<div class="hero_title"><h1>FAQ</h1></div>
+
+		</div>
+
+
 
         <div class="box small_section_padding tab_page_description center_text">
+
             <div class="grow_1">
+
             </div>
+
             <div class="col_3of5">
-                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-				Sed ut nunc at sem egestas blandit eget quis nisl. Donec 
-				sapien libero, pellentesque sed purus eget, tristique tincidunt 
-				ipsum.</h4>
+
+                <h4>Got some questions for us? We are here to help! If you find that your question is not here, you can ask us directly at our
+
+				<a href="contacts.html" class="faq_text_link">Contacts</a> page</h4>
+
             </div>
+
             <div class="grow_1">
+
             </div>
+
         </div>
+
+
 
         <div class="box faq_container">
 
+
+
             <div class="col_1of5">
+
             </div>
 
+
+
             <div class="col_3of5">
+
+
+
 
 
                 <div class="box smaller_section_padding ">
 
-                    <!--https://codepen.io/peternguyen/pen/hICga-->
+					
+
+					<!-- content for all FAQ taken from https://www.savourychef.com/help-faq/-->
+
+					
+
                     <input class="faq_input" id="toggle1" type="checkbox">
-                    <label class="faq_label" for="toggle1">Lorem ipsum dolor sit ametasdasdada, do eiusmod tempor incididunt ut labore et</label>
+
+                    <label class="faq_label" for="toggle1">
+
+						Do you offer any other services?
+
+					</label>
+
                     <div id="expand1">
+
                         <section>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+                            <p>
+
+							We do offer contracted services outside of the core business model. Contact us to discuss booking a private cooking class, menu development, food styling, and other general industry inquiries.  We also provide all the necessary staff and rentals for your event.
+
                             </p>
+
                         </section>
+
                     </div>
+
+
 
                     <input class="faq_input" id="toggle2" type="checkbox">
-                    <label class="faq_label" for="toggle2">Lorem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmod tempor incididunt ut labore et</label>
-                    <div id="expand2">
+
+                    <label class="faq_label" for="toggle2">
+
+						I have a favourite dessert I don’t see on your menu, can you make it for my event?         
+
+                    </label>
+
+					<div id="expand2">
+
                         <section>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            </p>
+
+                            <p>
+
+							We would love to. Our goal is to design a menu that fits with your vision, and equally to ours. Please inquire.							
+
+							</p>
+
                         </section>
+
                     </div>
 
+
+
                     <input class="faq_input" id="toggle3" type="checkbox">
-                    <label class="faq_label" for="toggle3">Lorem ipsum dolor sio eiusmod tempor incididunt ut labore et</label>
+
+                    <label class="faq_label" for="toggle3">
+
+						Can I supply my own alcohol for the event? Is there anything I need to know?
+
+					</label>
+
                     <div id="expand3">
+
                         <section>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+                            <p>
+
+							Yes you may supply your own alcohol for the event, as long as you do hire our own bartenders to serve it. All staff must hold a valid Sering It Right license in order to serve alcohol. You may be required to obtain a Special Occasion License, depending on where your venue.
+
                             </p>
+
                         </section>
+
                     </div>
+
+					
+
+					<input class="faq_input" id="toggle4" type="checkbox">
+
+                    <label class="faq_label" for="toggle4">
+
+						Can I purchase a gift certificate for your services?		
+
+					</label>
+
+                    <div id="expand4">
+
+                        <section>
+
+                            <p>
+
+							Yes we offer many different denominations of gift certificates, that can be put towards our full service catering, or our delivery menus.
+
+                            </p>
+
+                        </section>
+
+                    </div>
+
+					
+
+					<input class="faq_input" id="toggle5" type="checkbox">
+
+                    <label class="faq_label" for="toggle5">
+
+						How far in advance should should I request a booking?
+
+					</label>
+
+                    <div id="expand5">
+
+                        <section>
+
+                            <p>
+
+							During peak seasons (summer and winter months), it is best to book at least 3 to 6 months in advance. For long weekends, we recommend booking even earlier. We try to accommodate last minute requests the best we can, but these requests are subject to our booking availability. We are a rapidly growing company, and do get booked up very quickly. Once we have received your initial deposit of 25% and a signed contract, we will book the day off.
+
+                            </p>
+
+                        </section>
+
+                    </div>
+
+
 
                 </div>
 
 
+
             </div>
+
             <div class="col_1of5">
+
             </div>
+
         </div>
 
+
+
         <div class="bottom_padding">
+
             <div class="box  bot_light_grey">
+
             </div>
+
         </div>
+
     </div>
+
+
 
 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  FOOTER  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
-        <div class="footer center_text">
 
-            <p> Follow us! </p>
-            <a href="" class="social_media"><img src="img/facebook.png" alt="facebook" width="25"></a>
-            <a href="" class="social_media"><img src="img/instagram.png" alt="instagram" width="25"></a>
-            <a href="" class="social_media"><img src="img/twitter.png" alt="twitter" width="25"></a>
+        <div class="footer center_text footer_padding center">
+
+            <p class="footer_title"> Follow us! </p>
+            <div class="social_media facebook"> <a href=""> </a> </div>
+            <div class="social_media instagram"> <a href=""> </a> </div>
+            <div class="social_media twitter"> <a href=""> </a> </div>
+
         </div>
-    </div>
+
+
 
 </body>
+
+
 
 </html>

@@ -54,22 +54,22 @@
     </div>
 
     <div class="hamburger_menu">
-        <img src="img/logo.png" alt="logo" class="logo">
-        <button class="hamburger_button"> Menu </button>
-        <div>
-            <a href="about.html"> About </a>
-            <a href="team.html"> team members</a>
-            <a href="feedback.html"> client feedback </a>
-            <a href="faq.html"> FAQ </a>
-            <a href="menu.html"> Menu </a>
-            <a href="spring_summer_menu.html"> Spring / Summer </a>
-            <a href="fall_winter_menu.html"> Fall / Winter </a>
-            <a href="cakes.html"> Cakes </a>
-            <a href="gallery.html"> Image Gallery </a>
-            <a href="events.html"> Events </a>
-            <a href="food.html"> Food </a>
-            <a href="contact.html"> Contact </a>
-            <a href="order.html"> Order </a>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html"> <img src="img/logo.png" alt="logo" class="hamburger_logo">  </a>
+                <a href="about.html" class="hamburg_spacing"> About </a>
+        <!--             <a href="team.html"> team members</a>
+                    <a href="feedback.html"> client feedback </a>
+                    <a href="faq.html"> FAQ </a> -->
+                <a href="menu.html"> Menu </a>
+        <!--             <a href="spring_summer_menu.html"> Spring / Summer </a>
+                    <a href="fall_winter_menu.html"> Fall / Winter </a>
+                    <a href="cakes.html"> Cakes </a> -->
+                <a href="gallery.html"> Image Gallery </a>
+        <!--             <a href="events.html"> Events </a>
+                    <a href="food.html"> Food </a> -->
+                <a href="contact.html"> Contact </a>
+                <a href="order.html"> Order </a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
     </div>
 
@@ -79,15 +79,10 @@
 
     <div class="body_margin">
 
-        <div class="box light_grey">
-            <div class="grow_1">
-            </div>
-            <div class="col_1of3">
-                <h1 class="hero_title center_text"> Events </h1>
-            </div>
-            <div class="grow_1">
-            </div>
-        </div>
+        <div class="hero_img_container">
+			<img src="img/eventsbannerimg.jpg" alt="about" class="hero_img">	
+			<div class="hero_title"><h1>Events</h1></div>
+		</div>
 
         <div class="box box small_section_padding tab_page_description center_text">
             <div class="grow_1">
@@ -105,45 +100,49 @@
         <div class="box tab_bar tab_section_padding">
 
             <div class="tab_col_2of5">
-                <!--https://www.w3schools.com/w3css/w3css_tabulators.asp-->
                 <div class="events">
-                    <button class=" tab active_tab" onclick="openEvent(event,'weddings')">Weddings</button>
-                    <button class=" tab" onclick="openEvent(event,'private_events')">Private Events</button>
-                    <button class=" tab" onclick="openEvent(event,'corporate_events')">Corporate Events</button>
+                    <button class=" tab active_tab tab_bar_display" onclick="openEvent(event,'weddings')">Weddings</button>
+                    <button class=" tab tab_bar_display" onclick="openEvent(event,'private_events')">Private Events</button>
+                    <button class=" tab tab_bar_display" onclick="openEvent(event,'corporate_events')">Corporate Events</button>
                 </div>
             </div>
         </div>
 
-        <div id="weddings" class=" event_type">
-            <p class="tab_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut nunc at sem egestas blandit eget quisapien libero, pellentesque sed purus eget, tristique tincidunt ipsum. Maecenas sit amet lorem turpis. Pellentesque elementum nunc viverra placnissim quam. Nulla rhoncus lorem dolor, non blandit nunc ullamcorper pretium.
+        <div id="weddings" class=" box event_type">
+
+            <p class="tab_description"> 
+			The Spring and Summer Menu uses fresh ingredients that are only available in the spring and/or summer. Such as cherries, strawberries, blueberries, peaches, etc. We try our best to highlight these ingredients to compliment our chocolate desserts.
             </p>
 
-            <div class="box center_text img_gallery">
+            <div class="box tab_box">
+                <div class="box tab_img_container">
+                    <div class="img_div">
+                        <img class="tab_img" src="img/Macarons.jpg" alt="Assorted Macarons">
+                    </div>
 
-                <div class="col_1of3 gallery_grid">
-                    <img class="tab_img" src="img/dark_grey.png" alt="img" width="310" height="190">
-                    <img class="tab_img" src="img/dark_grey.png" alt="img" width="310" height="190">
-                    <img class="tab_img" src="img/dark_grey.png" alt="img" width="310" height="190">
-	
-                </div>
+                    <div class="img_div">
+                        <img class="tab_img" src="img/millecrepe.jpg" alt="Mille Crepe">
+                    </div>
 
-                <div class="col_1of3 gallery_grid">
-                    <img class="tab_img" src="img/dark_grey.png" alt="img" width="310" height="190">
-                    <img class="tab_img" src="img/dark_grey.png" alt="img" width="310" height="190">
-                    <img class="tab_img" src="img/dark_grey.png" alt="img" width="310" height="190">
-                </div>
+                    <div class="img_div">
+                        <img class="tab_img_last" src="img/moltenchococake.jpg" alt="Molten Chocolate Cake">
+                    </div>
 
-                <div class="col_1of3 gallery_grid">
-                    <img class="tab_img" src="img/dark_grey.png" alt="img" width="310" height="190">
-                    <img class="tab_img" src="img/dark_grey.png" alt="img" width="310" height="190">
-                    <img class="tab_img" src="img/dark_grey.png" alt="img" width="310" height="190">
+                    <div class="img_div">
+                        <img class="tab_img" src="img/milkshake.jpg" alt="Milkshake">
+                    </div>
 
+                    <div class="img_div">
+                        <img class="tab_img" src="img/Truffles.jpg" alt="Hazelnut Chocolate Truffles">
+                    </div>
+
+                    <div class="img_div">
+                        <img class="tab_img_last" src="img/montblanc.jpeg" alt="Mont Blanc">
+                    </div>
                 </div>
             </div>
-
-
         </div>
-    </div>
+
 
     <div id="private_events" class=" event_type" style="display:none;">
         <p class="tab_description">Lorem ipsum dolor sit amstas blandit eget quisapien libero, pellentesque sed purus eget, tristique tincidunt ipsum. Maecenas sit amet lorem turpis. Pellentesque elementum nunc viverra placerat ornare. Curabitur ultricies sollicitudin ultricies. Praesent vitae dui dictum, maximus nisl feugiat, dignissim quam. Nulla rhoncus lorem dolor, non blandit nunc ullamcorper pretium.
@@ -205,14 +204,14 @@
 
 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  FOOTER  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
-        <div class="footer center_text">
+        <div class="footer center_text footer_padding center">
 
-            <p> Follow us! </p>
-            <a href="" class="social_media"><img src="img/facebook.png" alt="facebook" width="25"></a>
-            <a href="" class="social_media"><img src="img/instagram.png" alt="instagram" width="25"></a>
-            <a href="" class="social_media"><img src="img/twitter.png" alt="twitter" width="25"></a>
+            <p class="footer_title"> Follow us! </p>
+            <div class="social_media facebook"> <a href=""> </a> </div>
+            <div class="social_media instagram"> <a href=""> </a> </div>
+            <div class="social_media twitter"> <a href=""> </a> </div>
+
         </div>
-    </div>
 
 </body>
 

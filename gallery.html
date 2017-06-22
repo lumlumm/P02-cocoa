@@ -55,22 +55,22 @@
         </div>
 
         <div class="hamburger_menu">
-            <img src="img/logo.png" alt="logo" class="logo">
-            <button class="hamburger_button"> Menu </button>
-            <div>
-                <a href="about.html"> About </a>
-                    <a href="team.html"> team members</a>
-                    <a href="feedback.html"> client feedback </a>
-                    <a href="faq.html"> FAQ </a>
-                <a href="menu.html"> Menu </a>
-                    <a href="spring_summer_menu.html"> Spring / Summer </a>
-                    <a href="fall_winter_menu.html"> Fall / Winter </a>
-                    <a href="cakes.html"> Cakes </a>
-                <a href="gallery.html"> Image Gallery </a>
-                    <a href="events.html"> Events </a>
-                    <a href="food.html"> Food </a>
-                <a href="contact.html"> Contact </a>
-                <a href="order.html"> Order </a>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html"> <img src="img/logo.png" alt="logo" class="hamburger_logo">  </a>
+                    <a href="about.html" class="hamburg_spacing"> About </a>
+            <!--             <a href="team.html"> team members</a>
+                        <a href="feedback.html"> client feedback </a>
+                        <a href="faq.html"> FAQ </a> -->
+                    <a href="menu.html"> Menu </a>
+            <!--             <a href="spring_summer_menu.html"> Spring / Summer </a>
+                        <a href="fall_winter_menu.html"> Fall / Winter </a>
+                        <a href="cakes.html"> Cakes </a> -->
+                    <a href="gallery.html"> Image Gallery </a>
+            <!--             <a href="events.html"> Events </a>
+                        <a href="food.html"> Food </a> -->
+                    <a href="contact.html"> Contact </a>
+                    <a href="order.html"> Order </a>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
             </div>
         </div>
 
@@ -81,44 +81,48 @@
 
     <div class="body_margin">
 
-        <div class="box light_grey">
-            <div class="grow_1">
-            </div>
-            <div class="col_1of3">
-                <h1 class="hero_title center_text"> Gallery </h1>
-            </div>
-            <div class="grow_1">
-            </div>
-        </div>
+        <div class="hero_img_container">
+			<img src="img/galleryimg.jpg" alt="img gallery" class="hero_img">	
+			<div class="hero_title"><h1>image gallery</h1></div>
+		</div>
 
         <div class="box small_section_padding tab_page_description center_text">
             <div class="grow_1">
             </div>
             <div class="col_3of5">
-                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-				Sed ut nunc at sem egestas blandit eget quis nisl. Donec 
-				sapien libero, pellentesque sed purus eget, tristique tincidunt 
-				ipsum.</h4>
+                <h4>You can view examples of our event setups as well as our menu options in these photo galleries.</h4>
             </div>
             <div class="grow_1">
             </div>
         </div>
 
-
         <div class="box img_gallery">
             <div class="col_1of2">
                 <a href="events.html">
-                <div class="img_gallery_ex">
-                    <h2 class="gallery_title"> Events </h2>
-                </div>
+				<!--https://www.w3schools.com/howto/howto_css_image_overlay.asp-->
+					<div class ="container">
+						<img src="img/imggalleryevent.jpg" alt="team" class="about_image">
+						<div class="overlay">
+							<div class="text"><h2>Events</h2></div>
+						</div>
+						<div class="overlay2">
+							<div class="text2"><h2>Events</h2></div>
+						</div>
+					</div>
                 </a>
             </div>
 
             <div class="col_1of2">
                 <a href="food.html">
-                <div class="img_gallery_ex">
-                    <h2 class="gallery_title"> Food </h2>
-                </div>
+					<div class ="container">
+						<img src="img/imggalleryfood.jpg" alt="team" class="about_image">
+						<div class="overlay">
+							<div class="text"><h2>Food</h2></div>
+						</div>
+						<div class="overlay2">
+							<div class="text2"><h2>Food</h2></div>
+						</div>
+					</div>
                 </a>
             </div>
 
@@ -134,14 +138,14 @@
 
 <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  FOOTER  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
-        <div class="footer center_text">
+        <div class="footer center_text footer_padding center">
 
-            <p> Follow us! </p>
-            <a href="" class="social_media"><img src="img/facebook.png" alt="facebook" width="25"></a>
-            <a href="" class="social_media"><img src="img/instagram.png" alt="instagram" width="25"></a>
-            <a href="" class="social_media"><img src="img/twitter.png" alt="twitter" width="25"></a>
+            <p class="footer_title"> Follow us! </p>
+            <div class="social_media facebook"> <a href=""> </a> </div>
+            <div class="social_media instagram"> <a href=""> </a> </div>
+            <div class="social_media twitter"> <a href=""> </a> </div>
+
         </div>
-    </div>
 
 </body>
 
