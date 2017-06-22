@@ -487,9 +487,28 @@ textarea{
 }
 
 .cancel_button:active, .cancel_button:hover, .cancel_button:focus{
-	background-color: #BF3C12;
+	background-color: #F83F31;
 	color: white;
 	border: none;
+}
+
+.form_button{
+	background-color: white;
+	color: #77ADE5;
+	border: #77ADE5 1px solid;
+    padding: 15px 32px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Crimson Text";
+    font-size: 0.6em;
+    letter-spacing: 0.15em;
+    transition: background-color 0.2s;
+}
+
+.form_button:active, .form_button:hover, .form_button:focus{
+	background-color: #77ADE5;
+    border: white 1px solid;
+    color: white;
 }
 
 .social_media{
@@ -499,11 +518,10 @@ textarea{
 	border: #213040 1px solid;
 }
 
-/* light grey: #E4EAF1*/
-
 .social_media:active, .social_media:hover, .social_media:focus{
 	background-color: #213040;
 }
+
 .sm_icon{
 	width: 50px;
 	height: 50px;
@@ -754,4 +772,84 @@ input[type=text], select {
 }
 #toggle3:checked ~ label::before {
   content: "-";
+}
+
+
+.container {
+  position: relative;
+
+}
+
+.about_image {
+  display: block;
+  width: 96%;
+}
+
+.hover_image_spacing{
+  padding: 1rem 1rem 1rem 1rem;	
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 96%;
+  margin:auto;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(255,255,255,1);
+}
+
+.container:hover .overlay {
+  opacity: 1;
+  width: 96%;
+	  color: #77ADE5;
+	  text-decoration: underline;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background:none;
+  text-align:center;
+ 
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 96%;
+  margin:auto;
+  background-color:rgba(255,255,255,.7);
+
+}
+
+
+.text2 {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background:none;
+  text-align:center;
+
+}
+
+.text2:hover, .text2:focus, .text2:active{
+	  color: #77ADE5;
+	  text-decoration: underline;
 }
