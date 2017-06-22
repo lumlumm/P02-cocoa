@@ -728,6 +728,12 @@ input[type=text], select {
 	border-left: 1px solid;
 }
 
+.fall_winter_section{
+	background-image: url('https://www.sfu.ca/~mmc29/IAT339/P02/fall_menu_hover.jpg');
+	background-repeat: no-repeat;
+	transition: background-image 0.5s;
+}
+
 /* --- ACCORDIAN COLLAPSE ---*/
 
 
