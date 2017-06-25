@@ -1,7 +1,5 @@
 /* --- ACCORDIAN COLLAPSE ---*/
 
-
-
 *, *::after, *::before {
 	box-sizing: border-box;
 }
@@ -31,9 +29,10 @@ h4{
 }
 
 p, ol, ul{
-	font-family: 'Crimson Text', serif;
+	font-family: 'Abel', serif;
 	font-size: 0.9em;
 	color: #393B39;
+	letter-spacing: 0.1rem;
 }
 
 a{
@@ -45,7 +44,7 @@ a{
 }
 
 a:active, a:hover, a:focus{
-	color: #77ADE5;
+	color: #F79D34;
 	text-decoration: underline;
 }
 
@@ -88,32 +87,47 @@ textarea{
     border-bottom: solid #D4E8ED 0.25px;
     margin: 0;
     z-index: 1000;
+    justify-content: space-around;
 }
 
 .navbar_item{
     display: inline-block;
-	margin: 2.5rem 1.5rem 1.5rem 1.5rem;
-	color: #213040;
-	text-align: center;
-	text-decoration: none;
-	font-size: 16px;
+	margin: 0 1.5rem 1rem 1.5rem;
 
-	transition: color 0.6s;
-	transition: underline 0.6s;
+	color: #213040;
+	text-decoration: none;
+	font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+
+	transition: color 0.4s;
 }
 
 .navbar_item:hover, .navbar_item:active, .navbar_item:focus{
-	color: #77ADE5;
+	color: #F79D34;
 	text-decoration: underline;
 }
 
-.logo {
-	position: absolute;
-	bottom: 0;
-	width: 10rem;
-	margin-right: 2rem;
-	margin-bottom: 1.2rem;
-	margin-left: 1.5rem;
+.logo_box{
+	width: 100%;
+	margin-top: 1rem;
+	margin-bottom: 0.5rem;
+}
+
+/*.logo {
+	font-weight: 900;
+	font-size: 1.5rem;
+	letter-spacing: 0.2rem;
+	font-family: 'Lora';
+}*/
+
+.logo{
+	width: 18%;
+}
+
+.logo:hover, .logo:active, .logo:focus{
+	text-decoration: none;
+	color: #213040;
 }
 
 .hamburger_logo {
@@ -151,7 +165,7 @@ textarea{
 }
 
 .dropdown_content a:hover{
-	color: #77ADE5;
+	color: #F79D34;
 }
 
 .hamburger_menu{
@@ -564,7 +578,6 @@ textarea{
 }
 
 .social_media:active, .social_media:hover, .social_media:focus{
-	background-color: #213040;
 	padding: 1.5rem 0.5rem 0.5rem 0.5rem;
 }
 
@@ -1039,4 +1052,12 @@ input[type=text], select {
 .feedback_text_right{
 	text-align:right;
 	font-weight:bold;
+}
+
+.p_text_spacing p{
+	line-height:1.8;
+}
+
+.member_padding{
+	padding-bottom: 0rem;
 }

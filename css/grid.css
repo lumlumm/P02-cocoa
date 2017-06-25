@@ -193,7 +193,7 @@
 	.topnav.responsive a.icon {
 		position: absolute;
 		right: 0;
-		top: 0;
+		top: 0.7rem;
 	}
 	.topnav.responsive a {
 		float: none;
@@ -293,6 +293,10 @@
 	.tab_description{
 		margin-left: 7rem;
 		margin-right: 7rem;
+		padding-bottom: 3rem;
+	}
+
+	.member_padding{
 		padding-bottom: 3rem;
 	}
 
