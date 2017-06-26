@@ -8,7 +8,7 @@
 }
 
 .col_1of3{
-	width: 33%;
+	width: 33.33%;
 }
 
 .col_1of5{
@@ -34,7 +34,6 @@
 /* ------- TAB PAGE SPECIFIC-------- */
 
 .tab_col_2of5{
-	padding-left: 5rem;	
 	float: left;
 }
 

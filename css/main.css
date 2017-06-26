@@ -217,39 +217,46 @@ textarea{
 
 /* --- TABS ---- */
 
-.active_tab{
-}
-
 .tab{
 	background-color: white;
 	color: #213040;
-	width: 10rem;
-	margin: 1rem;
+	width: 12rem;
+	font-size: 0.9rem;
+	margin: 0 1rem 0 1rem;
+
 	border-top: 0.01rem solid white;
 	border-left: 0.01rem solid white;
 	border-right: 0.01rem solid white;
 	border-bottom: 0.2rem solid white;
-	transition: line-height .5s, width .5s, color .2s;
+
 	transition-timing-function: ease;
 }
 
 .tab:active, .tab:hover, .tab:focus{
-	color: black;
 	color: #213040;
+	outline: 0;
+
 	border-top: 0.01rem solid white;
 	border-left: 0.01rem solid white;
 	border-right: 0.01rem solid white;
+	border-bottom: 0.2rem solid #213040;
+	border-radius: 0.2rem;
+}
+
+.active_tab{
+	color: #213040;
 	outline: 0;
+	font-weight: bold;
+
+	border-top: 0.01rem solid white;
+	border-left: 0.01rem solid white;
+	border-right: 0.01rem solid white;
 	border-bottom: 0.2rem solid #213040;
 	border-radius: 0.2rem;
 }
 
 .tab_section_padding{
-	padding-bottom: 3rem;
-}
-
-.tab_content_padding{
-	padding-bottom: 3rem;
+	padding-bottom: 2rem;
 }
 
 .tab_img{
@@ -267,12 +274,18 @@ textarea{
 	margin-left: 1rem;
 	margin-right: 2rem;
 	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.15rem;
+	text-decoration: underline;
+	font-family: 'Crimson Text';
+	font-size: 1.1rem;
 }
 
 .tab_description{
 	margin-left: 15rem;
 	margin-right: 15rem;
 	padding-bottom: 3rem;
+	text-align: center;
 }
 
 .tab_content{
@@ -291,11 +304,21 @@ textarea{
 	justify-content: center;
 }
 
+.page_description{
+	letter-spacing: 0.07rem;
+	line-height: 1.5rem;
+	font-size: 1rem;
+	text-align: center;
+	margin: 0;
+}
+
 .menu_para{
 	margin-left: 1rem;
 	margin-right: 5rem;
 	padding-bottom: 2.5rem;
 	text-align: center;
+	letter-spacing: 0.09rem;
+	line-height: 1.2rem;
 }
 
 .tab_content_header{
@@ -354,7 +377,7 @@ textarea{
 
 .hero_img_container{
 	 position: relative; 
-	 padding-top: 4.8rem;
+	 padding-top: 7.6rem;
 }
 
 .hero_img{
@@ -482,11 +505,6 @@ textarea{
 .small_section_padding{
 	padding-top: 3rem;
 	padding-bottom: 3rem;
-}
-
-.tab_page_description{
-	letter-spacing: 0.05rem;
-	line-height: 2rem;
 }
 
 .smaller_section_padding{
