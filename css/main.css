@@ -59,6 +59,7 @@ button{
     transition: background-color 0.8s;
     transition: color 1s;
     outline: 0;
+    border: 1px solid white;
 }
 
 button:active, button:hover, button:focus{
@@ -179,6 +180,7 @@ textarea{
     background-color: white;
     overflow: hidden;
     padding-top: 0.7rem;
+   	border-bottom: solid #D4E8ED 0.25px;
 }
 
 .topnav a {
@@ -211,7 +213,7 @@ textarea{
 	height: 20%;
 	padding-bottom: 1rem;
 	background-color: #E4EAF1;
-	margin-top: 4rem;
+	margin-top: 3rem;
 }
 
 
@@ -334,12 +336,6 @@ textarea{
 	justify-content: center;
 }
 
-.order_btn_div{
-	padding-top: 2rem;
-	padding-bottom: 2.5rem;
-	/*background-color: #E4EAF1;*/
-}
-
 .next_btn_div{
 	height: 4rem;
 	margin: 3rem 0 3rem 0;
@@ -381,7 +377,7 @@ textarea{
 }
 
 .hero_img{
-	 opacity: .45;
+	 /*opacity: .45;*/
 	 width: 100%; 
 }
 
@@ -405,9 +401,11 @@ textarea{
 .hero_title{
 	position: absolute;
 	left: 0;
-	top: 50%;
+	/*top: 28%;*/
+	bottom: 0;
 	width: 100%;
-	text-align: center; 
+	text-align: center;
+	background-color: rgba(255,255,255,0.9)
 }
 
 .section_title{
@@ -1039,6 +1037,20 @@ input[type=text], select {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.menu_parallax{
+    height: 300px; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.summer_menu_img{
+    background-image: url("https://www.sfu.ca/~mmc29/IAT339/P02/summer_menu_full.jpg");
+
 }
 
 .faq_input {
