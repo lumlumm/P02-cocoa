@@ -50,9 +50,6 @@
 /* ------- MEDIA QUERIES-------- */
 
 @media (max-width: 1040px){
-	.menu_para{
-		margin-right: 1rem;
-	}
 
 	.img_div{
 		width: 40%;
