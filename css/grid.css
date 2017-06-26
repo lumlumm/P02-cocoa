@@ -1,3 +1,5 @@
+/* ----------- GRID ------------*/
+
 .box{
 	display: flex;
 	flex-flow: row wrap;
@@ -5,6 +7,10 @@
 
 .col_1of3{
 	width: 33.33%;
+}
+
+.col_1of2{
+	width: 50%;
 }
 
 .col_1of5{
@@ -19,12 +25,13 @@
 	width: 60%;
 }
 
-.grow_1{
-	flex-grow: 1;
-}
-
 .col_1of10{
 	width:10%;
+}
+
+.img_div{
+	width: 30%;
+	margin: 0.5rem;
 }
 
 /* ------- TAB PAGE SPECIFIC-------- */
@@ -125,12 +132,6 @@
 		/*added June 26*/
 		height: 7%;
 	}
-	
-	.tab_img_last{
-		width:100%;
-		padding-right: 1rem;
-		display: inline-block;
-	}
 		
 	.feedback_margin{
 		margin-right: 0;
@@ -210,7 +211,7 @@
 	}
 	
 	.col_1of2{
-		width: 100%;		
+		width: 50%;		
 	}
 	
 	.full_screen_form{
@@ -282,10 +283,7 @@
 @media (max-width: 645px){
 	.img_div{
 		width: 100%;
-	}
-
-	.tab_img_last{
-		padding-right: 0;
+		margin: 0;
 	}
 
 	.tab_img{
@@ -297,6 +295,9 @@
 }
 
 @media (max-width: 635px){
+	.col_1of2{
+		width: 100%;
+	}
 	
 	.tab_bar_display{
 		display: block;
@@ -308,10 +309,6 @@
 	}
 
 	.tab_img{
-		padding: 0;
-	}
-	
-	.tab_img_last{
 		padding: 0;
 	}
 

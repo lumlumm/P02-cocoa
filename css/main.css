@@ -263,13 +263,7 @@ textarea{
 
 .tab_img{
 	display: inline-block;
-	padding-right: 1rem;
 	width: 100%;
-}
-
-.tab_img_last{
-	display: inline-block;
-	width: 97%;
 }
 
 .img_caption{
@@ -326,10 +320,6 @@ textarea{
 .tab_content_header{
 	margin-top: 0;
 	text-align: center;
-}
-
-.img_div{
-	width: 33%;
 }
 
 .tab_img_container{
