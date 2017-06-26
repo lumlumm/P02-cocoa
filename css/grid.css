@@ -3,10 +3,6 @@
 	flex-flow: row wrap;
 }
 
-.col_1of2{
-	width: 50%;
-}
-
 .col_1of3{
 	width: 33.33%;
 }
@@ -72,12 +68,6 @@
 	}
 }
 
-/*@media (max-width: 1024px){
-	.hamburger_logo{
-
-	}
-}*/
-
 @media (max-width: 970px){
 	
 	.feedback_margin{
@@ -122,7 +112,6 @@
 		margin-right: 3rem;
 	}
 	
-	
 
 @media (max-width: 845px){
 	
@@ -142,13 +131,10 @@
 	
 	.tab_img_last{
 		width:100%;
+		padding-right: 1rem;
+		display: inline-block;
 	}
-	
-	.tab_img{
-		padding-right: 0;
-	}
-	
-	
+		
 	.feedback_margin{
 		margin-right: 0;
 	}
@@ -182,7 +168,6 @@
 	.container:hover .overlay {
 	    opacity: 1;
 	    width: 100%;
-		
 	}
 	
 	.img_team{
@@ -263,20 +248,6 @@
 		padding-bottom: 4rem;
 	}
 
-	.tab_img{
-		display: block;
-		padding: 0 3rem 0 3rem;
-	}
-	
-	.tab_img_last{
-		padding: 0 3rem 0 3rem;
-		width: 100%;
-	}
-
-	.img_caption{
-		padding-bottom: 5rem;
-	}
-
 	.menu_para{
 		padding-bottom: 1rem;
 	}
@@ -284,10 +255,6 @@
 	.tab_content_header{
 		margin-top:0;
 		padding-top: 0rem;
-	}
-
-	.img_div{
-		width:100%;
 	}
 
 	.tab_content{
@@ -315,14 +282,27 @@
 
 }
 
+@media (max-width: 645px){
+	.img_div{
+		width: 100%;
+	}
+
+	.tab_img_last{
+		padding-right: 0;
+	}
+
+	.tab_img{
+		padding-right: 0;
+	}
+	.menu_para{
+		padding-bottom: 3rem;
+	}
+}
+
 @media (max-width: 635px){
 	
 	.tab_bar_display{
 		display: block;
-	}
-	
-	.col_1of2{
-		width: 100%;
 	}
 
 	.section_padding{
