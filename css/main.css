@@ -692,6 +692,10 @@ input[type=text], select {
 
 /* --------------- IMGS --------------*/
 
+.feed_img_spacing{ /* added June 26*/
+	margin: 1rem 0rem;
+}
+
 .img_ex{
 	height: 12rem;
 	width: 18rem;
@@ -752,18 +756,11 @@ input[type=text], select {
 	color: white;
 }
 
-.img_team_ex{
-  margin: auto;
-  height: 12rem;
-  width: 25rem;
-  background-color: rgba(66,66,66,1);
-  padding-top: 4.5rem;
-}
 
 .img_team{
 	display:block;
 	margin:auto;
- 	width:80%;
+ 	width:50%; /*changed june 26*/
 }
 
 .about_img{
@@ -1137,3 +1134,20 @@ input[type=text], select {
 	letter-spacing: 0.3rem;
 	text-decoration: none;
 }
+
+/* june 26 updates*/
+
+.faq_text_link{
+	font-family: 'Abel', serif;	
+	font-size: 1em;
+    color: #77ADE5;
+	letter-spacing: 0.1rem;
+}
+
+
+
+
+
+
+
+
