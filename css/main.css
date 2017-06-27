@@ -1092,10 +1092,6 @@ input[type=text], select {
 	letter-spacing: 0.05rem;
 }
 
-.post_padding{
-	padding-top: 4rem;
-}
-
 .feedback_text_right{
 	text-align:right;
 	font-weight:bold;
@@ -1136,4 +1132,24 @@ input[type=text], select {
 	text-transform: uppercase;
 	letter-spacing: 0.3rem;
 	text-decoration: none;
+}
+
+.post_padding{
+	/*edit on June 24*/
+	padding: 4rem 2rem 0 3rem;
+}
+
+.right_img_padding{
+	/*edit on June 24*/
+	padding: 4rem 4rem 0 1rem;
+}
+
+.left_img_padding{
+	/*edit on June 24*/
+	padding: 4rem 1rem 0 3rem;
+}
+
+.post_img{
+	/*added on June 24*/
+	width: 100%;
 }
