@@ -1045,7 +1045,6 @@ input[type=text], select {
 
 .menu_parallax{
     height: 300px; 
-
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -1054,33 +1053,21 @@ input[type=text], select {
 
 .summer_menu_img{
     background-image: url("https://www.sfu.ca/~mmc29/IAT339/P02/summer_menu_full.jpg");
-
 }
 
 .faq_input {
-
   display: none;
+  }
 
 .faq_label {
-
   display: block;
-
   padding: 0.5em;
-
   text-align: center;
-
   border-bottom: 1px solid #CCC;
-
-  height: 150px;
-
 }
 
 #toggle4:checked ~ label::before {
-
   content: "-";
-
-}
-
 }
 
 .update_content{
@@ -1143,6 +1130,181 @@ input[type=text], select {
     color: #77ADE5;
 	letter-spacing: 0.1rem;
 }
+
+/* june 27 updates */
+
+.about_parallax{
+    height: 300px; 
+    background-attachment: fixed;
+    background-position: 50% 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about_page_img{
+    background-image: url("https://www.sfu.ca/~jjchau/P02-cocoa_imgs/Moevenpick_Hotels_and_Resorts_Chef_preparing_food_for_thought.jpg");
+}
+
+.team_parallax{
+    height: 300px; 
+    background-attachment: fixed;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.team_page_img{
+    background-image: url("https://www.sfu.ca/~jjchau/P02-cocoa_imgs/c603680f16abeb47345b5b96d5928285b354b0af_1.jpg");
+}
+
+.feedback_parallax{
+    height: 300px; 
+    background-attachment: fixed;
+    background-position: 50% 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.feedback_page_img{
+    background-image: url("https://www.sfu.ca/~jjchau/P02-cocoa_imgs/zaton-catering-001.jpg");
+}
+
+.faq_parallax{
+    height: 300px; 
+    background-attachment: fixed;
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.faq_page_img{
+    background-image: url("https://www.sfu.ca/~jjchau/P02-cocoa_imgs/27c836e1ebeb5e7d674e2b88b5f40414.jpg");
+}
+
+.events_parallax{
+    height: 300px; 
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.events_page_img{
+    background-image: url("https://www.sfu.ca/~jjchau/P02-cocoa_imgs/Decoration-wedding-table-in-summer-photo-24.jpg");
+}
+
+.menu_parallax{
+    height: 300px; 
+    background-attachment: fixed;
+    background-position: 50% 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu_page_img{
+    background-image: url("https://www.sfu.ca/~jjchau/P02-cocoa_imgs/instagram_contest.jpg");
+}
+
+.fall_parallax{
+    height: 300px; 
+    background-attachment: fixed;
+    background-position: 50% 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fall_page_img{
+    background-image: url("https://www.sfu.ca/~jjchau/P02-cocoa_imgs/0220632_hot-chocolate_s4x3.jpg.rend_.jpg");
+}
+
+.cakes_parallax{
+    height: 300px; 
+    background-attachment: fixed;
+    background-position: 50% 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cakes_page_img{
+    background-image: url("https://www.sfu.ca/~jjchau/P02-cocoa_imgs/fbdcd4e96fdd3cc85f086c0000cec476.jpg");
+}
+
+.gallery_parallax{
+    height: 300px; 
+    background-attachment: fixed;
+    background-position: 50% 160%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery_page_img{
+    background-image: url("https://www.sfu.ca/~jjchau/P02-cocoa_imgs/img53907.jpg");
+}
+
+.gallery_events_parallax{
+    height: 300px; 
+    background-attachment: fixed;
+    background-position: 50% 200%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery_events_page_img{
+    background-image: url("https://www.sfu.ca/~jjchau/P02-cocoa_imgs/new-event-catering-image.jpg");
+}
+
+.gallery_food_parallax{
+    height: 300px; 
+    background-attachment: fixed;
+    background-position: 50% 200%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery_food_page_img{
+    background-image: url("https://www.sfu.ca/~jjchau/P02-cocoa_imgs/img60382.jpg");
+}
+
+.contact_parallax{
+    height: 300px; 
+    background-attachment: fixed;
+    background-position: 50% 110%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact_page_img{
+    background-image: url("https://www.sfu.ca/~jjchau/P02-cocoa_imgs/pastry-chef.jpg");
+}
+
+.order_parallax{
+    height: 300px; 
+    background-attachment: fixed;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.order_page_img{
+    background-image: url("https://www.sfu.ca/~jjchau/P02-cocoa_imgs/mink-mingle-185523.jpg");
+}
+
+.thanks_parallax{
+    height: 300px; 
+    background-attachment: fixed;
+    background-position: 50% 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.thanks_page_img{
+    background-image: url("https://www.sfu.ca/~jjchau/P02-cocoa_imgs/toa-heftiba-106427.jpg");
+}
+
+
+
+
+
 
 
 
