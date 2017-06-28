@@ -75,6 +75,8 @@ textarea{
 
 .step_title{
 	margin-top: 3rem;
+	padding-bottom: 2rem;
+	border-bottom: #000 solid 1px;
 }
 
 /* --- NAV BAR + FOOTER --- */
@@ -82,7 +84,7 @@ textarea{
 .navbar{
 	width: 100%;
 	position: fixed;
-	background-color: rgba( 255, 255, 255, 255);
+	background-color: rgba( 255, 255, 255, 1);
     border-bottom: solid #D4E8ED 0.25px;
     margin: 0;
     z-index: 1000;
@@ -104,7 +106,6 @@ textarea{
 
 .navbar_item:hover, .navbar_item:active, .navbar_item:focus{
 	color: #F79D34;
-	text-decoration: underline;
 }
 
 .logo_box{
@@ -208,7 +209,7 @@ textarea{
 .footer{
 	position: relative;
 	bottom: 0;
-	background-color: rgba( 255, 255, 255, 255);
+	background-color: rgba( 255, 255, 255, 1);
 	width: 100%;
 	height: 20%;
 	padding-bottom: 1rem;
@@ -383,7 +384,8 @@ textarea{
 }
 
 .section_img{
-	background-image: url("img/spring_menu_bg.png") no-repeat;
+	background-image: url("img/spring_menu_bg.png");
+	background-repeat: no-repeat;
 	background-size: 100%;
 	overflow: hidden;
 }
@@ -417,12 +419,7 @@ textarea{
 }
 
 .summer_section{
-/*	background-image: url("https://www.sfu.ca/~mmc29/IAT339/P02/spring_menu_bg.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;*/
 	height: 400px;
-
 	padding-top: 4.5rem;
 }
 
@@ -469,16 +466,19 @@ textarea{
 }
 
 .summary_div{
-	padding-bottom: 2rem;
+	/*padding-bottom: 2rem;*/
 }
 
 .summary_div h4{
-	margin: 0 0 1rem 0;
+	padding: 0 0 1.5rem 0;
+	margin: 0;
 }
 
 .summary_div h2{
 	font-size: 1rem;
-	margin: 0 0 0.2rem 0;
+	padding: 0 0 1.5rem 0;
+	margin: 0;
+	text-transform: uppercase;
 }
 
 .two_col_text_padding{
@@ -992,7 +992,6 @@ input[type=text], select {
   background-color:rgba(255,255,255,.7);
 }
 
-
 .text2 {
 	color:black;
   font-size: 20px;
@@ -1003,7 +1002,6 @@ input[type=text], select {
   -ms-transform: translate(-50%, -50%);
   background:none;
   text-align:center;
-
 }
 
 .text2:hover, .text2:focus, .text2:active{
@@ -1046,7 +1044,7 @@ input[type=text], select {
     background-size: cover;
 }
 
-.menu_parallax{
+.hero_parallax{
     height: 300px; 
 
     background-attachment: fixed;
@@ -1057,7 +1055,6 @@ input[type=text], select {
 
 .summer_menu_img{
     background-image: url("https://www.sfu.ca/~mmc29/IAT339/P02/summer_menu_full.jpg");
-
 }
 
 .faq_input {
@@ -1153,3 +1150,45 @@ input[type=text], select {
 	/*added on June 24*/
 	width: 100%;
 }
+
+.img_boxes{
+	width: 100%;
+}
+
+.order_margin_top{
+	margin-top: 2rem;
+}
+
+.static_content{
+  margin: 0;
+  padding: 2px 0 0 12px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 8rem;
+}
+
+.subtitle_padding{
+	padding-bottom: 1rem;
+}
+
+.confirm_border{
+	border-bottom: 1px solid #000;
+}
+
+.order_content_indent{
+	padding-left: 1rem;
+	padding-right: 2rem;
+}
+
+.button_bottom{
+	align-self: flex-end;
+	padding-bottom: 1.5rem;
+}
+
+.border_padding{
+	padding-top: 1.2rem;
+	padding-bottom: 1.2rem;
+}
+/*.form_content{
+	align-self: flex-end;
+}*/
