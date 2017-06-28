@@ -112,7 +112,9 @@
 
             <div class="button_div button_bottom">
                 <div>
-                    <a href="order.html"> <button class="form_button"> Edit Menu </button> </a>
+                    <form action="order.html">
+                        <button class="form_button"> Edit Menu </button>
+                    </form>
                 </div>
             </div> 
         </div>
@@ -160,7 +162,9 @@
 
             <div class="button_div button_bottom">
                 <div>
-                    <a href="order_SS_buffet.html"> <button class="form_button"> Edit Menu Details </button> </a>
+                    <form action="order_SS_buffet.html">
+                        <button class="form_button"> Edit Menu Details </button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -232,14 +236,22 @@
 
             <div class="button_div button_bottom">
                 <div>
-                    <a href="order_payment.html"> <button class="form_button"> Edit Payment </button> </a>
+                    <form action="order_payment.html">
+                        <button class="form_button"> Edit Payment </button>
+                    </form>
                 </div>
             </div>
         </div>
 
-        <div class="next_btn_div order_margin">
-            <a href="order_payment.html"> <button class="cancel_button"> back step </button></a>
-            <a href="order_receipt.html"> <button class="next_button"> Pay Now </button></a>
+        <div class="order_btn_div order_margin">
+
+                <form action="order_payment.html" class="order_buttons">
+                    <button class="cancel_button"> Previous Step </button>
+                </form>
+
+                <form action="order_receipt.html" class="order_buttons">
+                    <button class="next_button"> Next Step </button>
+                </form>
         </div>
     </div>
 

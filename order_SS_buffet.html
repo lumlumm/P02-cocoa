@@ -85,7 +85,7 @@
         </div>
 
         <div class="box order_margin order_margin_top">
-            <div class="col_1of2">
+            <div class="col_1of2 order_content_indent">
 
                 <form class="form_div">
                     <label class="label_example"> Type in Number of Guests attending </label>
@@ -94,16 +94,16 @@
 
                 <form class="form_div">
                     <label class="label_example"> Let us know if there are any allergies </label>
-                    <textarea rows="10" cols="50"></textarea>
+                    <textarea class="order_form"></textarea>
                 </form>
 
                 <form class="form_div">
                     <label class="label_example"> Please Leave any special requests below </label>
-                    <textarea rows="10" cols="50"></textarea>
+                    <textarea class="order_form"></textarea>
                 </form>
             </div>
 
-            <div class="col_1of2">
+            <div class="col_1of2 order_content_indent">
                 <label class="label_example"> Select Desserts for the Buffet</label>
                 <form>
                     <p class="checkboxes">
@@ -133,9 +133,15 @@
             </div>
         </div>
 
-        <div class="next_btn_div order_margin">
-            <a href="order.html"> <button class="cancel_button"> back step </button></a>
-            <a href="order_payment.html"> <button class="next_button"> next step </button></a>
+        <div class="order_btn_div order_margin">
+
+                <form action="order.html" class="order_buttons">
+                    <button class="cancel_button"> Previous Step </button>
+                </form>
+
+                <form action="order_payment.html" class="order_buttons">
+                    <button class="next_button"> Next Step </button>
+                </form>
         </div>
     </div>
 

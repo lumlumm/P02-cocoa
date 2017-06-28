@@ -207,7 +207,7 @@ textarea{
 }
 
 .footer{
-	position: relative;
+	position: inherit;
 	bottom: 0;
 	background-color: rgba( 255, 255, 255, 1);
 	width: 100%;
@@ -327,7 +327,7 @@ textarea{
 	justify-content: center;
 }
 
-.next_btn_div{
+.order_btn_div{
 	height: 4rem;
 	margin: 3rem 0 3rem 0;
 }
@@ -537,10 +537,12 @@ textarea{
 .order_button{
 	position: relative;
 	bottom: 0;
+	width: 14rem;
 }
 
 .next_button{
 	float: right;
+	width: 10rem;
 }
 
 .contact_submit_button{
@@ -559,6 +561,8 @@ textarea{
     font-size: 0.6em;
     letter-spacing: 0.15em;
     transition: background-color 0.2s;
+    width: 10rem;
+    display: inline-block;
 }
 
 .cancel_button:active, .cancel_button:hover, .cancel_button:focus{
@@ -1190,6 +1194,13 @@ input[type=text], select {
 	padding-top: 1.2rem;
 	padding-bottom: 1.2rem;
 }
-/*.form_content{
-	align-self: flex-end;
-}*/
+
+.order_buttons{
+	display: inline;
+}
+
+.order_form{
+	height: 6rem;
+	resize: none;
+	width: 22rem;
+}
