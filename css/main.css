@@ -48,7 +48,6 @@ a:active, a:hover, a:focus{
 
 button{
 	background-color: #213040;
-    border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -59,7 +58,7 @@ button{
     transition: background-color 0.8s;
     transition: color 1s;
     outline: 0;
-    border: 1px solid white;
+    border: 1px solid #213040;
 }
 
 button:active, button:hover, button:focus{
@@ -342,11 +341,7 @@ textarea{
 }
 
 .homepage_subtitle{
-	position: absolute;
-	left: 0;
-	top: 47%;
-	width: 100%;
-	text-align: center; 
+	font-size: 1rem;
 }
 
 .homepage_button{
@@ -393,7 +388,6 @@ textarea{
 .hero_title{
 	position: absolute;
 	left: 0;
-	/*top: 28%;*/
 	bottom: 0;
 	width: 100%;
 	text-align: center;
@@ -416,11 +410,6 @@ textarea{
 	height: 100%;
 	padding-top: 5.35rem;
     background-size: 100% 100%;
-}
-
-.summer_section{
-	height: 400px;
-	padding-top: 4.5rem;
 }
 
 /* --- MARGIN + PADDING --- */
@@ -480,6 +469,7 @@ textarea{
 	margin: 0;
 	letter-spacing: 0.15rem;
 	text-transform: uppercase;
+	font-size: 0.9rem;
 }
 
 .two_col_text_padding{
@@ -536,8 +526,8 @@ textarea{
 
 .order_button{
 	position: relative;
-	bottom: 0;
 	width: 14rem;
+	margin-bottom: 1.5rem;
 }
 
 .next_button{
@@ -1195,7 +1185,7 @@ input[type=text], select {
 	padding-bottom: 1.2rem;
 }
 
-.order_buttons{
+.order_ctrl_btn{
 	display: inline;
 }
 
@@ -1203,4 +1193,13 @@ input[type=text], select {
 	height: 6rem;
 	resize: none;
 	width: 22rem;
+}
+
+.order_subtitle{
+	padding-bottom: 1rem;
+}
+
+.summer_section{
+	padding-top: 3rem;
+	padding-bottom: 2rem;
 }
