@@ -7,7 +7,7 @@ body{
 }
 
 h1, h2, h3, h4{
-	font-family: 'Lora', serif;
+	font-family: 'Crimson Text', serif;
 	
 }
 
@@ -469,15 +469,16 @@ textarea{
 	/*padding-bottom: 2rem;*/
 }
 
-.summary_div h4{
+.confirmation_sections p{
 	padding: 0 0 1.5rem 0;
 	margin: 0;
 }
 
-.summary_div h2{
+.confirmation_sections h2{
 	font-size: 1rem;
 	padding: 0 0 1.5rem 0;
 	margin: 0;
+	letter-spacing: 0.15rem;
 	text-transform: uppercase;
 }
 
