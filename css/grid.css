@@ -323,6 +323,10 @@
 	.contact_submit_button{
 		float: right;
 	}
+
+	.contact_revert_button{
+		margin-left: 2.5rem;
+	}
 	
 	.small_screen_align{
 		padding-right: 10%;
@@ -390,6 +394,9 @@
 	.map_text{
 		padding-bottom: 2.5rem;
 	}
+	.contact_title_margin{
+		margin-left: 11%;
+	}
 }
 
 /*450px*/
@@ -447,6 +454,10 @@
 
 	.confirmation_sections h2{
 		padding: 0 0 0.2rem 0;
+	}
+
+	.contact_title_margin{
+		margin-left: 2.5rem;
 	}
 }
 
