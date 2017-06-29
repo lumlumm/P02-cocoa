@@ -73,7 +73,7 @@
 
 /* ------- MEDIA QUERIES-------- */
 
-@media (max-width: 1040px){
+@media (max-width: 65em /* 1040px */){
 
 	.img_div{
 		width: 40%;
@@ -89,7 +89,7 @@
 	}
 }
 
-@media (max-width: 970px){
+@media (max-width: 60.625em /* 970px */){
 	
 	.feedback_margin{
 		margin-right: 0;
@@ -139,7 +139,7 @@
 }
 	
 
-@media (max-width: 845px){
+@media (max-width: 52.8125em /*845px*/){
 	
 	.hamburger_menu{
 		display: block;
@@ -299,10 +299,37 @@
 	.member_padding{
 		padding-bottom: 3rem;
 	}
+	
+	/*added june 28*/
+	.right_img_padding{
+		padding: 0;
+	}
+	
+	.left_img_padding{
+		padding: 0;
+	}
+	
+	.post_padding{
+		padding: 0 3rem 0 3rem;
+	}
+	
+	.contact_submit_button{
+		float: right;
+		
+	}
+	
+	.small_screen_align{
+		padding-right: 10%;
+	}
+	
+	.order_form{
+		width: 16rem;
+	}
 
 }
 
-@media (max-width: 645px){
+@media (max-width: 40.3125em /*645px*/){
+	
 	.img_div{
 		width: 100%;
 		margin: 0;
@@ -317,7 +344,7 @@
 	}
 }
 
-@media (max-width: 635px){
+@media (max-width: 39.6875em /*635px*/){
 	.col_1of2{
 		width: 100%;
 	}
@@ -356,9 +383,13 @@
 	.confirmation_content_div{
 		width: 100%;
 	}
+	
+	.order_form{
+		width: 22rem;
+	}
 }
 
-@media (max-width: 450px){
+@media (max-width: 28.125em /*450px*/){
 	.order_bg{
 		height: 16rem;
 	}
@@ -401,7 +432,7 @@
 	}
 }
 
-@media (max-width: 402px){
+@media (max-width: 25.125em /*402px*/){
 	.section_button_padding{
 		padding-bottom: 1rem;
 	}
