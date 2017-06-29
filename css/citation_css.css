@@ -1,0 +1,13 @@
+hr{
+	width: 96%;
+}
+
+li{
+	list-style-type: none;
+	padding: .2rem 0;
+}
+
+.citation_link_style{
+	font-family: 'Abel', serif;
+	font-size: 1em;
+}
