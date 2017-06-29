@@ -34,6 +34,23 @@
 	margin: 0.5rem;
 }
 
+/* added June 24 */
+.confirmation_sections{
+	 width: 45%;
+}
+
+.order_subtitle{
+	width: 100%;
+}
+
+.confirmation_content_div{
+	width: 60%;
+}
+
+.button_div{
+	width: 40%;
+}
+
 /* ------- TAB PAGE SPECIFIC-------- */
 
 .tab_col_2of5{
@@ -112,9 +129,14 @@
 		margin-right: 3rem;
 	}
 
-	.feedback_text_right{
-		margin-right: 3rem;
+	.confirmation_sections{
+	 width: 90%;
 	}
+
+	.summary_div h2{
+		padding: 0 0 0.5rem 0;
+	}
+}
 	
 
 @media (max-width: 845px){
@@ -289,6 +311,7 @@
 	.tab_img{
 		padding-right: 0;
 	}
+
 	.menu_para{
 		padding-bottom: 3rem;
 	}
@@ -323,6 +346,15 @@
 
 	.img_gallery_ex{
 		margin: 1rem 0 1rem 0;
+	}
+
+	.button_div{
+		width: 100%;
+		padding-left: 1rem;
+	}
+
+	.confirmation_content_div{
+		width: 100%;
 	}
 }
 
