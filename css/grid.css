@@ -34,7 +34,13 @@
 	margin: 0.5rem;
 }
 
-/* added June 24 */
+.post_img {
+    width: 100%;
+}
+.img_boxes {
+    width: 100%;
+}
+
 .confirmation_sections{
 	 width: 45%;
 }
@@ -134,10 +140,6 @@
 	.confirmation_sections{
 	 width: 90%;
 	}
-
-	.summary_div h2{
-		padding: 0 0 0.5rem 0;
-	}
 }
 	
 /*845px*/
@@ -170,10 +172,6 @@
 	}
 	
 	.overlay{
-		width: 100%;
-	}
-	
-	.overlay2{
 		width: 100%;
 	}
 	
@@ -221,10 +219,6 @@
 		float: none;
 		display: block;
 		text-align: left;
-	}
-		
-	.img_ex_client_feed{
-		margin: auto;
 	}
 	
 	.feedback_text_grid{
@@ -290,11 +284,6 @@
 
 	.menu_para{
 		padding-bottom: 1rem;
-	}
-
-	.tab_content_header{
-		margin-top:0;
-		padding-top: 0rem;
 	}
 
 	.tab_content{
@@ -389,10 +378,6 @@
 	
 	.tab_content{
 		width: 100%;
-	}
-
-	.img_gallery_ex{
-		margin: 1rem 0 1rem 0;
 	}
 
 	.button_div{
