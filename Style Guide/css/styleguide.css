@@ -94,6 +94,7 @@ button:active, button:hover, button:focus{
 .navbar_li a:hover, .navbar_li a:active, .navbar_li a:focus{
 	color: #F79D34;
 }
+
 .navbar_logo{
 	margin: 0;
 	margin-right: 3%;
@@ -112,29 +113,9 @@ button:active, button:hover, button:focus{
 	margin-bottom: 2rem;
 }
 
-/* --- CUSTOMIZATION / MISC--- */
-
-.invis_li{
-	list-style: none;
-}
-
-.same_line{
-	display: inline-block;
-}
-
-.example{
-	margin: 30px;
-	padding: 35px;
-	border: black 1px solid;
-}
-
 /* --- MARGINS + SPACING --- */
 .navbar_margin{
 	margin-left: 20%;
-}
-
-.title_margin{
-	margin-top: 5%;
 }
 
 .h2_padding{
@@ -142,18 +123,6 @@ button:active, button:hover, button:focus{
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
 	margin: 2rem 0 0 0;
-}
-
-.li_spacing{
-	padding-bottom: 3%;
-}
-
-.paragraph{
-	margin-right: 20%;
-}
-
-.menu_spacing{
-	padding-right: 2%;
 }
 
 /* --- FLEXBOX / GRIDS --- */
