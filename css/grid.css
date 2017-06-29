@@ -278,8 +278,7 @@
 	}
 	
 	.section_padding{
-		padding-top: 4rem;
-		padding-bottom: 4rem;
+		padding: 4rem 3rem 4rem 3rem;
 	}
 
 	.menu_para{
@@ -362,11 +361,6 @@
 		display: block;
 	}
 
-	.section_padding{
-		padding-top: 2rem;
-		padding-bottom: 2rem;
-	}
-
 	.tab_img{
 		padding: 0;
 	}
@@ -390,7 +384,7 @@
 	}
 	
 	.order_form{
-		width: 20rem;
+		width: 19.3rem;
 	}
 
 	.map_text{
