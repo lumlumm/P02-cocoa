@@ -3,40 +3,46 @@
 }
 
 h1, h2, h3, h4{
-	font-family: 'Lora', serif;
+	font-family: 'Crimson Text', serif;
 }
 
 h1, h2{
 	text-transform: uppercase;
-	letter-spacing: 0.15em;
+	letter-spacing: 0.15rem;
 }
 
 h3{
 	font-weight: bold;
-	letter-spacing: 0.1em;
+	letter-spacing: 0.25rem;
 	text-decoration: underline;
+	text-transform: uppercase;
+	font-size: 1.1rem;
 }
 
 h4{
-	font-size: 0.9em;
+	font-size: 0.85em;
+	letter-spacing: 0.12rem;
+	text-transform: uppercase;
 }
 
 p, ol, ul{
-	font-family: 'Crimson Text', serif;
+	font-family: 'Abel', serif;
 	font-size: 0.9em;
 	color: #393B39;
+	letter-spacing: 0.1rem;
+	margin: 0.6rem 0 0 0.6rem;
 }
 
 a{
 	font-family: 'Crimson Text', serif;
 	font-size: 0.9em;
 	text-decoration: none;
-	color: #B1D3DA;
-	transition: color 1s;
+	color: #213040;
+	transition: color 0.4s;
 }
 
 a:active, a:hover, a:focus{
-	color: #066684;
+	color: #F79D34;
 	text-decoration: underline;
 }
 
@@ -57,8 +63,12 @@ button:active, button:hover, button:focus{
 	background-color: #06506d;
 }
 
+.p_subtitle_padding{
+	margin: 1rem 0 0 0.5rem;
+}
+
 /* --- NAV BAR --- */
-.navbar{
+.guide_navbar{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -76,9 +86,14 @@ button:active, button:hover, button:focus{
 
 .navbar_li{
 	font-size: 0.9rem;
-	margin-bottom: 0.5rem;
+	margin-bottom: 0.8rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
 }
 
+.navbar_li a:hover, .navbar_li a:active, .navbar_li a:focus{
+	color: #F79D34;
+}
 .navbar_logo{
 	margin: 0;
 	margin-right: 3%;
@@ -87,13 +102,13 @@ button:active, button:hover, button:focus{
 }
 
 .navbar_logo:active, .navbar_logo:hover, .navbar_logo:focus{
-	color:black;
+	color: black;
 	text-decoration: none;
 }
 
-.logo{
-	background-color: #E7E7E7;
-	width: 7rem;
+.guide_logo{
+	width: 8rem;
+	margin-top: 2.5rem;
 	margin-bottom: 2rem;
 }
 
@@ -115,7 +130,7 @@ button:active, button:hover, button:focus{
 
 /* --- MARGINS + SPACING --- */
 .navbar_margin{
-	margin-left: 25%;
+	margin-left: 20%;
 }
 
 .title_margin{
@@ -123,7 +138,10 @@ button:active, button:hover, button:focus{
 }
 
 .h2_padding{
-	padding-top: 5%;
+	padding: 3rem 0 3rem 0;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	margin: 2rem 0 0 0;
 }
 
 .li_spacing{
@@ -144,18 +162,27 @@ button:active, button:hover, button:focus{
 	display: flex;
 }
 
+.grid_item{
+	width: 50%;
+	padding: 0 1rem 0 0;
+}
+
 .color_item{
 	width: 33%;
 	padding: 1rem 2rem 1rem 2rem;
 }
 
-.img_item{
-	width: 40%;
+.form_item{
+	width: 50%;
+	padding-right: 4rem;
+}
+
+.sample_item{
+	width: 50%;
 }
 
 .info_item{
-	width: 60%;
-	padding-bottom: 2rem;
+	width: 100%;
 }
 
 .type_item{
@@ -169,28 +196,245 @@ button:active, button:hover, button:focus{
 	padding-right: 2rem;
 }
 
+/* ------- IMAGES -------- */
+
+.grid_img{
+	width: 80%;
+}
+
+.small_grid_img{
+	width: 25%;
+}
+
 /* --- EXAMPLE CODE ---- */
-.nav_box{
-	display: flex;
-	flex-direction: column;
-	width: 30%;
+
+.example_box{
+	border: 1px #919191 solid;
+	padding: 2rem 2rem 2rem 2rem;
+	margin-bottom: 4rem;
 }
 
-.nav_item{
-	padding: 0.75rem 2rem 0 0;
+.type_box{
+	border: 1px #919191 solid;
+	padding: 1rem 1rem 1rem 1rem;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
 }
 
-.thumbnail{
+.navbar{
+	width: 100%;
+	background-color: rgba( 255, 255, 255, 1);
+    border-bottom: solid #D4E8ED 0.25px;
+    margin: 0;
+    z-index: 1000;
+    justify-content: space-around;
+}
+
+.logo_box{
+	width: 100%;
+	margin-top: 1rem;
+	margin-bottom: 0.5rem;
+}
+
+.center_text{
+	text-align: center;
+}
+
+.center{
+	justify-content: center;
+}
+
+.logo{
+	width: 13.5rem;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.navbar_item{
+    display: inline-block;
+	margin: 0 1.5rem 1rem 1.5rem;
+
+	color: #213040;
+	text-decoration: none;
+	font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+
+	transition: color 0.4s;
+}
+
+.navbar_item:hover, .navbar_item:active, .navbar_item:focus{
+	color: #F79D34;
+}
+
+.dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown_content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown_content a:hover {
+    color: #F79D34;
+}
+
+.dropdown:hover .dropdown_content{
+    display: block;
+}
+
+.hamburger_container{
+	display: block;
+	width: 100%;
+	height: 11%;
+	background-color: white;
+	z-index: 1000;
+}
+
+.hamburger_menu {
+    background-color: white;
+    overflow: hidden;
+    padding-top: 0.7rem;
+   	border-bottom: solid #D4E8ED 0.25px;
+}
+
+.hamburger_menu a {
+    float: left;
+    display: block;
+    color: #213040;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.hamburger_menu a:hover {
+    color: #77ADE5;
+}
+
+.hamburger_menu a:not(:first-child) {
+	display: none;
+}
+
+.hamburger_menu a.icon {
+	float: right;
+	display: block;
+}
+
+.hamburger_menu.responsive {position: relative;}
+.hamburger_menu.responsive a.icon {
+	position: absolute;
+	right: 0;
+	top: 0.7rem;
+}
+
+.hamburger_menu.responsive a {
+	float: none;
+	display: block;
+	text-align: left;
+}
+
+.hamburger_logo {
+	top: 1rem;
+	width: 10rem;
+	margin-right: 2rem;
 	padding-bottom: 1rem;
-	padding-top: 1rem;
 }
 
-.img_width{
-	width: 90%;
+.hamburg_spacing{
+	margin-top: 2rem;
 }
 
-.img_small_width{
-	width: 50%;
+.tab_section_padding{
+	padding-bottom: 2rem;
+}
+
+.tab_col_2of5{
+	float: left;
+}
+
+.tab{
+	background-color: white;
+	color: #213040;
+	width: 12rem;
+	font-size: 0.9rem;
+	margin: 0 1rem 0 1rem;
+
+	border-top: 0.01rem solid white;
+	border-left: 0.01rem solid white;
+	border-right: 0.01rem solid white;
+	border-bottom: 0.2rem solid white;
+
+	transition-timing-function: ease;
+}
+
+.tab:active, .tab:hover, .tab:focus{
+	background-color: white;
+	color: #213040;
+	outline: 0;
+
+	border-top: 0.01rem solid white;
+	border-left: 0.01rem solid white;
+	border-right: 0.01rem solid white;
+	border-bottom: 0.2rem solid #213040;
+	border-radius: 0.2rem;
+}
+
+.active_tab{
+	color: #213040;
+	outline: 0;
+	font-weight: bold;
+
+	border-top: 0.01rem solid white;
+	border-left: 0.01rem solid white;
+	border-right: 0.01rem solid white;
+	border-bottom: 0.2rem solid #213040;
+	border-radius: 0.2rem;
+}
+
+button{
+	background-color: #213040;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Crimson Text";
+    font-size: 0.6em;
+    letter-spacing: 0.15em;
+    transition: background-color 0.8s;
+    transition: color 1s;
+    outline: 0;
+    border: 1px solid #213040;
+}
+
+button:active, button:hover, button:focus{
+	background-color: white;
+	color: #213040;
+	border: 1px solid #213040;
+}
+
+.h3_example{
+	text-transform: inherit;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	text-decoration: underline;
+}
+
+.h4_example{
+	font-size: 0.9em;
+	text-transform: inherit;
 }
 
 .cancel_button{
@@ -204,29 +448,42 @@ button:active, button:hover, button:focus{
     font-size: 0.6em;
     letter-spacing: 0.15em;
     transition: background-color 0.2s;
+    width: 10rem;
+    display: inline-block;
 }
 
 .cancel_button:active, .cancel_button:hover, .cancel_button:focus{
-	background-color: #EF2929;
+	background-color: #F83F31;
+	color: white;
+	border: none;
 }
 
-.social_media{
-	background-color: #A1D3DA;
-	transition: background-color 1s;
-	width: 100px;
-	height: 100px;
-	margin-bottom: 5%;
+.form_button{
+	background-color: white;
+	color: #77ADE5;
+	border: #77ADE5 1px solid;
+    padding: 15px 32px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Crimson Text";
+    font-size: 0.6em;
+    letter-spacing: 0.15em;
+    transition: background-color 0.2s;
 }
 
-.social_media:active, .social_media:hover, .social_media:focus{
-	background-color: #066684;
+.form_button:active, .form_button:hover, .form_button:focus{
+	background-color: #77ADE5;
+    border: white 1px solid;
+    color: white;
 }
 
 .label_example{
-	color: #A1D3DA;
+	color: #213040;
 	text-transform: uppercase;
 	letter-spacing: 0.05rem;
 	font-size: 0.8rem;
+	display: block;
+	margin-bottom: 1rem;
 }
 
 input[type=text], select {
@@ -239,22 +496,140 @@ input[type=text], select {
 	margin: 0;
 }
 
-.submit_button{
-	background-color: #A1D3DA;
-	padding: 1rem 3rem 1rem 3rem;
-	color: white;
-	text-transform: uppercase;
-	font-family: "Crimson Text";
-	font-size: 0.8em;
-	letter-spacing: 0.15em;
+.faq_input {
+  display: none;
+  visibility: hidden;
 }
 
-.reset_button{
-	background-color: #919191;
-	padding: 1rem 3rem 1rem 3rem;
+.faq_label {
+  display: block;
+  padding: 0.5em;
+  text-align: center;
+  border-bottom: 1px solid #CCC;
+  width:100%;
+  color: #666;
+}
+
+.faq_label:hover {
+  color: #000;
+}
+
+.faq_label::before {
+  font-family: Consolas, monaco, monospace;
+  font-weight: bold;
+  font-size: 15px;
+  content: "+";
+  vertical-align: text-top;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+
+  background: radial-gradient(ellipse at center, #CCC 50%, transparent 50%);
+}
+
+.faq_button{
+	width: 100%;
 	color: white;
-	text-transform: uppercase;
-	font-family: "Crimson Text";
-	font-size: 0.8em;
-	letter-spacing: 0.15em;
+}
+
+#expand1 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  color: #FFF;
+ 
+}
+
+#toggle1:checked ~ #expand1{
+  height: 150px;
+}
+#toggle1:checked ~ label::before {
+  content: "x";
+}
+
+.social_media{
+	padding: 1.5rem 0.5rem 0.5rem 0.5rem;
+	width: 40px;
+	height: 40px;
+	background-size: 100%;
+	display: inline-block;
+}
+
+.social_media:active, .social_media:hover, .social_media:focus{
+	padding: 1.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.facebook{
+	background-image: url('https://www.sfu.ca/~mmc29/IAT339/P02/facebook_dark.png');
+	background-repeat: no-repeat;
+	transition: background-image 0.5s;
+}
+
+.facebook:active, .facebook:hover, .facebook:focus{
+	background-image: url('https://www.sfu.ca/~mmc29/IAT339/P02/facebook.png');
+	background-repeat: no-repeat;
+}
+
+.instagram{
+	background-image: url('https://www.sfu.ca/~mmc29/IAT339/P02/instagram_dark.png');
+	background-repeat: no-repeat;
+	transition: background-image 0.5s;
+}
+
+.instagram:active, .instagram:hover, .instagram:focus{
+	background-image: url('https://www.sfu.ca/~mmc29/IAT339/P02/instagram.png');
+	background-repeat: no-repeat;
+}
+
+.twitter{
+	background-image: url('https://www.sfu.ca/~mmc29/IAT339/P02/twitter_dark.png');
+	background-repeat: no-repeat;
+	transition: background-image 0.5s;
+}
+
+.twitter:active, .twitter:hover, .twitter:focus{
+	background-image: url('https://www.sfu.ca/~mmc29/IAT339/P02/twitter.png');
+	background-repeat: no-repeat;
+}
+
+.grey_bg{
+	background-color: #E4EAF1;
+}
+
+.img_div{
+	width: 33.33%;
+	padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.example_img{
+	width: 100%;
+}
+
+.example_padding{
+	margin: 2rem 0 0 0;
+	padding-bottom: 0.8rem;
+}
+
+.subsubtitle_margin{
+	margin: 1.5rem 0 0 0;
+}
+
+.grid_title_margin{
+	margin: 2rem 0 0 0;
+}
+
+.subtitle_margin{
+	margin: 0;
+}
+
+.section_padding{
+	padding-bottom: 3rem;
+}
+
+.icons_margin{
+	margin: 0.5rem 0 0 0;
+}
+
+.element_subtitle{
+	margin: 1rem 0 0 0;
 }
