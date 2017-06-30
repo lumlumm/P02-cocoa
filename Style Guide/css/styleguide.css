@@ -330,10 +330,6 @@ button:active, button:hover, button:focus{
 	padding-bottom: 2rem;
 }
 
-.tab_col_2of5{
-	float: left;
-}
-
 .tab{
 	background-color: white;
 	color: #213040;

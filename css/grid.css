@@ -57,26 +57,6 @@
 	width: 40%;
 }
 
-/* ------- TAB PAGE SPECIFIC-------- */
-
-.tab_col_2of5{
-	float: left;
-}
-
-.event_col_2of5{
-	padding-left: 5rem;
-	width: 40%;
-	float: left;
-	flex-grow: 1;
-}
-
-.event_col_3of5{
-	padding-right:5rem;
-	width: 60%;
-	float: right;
-	flex-grow: 2;
-}
-
 /* ------- MEDIA QUERIES-------- */
 
 /* 1040px */
@@ -195,7 +175,7 @@
 	}
 
 	.hero_img_container{
-		padding-top: 4rem;
+		padding-top: 3.8rem;
 	}
 
 	.feedback_margin{
@@ -401,6 +381,10 @@
 	#toggle2:checked ~ #expand2 {
     	height: 4.5rem;
 	}
+
+	.tab{
+		width: 10rem;
+	}
 }
 
 /*660px*/
@@ -446,6 +430,14 @@
 
 /*635px*/
 @media (max-width: 39.6875em){
+	.tab{
+		width: 15rem;
+		padding: 2.5rem 1.5rem 1.5rem 1.5rem;
+	}
+
+	.tab_section_padding {
+		padding-bottom: 3rem;
+	}
 	
 	.tab_bar_display{
 		display: block;
@@ -480,6 +472,7 @@
 	.map_text{
 		padding-bottom: 2.5rem;
 	}
+
 	.contact_title_margin{
 		margin-left: 11%;
 	}
@@ -487,6 +480,11 @@
 
 /*600px*/
 @media (max-width: 37.5em){
+	.tab_description{
+		margin-right: 4rem;
+		margin-left: 4rem;
+	}
+
 	#toggle1:checked ~ #expand1 {
 	    height: 8.5rem;
 	}
@@ -627,6 +625,11 @@
 
 /*402px*/
 @media (max-width: 25.125em){
+	.tab{
+		width: 14rem;
+		padding-top: 1.5rem;
+	}
+
 	.section_button_padding{
 		padding-bottom: 1rem;
 	}
