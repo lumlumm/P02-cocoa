@@ -91,8 +91,13 @@
 	}
 
 	.order_margin{
-		margin-left: 1rem;
-		margin-right: 1rem;
+		margin-left: 8rem;
+		margin-right: 8rem;
+	}
+
+	.order_btn_div{
+		margin-left: 8rem;
+		margin-right: 8rem;
 	}
 }
 
@@ -139,6 +144,34 @@
 
 	.confirmation_sections{
 	 width: 90%;
+	}
+
+	.order_margin{
+		margin-left: 6rem;
+		margin-right: 6rem;
+	}
+
+	.order_btn_div{
+		margin-left: 6rem;
+		margin-right: 6rem;
+	}
+
+}
+
+/*900px*/
+@media (max-width: 56.52em){
+	.order_margin{
+		margin-left: 4rem;
+		margin-right: 4rem;
+	}
+
+	.order_btn_div{
+		margin-left: 4rem;
+		margin-right: 4rem;
+	}
+
+	.progress_bar{
+		width: 70%;
 	}
 }
 	
@@ -336,6 +369,34 @@
 		width: 16rem;
 	}
 
+	.progress_bar{
+		width: 80%;
+	}
+}
+
+/*700px*/
+@media (max-width: 43.75em){
+	.progress_bar{
+		width: 90%;
+		margin-top: 1.3rem;
+	}
+}
+
+/*660px*/
+@media (max-width: 41.25em){
+	.progress_bar{
+		margin-top: 0;
+		float: none;
+		width: 70%;
+	}
+
+	.progress_bar_div{
+		width: 100%;
+	}
+
+	.order_title_div{
+		width: 100%;
+	}
 }
 
 /*645px*/
@@ -353,13 +414,17 @@
 	.menu_para{
 		padding-bottom: 3rem;
 	}
+	.step_title_div {
+	    padding: 1.5rem 0 1.5rem 0;
+	}
+
+	.col_1of2{
+		width: 100%;
+	}
 }
 
 /*635px*/
 @media (max-width: 39.6875em){
-	.col_1of2{
-		width: 100%;
-	}
 	
 	.tab_bar_display{
 		display: block;
@@ -396,6 +461,23 @@
 	}
 	.contact_title_margin{
 		margin-left: 11%;
+	}
+}
+
+/*500px*/
+@media (max-width: 31.25em){
+	.progress_bar{
+		width: 85%;
+	}
+
+	.order_margin{
+		margin-left: 1.5rem;
+		margin-right: 1.5rem;
+	}
+
+	.order_btn_div{
+		margin-left: 1.5rem;
+		margin-right: 1.5rem;
 	}
 }
 
@@ -458,6 +540,10 @@
 
 	.contact_title_margin{
 		margin-left: 2.5rem;
+	}
+
+	.progress_bar{
+		width: 100%;
 	}
 }
 
