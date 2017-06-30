@@ -99,6 +99,10 @@
 		margin-left: 8rem;
 		margin-right: 8rem;
 	}
+
+	#toggle1:checked ~ #expand1 {
+	    height: 8rem;
+	}
 }
 
 /* 970px */
@@ -173,10 +177,17 @@
 	.progress_bar{
 		width: 70%;
 	}
+
+	#toggle3:checked ~ #expand3 {
+	    height: 8rem;
+	}
 }
 	
 /*845px*/
 @media (max-width: 52.8125em){
+	#toggle1:checked ~ #expand1 {
+    	height: 5rem;
+	}
 	
 	.hamburger_container{
 		display: block;
@@ -373,12 +384,22 @@
 		width: 80%;
 	}
 }
+/*787px*/
+@media (max-width: 49.1875em){
+	#toggle1:checked ~ #expand1 {
+	    height: 7rem;
+	}
+}
 
 /*700px*/
 @media (max-width: 43.75em){
 	.progress_bar{
 		width: 90%;
 		margin-top: 1.3rem;
+	}
+
+	#toggle2:checked ~ #expand2 {
+    	height: 4.5rem;
 	}
 }
 
@@ -464,6 +485,35 @@
 	}
 }
 
+/*600px*/
+@media (max-width: 37.5em){
+	#toggle1:checked ~ #expand1 {
+	    height: 8.5rem;
+	}
+	#toggle2:checked ~ #expand2 {
+	    height: 5rem;
+	}
+
+	#toggle5:checked ~ #expand5 {
+	    height: 13rem;
+	}
+}
+
+/*545px*/
+@media (max-width: 34.0625em){
+	#toggle2:checked ~ #expand2 {
+	    height: 5.5rem;
+	}
+
+	#toggle3:checked ~ #expand3 {
+	    height: 10rem;
+	}
+
+	#toggle4:checked ~ #expand4 {
+	    height: 5.5em;
+	}
+}
+
 /*500px*/
 @media (max-width: 31.25em){
 	.progress_bar{
@@ -478,6 +528,18 @@
 	.order_btn_div{
 		margin-left: 1.5rem;
 		margin-right: 1.5rem;
+	}
+
+	#toggle1:checked ~ #expand1 {
+	    height: 9.5rem;
+	}
+
+	#toggle4:checked ~ #expand4 {
+	    height: 6.5em;
+	}
+
+	#toggle5:checked ~ #expand5 {
+	    height: 15rem;
 	}
 }
 
@@ -545,6 +607,22 @@
 	.progress_bar{
 		width: 100%;
 	}
+
+	#toggle1:checked ~ #expand1 {
+	    height: 11rem;
+	}
+
+	#toggle2:checked ~ #expand2 {
+	    height: 6.5rem;
+	}
+
+	#toggle3:checked ~ #expand3 {
+	    height: 12rem;
+	}
+
+	#toggle5:checked ~ #expand5 {
+	    height: 17rem;
+	}
 }
 
 /*402px*/
@@ -556,5 +634,25 @@
 	.section_padding{
 		padding-top: 1rem;
 		padding-bottom: 1rem;
+	}
+
+	#toggle1:checked ~ #expand1 {
+	    height: 16rem;
+	}
+
+	#toggle2:checked ~ #expand2 {
+	    height: 7.5rem;
+	}
+
+	#toggle3:checked ~ #expand3 {
+	    height: 15rem;
+	}
+
+	#toggle4:checked ~ #expand4 {
+	    height: 8.5em;
+	}
+
+	#toggle5:checked ~ #expand5 {
+	    height: 20rem;
 	}
 }
