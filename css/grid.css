@@ -382,7 +382,7 @@
     	height: 4.5rem;
 	}
 
-	.tab{
+	.tabs_3{
 		width: 10rem;
 	}
 }
@@ -431,8 +431,11 @@
 /*635px*/
 @media (max-width: 39.6875em){
 	.tab{
-		width: 15rem;
 		padding: 2.5rem 1.5rem 1.5rem 1.5rem;
+	}
+
+	.tabs_3{
+		width: 15rem;
 	}
 
 	.tab_section_padding {
@@ -588,10 +591,15 @@
 		padding: 0;
 	}
 
-	.tab{
-		width: 9rem;
+	.tabs{
 		padding: 0 0 1rem 0;
 		margin-bottom: 1rem;
+	}
+
+	.tabs_2{
+		width: 9rem;
+		font-size: 0.75rem;
+		padding: 1rem 0 1.5rem 0;
 	}
 
 	.confirmation_sections h2{
@@ -626,8 +634,15 @@
 /*402px*/
 @media (max-width: 25.125em){
 	.tab{
-		width: 14rem;
 		padding-top: 1.5rem;
+	}
+
+	.tabs_2{
+		margin: 0;
+	}
+	
+	.tabs_3{
+		width: 14rem;
 	}
 
 	.section_button_padding{
