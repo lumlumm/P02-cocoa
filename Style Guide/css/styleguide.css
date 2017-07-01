@@ -67,6 +67,10 @@ button:active, button:hover, button:focus{
 	margin: 1rem 0 0 0.5rem;
 }
 
+.accent_color{
+    color: #F79D34;
+}
+
 /* --- NAV BAR --- */
 .guide_navbar{
     list-style-type: none;
@@ -240,7 +244,6 @@ button:active, button:hover, button:focus{
 }
 
 .dropdown_content {
-    display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
@@ -290,7 +293,7 @@ button:active, button:hover, button:focus{
 }
 
 .hamburger_menu a:hover {
-    color: #77ADE5;
+    color: #F79E35;
 }
 
 .hamburger_menu a:not(:first-child) {
@@ -402,6 +405,57 @@ button:active, button:hover, button:focus{
 	text-transform: inherit;
 }
 
+.page_description {
+    letter-spacing: 0.07rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+.overlay_text {
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    letter-spacing: 0.4rem;
+    background: none;
+    text-align: center;
+}
+
+.img_caption {
+    margin-left: 1rem;
+    margin-right: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    text-decoration: underline;
+    font-family: 'Crimson Text';
+    font-size: 1.1rem;
+}
+
+.menu_para {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-bottom: 2.5rem;
+    text-align: center;
+    letter-spacing: 0.09rem;
+    line-height: 1.2rem;
+}
+
+.note {
+    font-size: 0.75rem;
+    color: #B4B6BD;
+    margin: 0.4rem 0 1rem 0;
+}
+
+.footer_title {
+    font-size: 18px;
+    font-family: 'Crimson Text';
+    text-align: center;
+    margin: 0.3rem 1.2rem 0.3rem 1.2rem;
+}
+
 .cancel_button{
 	background-color: #919191;
     border: none;
@@ -425,8 +479,8 @@ button:active, button:hover, button:focus{
 
 .form_button{
 	background-color: white;
-	color: #77ADE5;
-	border: #77ADE5 1px solid;
+	color: #F79E35;
+	border: #F79E35 1px solid;
     padding: 15px 32px;
     text-align: center;
     text-transform: uppercase;
@@ -437,7 +491,7 @@ button:active, button:hover, button:focus{
 }
 
 .form_button:active, .form_button:hover, .form_button:focus{
-	background-color: #77ADE5;
+	background-color: #F79E35;
     border: white 1px solid;
     color: white;
 }
@@ -525,35 +579,35 @@ input[type=text], select {
 }
 
 .facebook{
-	background-image: url('https://www.sfu.ca/~mmc29/IAT339/P02/facebook_dark.png');
+	background-image: url('https://www.sfu.ca/~mmc29/IAT339/P02_Images/facebook_dark.png');
 	background-repeat: no-repeat;
 	transition: background-image 0.5s;
 }
 
 .facebook:active, .facebook:hover, .facebook:focus{
-	background-image: url('https://www.sfu.ca/~mmc29/IAT339/P02/facebook.png');
+	background-image: url('https://www.sfu.ca/~mmc29/IAT339/P02_Images/facebook.png');
 	background-repeat: no-repeat;
 }
 
 .instagram{
-	background-image: url('https://www.sfu.ca/~mmc29/IAT339/P02/instagram_dark.png');
+	background-image: url('https://www.sfu.ca/~mmc29/IAT339/P02_Images/instagram_dark.png');
 	background-repeat: no-repeat;
 	transition: background-image 0.5s;
 }
 
 .instagram:active, .instagram:hover, .instagram:focus{
-	background-image: url('https://www.sfu.ca/~mmc29/IAT339/P02/instagram.png');
+	background-image: url('https://www.sfu.ca/~mmc29/IAT339/P02_Images/instagram.png');
 	background-repeat: no-repeat;
 }
 
 .twitter{
-	background-image: url('https://www.sfu.ca/~mmc29/IAT339/P02/twitter_dark.png');
+	background-image: url('https://www.sfu.ca/~mmc29/IAT339/P02_Images/twitter_dark.png');
 	background-repeat: no-repeat;
 	transition: background-image 0.5s;
 }
 
 .twitter:active, .twitter:hover, .twitter:focus{
-	background-image: url('https://www.sfu.ca/~mmc29/IAT339/P02/twitter.png');
+	background-image: url('https://www.sfu.ca/~mmc29/IAT339/P02_Images/twitter.png');
 	background-repeat: no-repeat;
 }
 
