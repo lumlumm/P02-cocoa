@@ -83,6 +83,10 @@
 	#toggle1:checked ~ #expand1 {
 	    height: 8rem;
 	}
+
+	.long_input{
+		width: 80%;
+	}
 }
 
 /* 970px */
@@ -385,6 +389,10 @@
 	.tabs_3{
 		width: 10rem;
 	}
+
+	.long_input{
+		width: 100%;
+	}
 }
 
 /*660px*/
@@ -425,6 +433,10 @@
 
 	.col_1of2{
 		width: 100%;
+	}
+
+	.long_input{
+		width: 70%;
 	}
 }
 
@@ -542,6 +554,9 @@
 	#toggle5:checked ~ #expand5 {
 	    height: 15rem;
 	}
+	select {
+	    width: 60%;
+	}
 }
 
 /*450px*/
@@ -629,6 +644,10 @@
 	#toggle5:checked ~ #expand5 {
 	    height: 17rem;
 	}
+
+	.long_input{
+		width: 90%;
+	}
 }
 
 /*402px*/
@@ -672,5 +691,9 @@
 
 	#toggle5:checked ~ #expand5 {
 	    height: 20rem;
+	}
+
+	.long_input{
+		width: 100%;
 	}
 }
